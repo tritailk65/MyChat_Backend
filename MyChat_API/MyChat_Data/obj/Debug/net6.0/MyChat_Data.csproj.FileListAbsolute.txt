@@ -1,0 +1,14 @@
+E:\Learning\Document\NĂM HỌC 2023-2024 (Năm 4)\Học kỳ 2\Mobile advanced\Project\API\MyChat_API\MyChat_API\MyChat_Data\bin\Debug\net6.0\MyChat_Data.deps.json
+E:\Learning\Document\NĂM HỌC 2023-2024 (Năm 4)\Học kỳ 2\Mobile advanced\Project\API\MyChat_API\MyChat_API\MyChat_Data\bin\Debug\net6.0\MyChat_Data.runtimeconfig.json
+E:\Learning\Document\NĂM HỌC 2023-2024 (Năm 4)\Học kỳ 2\Mobile advanced\Project\API\MyChat_API\MyChat_API\MyChat_Data\bin\Debug\net6.0\MyChat_Data.dll
+E:\Learning\Document\NĂM HỌC 2023-2024 (Năm 4)\Học kỳ 2\Mobile advanced\Project\API\MyChat_API\MyChat_API\MyChat_Data\bin\Debug\net6.0\MyChat_Data.pdb
+E:\Learning\Document\NĂM HỌC 2023-2024 (Năm 4)\Học kỳ 2\Mobile advanced\Project\API\MyChat_API\MyChat_API\MyChat_Data\obj\Debug\net6.0\MyChat_Data.csproj.AssemblyReference.cache
+E:\Learning\Document\NĂM HỌC 2023-2024 (Năm 4)\Học kỳ 2\Mobile advanced\Project\API\MyChat_API\MyChat_API\MyChat_Data\obj\Debug\net6.0\MyChat_Data.GeneratedMSBuildEditorConfig.editorconfig
+E:\Learning\Document\NĂM HỌC 2023-2024 (Năm 4)\Học kỳ 2\Mobile advanced\Project\API\MyChat_API\MyChat_API\MyChat_Data\obj\Debug\net6.0\MyChat_Data.AssemblyInfoInputs.cache
+E:\Learning\Document\NĂM HỌC 2023-2024 (Năm 4)\Học kỳ 2\Mobile advanced\Project\API\MyChat_API\MyChat_API\MyChat_Data\obj\Debug\net6.0\MyChat_Data.AssemblyInfo.cs
+E:\Learning\Document\NĂM HỌC 2023-2024 (Năm 4)\Học kỳ 2\Mobile advanced\Project\API\MyChat_API\MyChat_API\MyChat_Data\obj\Debug\net6.0\MyChat_Data.csproj.CoreCompileInputs.cache
+E:\Learning\Document\NĂM HỌC 2023-2024 (Năm 4)\Học kỳ 2\Mobile advanced\Project\API\MyChat_API\MyChat_API\MyChat_Data\obj\Debug\net6.0\MyChat_Data.dll
+E:\Learning\Document\NĂM HỌC 2023-2024 (Năm 4)\Học kỳ 2\Mobile advanced\Project\API\MyChat_API\MyChat_API\MyChat_Data\obj\Debug\net6.0\refint\MyChat_Data.dll
+E:\Learning\Document\NĂM HỌC 2023-2024 (Năm 4)\Học kỳ 2\Mobile advanced\Project\API\MyChat_API\MyChat_API\MyChat_Data\obj\Debug\net6.0\MyChat_Data.pdb
+E:\Learning\Document\NĂM HỌC 2023-2024 (Năm 4)\Học kỳ 2\Mobile advanced\Project\API\MyChat_API\MyChat_API\MyChat_Data\obj\Debug\net6.0\MyChat_Data.genruntimeconfig.cache
+E:\Learning\Document\NĂM HỌC 2023-2024 (Năm 4)\Học kỳ 2\Mobile advanced\Project\API\MyChat_API\MyChat_API\MyChat_Data\obj\Debug\net6.0\ref\MyChat_Data.dll

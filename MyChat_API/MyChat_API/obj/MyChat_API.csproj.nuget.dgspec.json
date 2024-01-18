@@ -1,17 +1,172 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Learning\\Project_Data\\Pomo_Todo_App\\API\\MyChat_API\\MyChat_API\\MyChat_API.csproj": {}
+    "E:\\Learning\\Document\\NĂM HỌC 2023-2024 (Năm 4)\\Học kỳ 2\\Mobile advanced\\Project\\API\\MyChat_API\\MyChat_API\\MyChat_API\\MyChat_API.csproj": {}
   },
   "projects": {
-    "E:\\Learning\\Project_Data\\Pomo_Todo_App\\API\\MyChat_API\\MyChat_API\\MyChat_API.csproj": {
+    "E:\\Learning\\Document\\NĂM HỌC 2023-2024 (Năm 4)\\Học kỳ 2\\Mobile advanced\\Project\\API\\MyChat_API\\MyChat_API\\MyChat_API\\MyChat_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Learning\\Project_Data\\Pomo_Todo_App\\API\\MyChat_API\\MyChat_API\\MyChat_API.csproj",
+        "projectUniqueName": "E:\\Learning\\Document\\NĂM HỌC 2023-2024 (Năm 4)\\Học kỳ 2\\Mobile advanced\\Project\\API\\MyChat_API\\MyChat_API\\MyChat_API\\MyChat_API.csproj",
         "projectName": "MyChat_API",
-        "projectPath": "E:\\Learning\\Project_Data\\Pomo_Todo_App\\API\\MyChat_API\\MyChat_API\\MyChat_API.csproj",
+        "projectPath": "E:\\Learning\\Document\\NĂM HỌC 2023-2024 (Năm 4)\\Học kỳ 2\\Mobile advanced\\Project\\API\\MyChat_API\\MyChat_API\\MyChat_API\\MyChat_API.csproj",
         "packagesPath": "C:\\Users\\trita\\.nuget\\packages\\",
-        "outputPath": "E:\\Learning\\Project_Data\\Pomo_Todo_App\\API\\MyChat_API\\MyChat_API\\obj\\",
+        "outputPath": "E:\\Learning\\Document\\NĂM HỌC 2023-2024 (Năm 4)\\Học kỳ 2\\Mobile advanced\\Project\\API\\MyChat_API\\MyChat_API\\MyChat_API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\trita\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\Learning\\Document\\NĂM HỌC 2023-2024 (Năm 4)\\Học kỳ 2\\Mobile advanced\\Project\\API\\MyChat_API\\MyChat_API\\MyChat_Core\\MyChat_Core.csproj": {
+                "projectPath": "E:\\Learning\\Document\\NĂM HỌC 2023-2024 (Năm 4)\\Học kỳ 2\\Mobile advanced\\Project\\API\\MyChat_API\\MyChat_API\\MyChat_Core\\MyChat_Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.SignalR": {
+              "target": "Package",
+              "version": "[1.0.4, )"
+            },
+            "Microsoft.AspNetCore.SignalR.Client": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Serilog.Sinks.RollingFile": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Learning\\Document\\NĂM HỌC 2023-2024 (Năm 4)\\Học kỳ 2\\Mobile advanced\\Project\\API\\MyChat_API\\MyChat_API\\MyChat_Core\\MyChat_Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Learning\\Document\\NĂM HỌC 2023-2024 (Năm 4)\\Học kỳ 2\\Mobile advanced\\Project\\API\\MyChat_API\\MyChat_API\\MyChat_Core\\MyChat_Core.csproj",
+        "projectName": "MyChat_Core",
+        "projectPath": "E:\\Learning\\Document\\NĂM HỌC 2023-2024 (Năm 4)\\Học kỳ 2\\Mobile advanced\\Project\\API\\MyChat_API\\MyChat_API\\MyChat_Core\\MyChat_Core.csproj",
+        "packagesPath": "C:\\Users\\trita\\.nuget\\packages\\",
+        "outputPath": "E:\\Learning\\Document\\NĂM HỌC 2023-2024 (Năm 4)\\Học kỳ 2\\Mobile advanced\\Project\\API\\MyChat_API\\MyChat_API\\MyChat_Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\trita\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\Learning\\Document\\NĂM HỌC 2023-2024 (Năm 4)\\Học kỳ 2\\Mobile advanced\\Project\\API\\MyChat_API\\MyChat_API\\MyChat_Data\\MyChat_Data.csproj": {
+                "projectPath": "E:\\Learning\\Document\\NĂM HỌC 2023-2024 (Năm 4)\\Học kỳ 2\\Mobile advanced\\Project\\API\\MyChat_API\\MyChat_API\\MyChat_Data\\MyChat_Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Learning\\Document\\NĂM HỌC 2023-2024 (Năm 4)\\Học kỳ 2\\Mobile advanced\\Project\\API\\MyChat_API\\MyChat_API\\MyChat_Data\\MyChat_Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Learning\\Document\\NĂM HỌC 2023-2024 (Năm 4)\\Học kỳ 2\\Mobile advanced\\Project\\API\\MyChat_API\\MyChat_API\\MyChat_Data\\MyChat_Data.csproj",
+        "projectName": "MyChat_Data",
+        "projectPath": "E:\\Learning\\Document\\NĂM HỌC 2023-2024 (Năm 4)\\Học kỳ 2\\Mobile advanced\\Project\\API\\MyChat_API\\MyChat_API\\MyChat_Data\\MyChat_Data.csproj",
+        "packagesPath": "C:\\Users\\trita\\.nuget\\packages\\",
+        "outputPath": "E:\\Learning\\Document\\NĂM HỌC 2023-2024 (Năm 4)\\Học kỳ 2\\Mobile advanced\\Project\\API\\MyChat_API\\MyChat_API\\MyChat_Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,9 +199,37 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Swashbuckle.AspNetCore": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.5.0, )"
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             }
           },
           "imports": [
@@ -61,9 +244,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
