@@ -13,3 +13,49 @@ E:\Learning\Document\NĂM HỌC 2023-2024 (Năm 4)\Học kỳ 2\Mobile advanced\
 E:\Learning\Document\NĂM HỌC 2023-2024 (Năm 4)\Học kỳ 2\Mobile advanced\Project\API\MyChat_API\MyChat_API\MyChat_Core\obj\Debug\net6.0\refint\MyChat_Core.dll
 E:\Learning\Document\NĂM HỌC 2023-2024 (Năm 4)\Học kỳ 2\Mobile advanced\Project\API\MyChat_API\MyChat_API\MyChat_Core\obj\Debug\net6.0\MyChat_Core.pdb
 E:\Learning\Document\NĂM HỌC 2023-2024 (Năm 4)\Học kỳ 2\Mobile advanced\Project\API\MyChat_API\MyChat_API\MyChat_Core\obj\Debug\net6.0\ref\MyChat_Core.dll
+C:\Users\DELL\Documents\MyChat_API\MyChat_API\MyChat_Core\bin\Debug\net6.0\MyChat_Core.deps.json
+C:\Users\DELL\Documents\MyChat_API\MyChat_API\MyChat_Core\bin\Debug\net6.0\MyChat_Core.dll
+C:\Users\DELL\Documents\MyChat_API\MyChat_API\MyChat_Core\bin\Debug\net6.0\MyChat_Core.pdb
+C:\Users\DELL\Documents\MyChat_API\MyChat_API\MyChat_Core\bin\Debug\net6.0\MyChat_Data.dll
+C:\Users\DELL\Documents\MyChat_API\MyChat_API\MyChat_Core\bin\Debug\net6.0\MyChat_Data.pdb
+C:\Users\DELL\Documents\MyChat_API\MyChat_API\MyChat_Core\obj\Debug\net6.0\MyChat_Core.csproj.AssemblyReference.cache
+C:\Users\DELL\Documents\MyChat_API\MyChat_API\MyChat_Core\obj\Debug\net6.0\MyChat_Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Documents\MyChat_API\MyChat_API\MyChat_Core\obj\Debug\net6.0\MyChat_Core.AssemblyInfoInputs.cache
+C:\Users\DELL\Documents\MyChat_API\MyChat_API\MyChat_Core\obj\Debug\net6.0\MyChat_Core.AssemblyInfo.cs
+C:\Users\DELL\Documents\MyChat_API\MyChat_API\MyChat_Core\obj\Debug\net6.0\MyChat_Core.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Documents\MyChat_API\MyChat_API\MyChat_Core\obj\Debug\net6.0\MyChat_Core.sourcelink.json
+C:\Users\DELL\Documents\MyChat_API\MyChat_API\MyChat_Core\obj\Debug\net6.0\MyChat_Core.dll
+C:\Users\DELL\Documents\MyChat_API\MyChat_API\MyChat_Core\obj\Debug\net6.0\refint\MyChat_Core.dll
+C:\Users\DELL\Documents\MyChat_API\MyChat_API\MyChat_Core\obj\Debug\net6.0\MyChat_Core.pdb
+C:\Users\DELL\Documents\MyChat_API\MyChat_API\MyChat_Core\obj\Debug\net6.0\ref\MyChat_Core.dll
+C:\Users\DELL\Documents\MyChat_API\MyChat_API\MyChat_Core\obj\Debug\net6.0\MyChat_C.B89725DD.Up2Date
+E:\MyChat_API-Khai-s_API (1)\MyChat_API-Khai-s_API\MyChat_API\MyChat_Core\bin\Debug\net6.0\MyChat_Core.deps.json
+E:\MyChat_API-Khai-s_API (1)\MyChat_API-Khai-s_API\MyChat_API\MyChat_Core\bin\Debug\net6.0\MyChat_Core.dll
+E:\MyChat_API-Khai-s_API (1)\MyChat_API-Khai-s_API\MyChat_API\MyChat_Core\bin\Debug\net6.0\MyChat_Core.pdb
+E:\MyChat_API-Khai-s_API (1)\MyChat_API-Khai-s_API\MyChat_API\MyChat_Core\bin\Debug\net6.0\MyChat_Data.dll
+E:\MyChat_API-Khai-s_API (1)\MyChat_API-Khai-s_API\MyChat_API\MyChat_Core\bin\Debug\net6.0\MyChat_Data.pdb
+E:\MyChat_API-Khai-s_API (1)\MyChat_API-Khai-s_API\MyChat_API\MyChat_Core\obj\Debug\net6.0\MyChat_Core.csproj.AssemblyReference.cache
+E:\MyChat_API-Khai-s_API (1)\MyChat_API-Khai-s_API\MyChat_API\MyChat_Core\obj\Debug\net6.0\MyChat_Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\MyChat_API-Khai-s_API (1)\MyChat_API-Khai-s_API\MyChat_API\MyChat_Core\obj\Debug\net6.0\MyChat_Core.AssemblyInfoInputs.cache
+E:\MyChat_API-Khai-s_API (1)\MyChat_API-Khai-s_API\MyChat_API\MyChat_Core\obj\Debug\net6.0\MyChat_Core.AssemblyInfo.cs
+E:\MyChat_API-Khai-s_API (1)\MyChat_API-Khai-s_API\MyChat_API\MyChat_Core\obj\Debug\net6.0\MyChat_Core.csproj.CoreCompileInputs.cache
+E:\MyChat_API-Khai-s_API (1)\MyChat_API-Khai-s_API\MyChat_API\MyChat_Core\obj\Debug\net6.0\MyChat_C.B89725DD.Up2Date
+E:\MyChat_API-Khai-s_API (1)\MyChat_API-Khai-s_API\MyChat_API\MyChat_Core\obj\Debug\net6.0\MyChat_Core.dll
+E:\MyChat_API-Khai-s_API (1)\MyChat_API-Khai-s_API\MyChat_API\MyChat_Core\obj\Debug\net6.0\refint\MyChat_Core.dll
+E:\MyChat_API-Khai-s_API (1)\MyChat_API-Khai-s_API\MyChat_API\MyChat_Core\obj\Debug\net6.0\MyChat_Core.pdb
+E:\MyChat_API-Khai-s_API (1)\MyChat_API-Khai-s_API\MyChat_API\MyChat_Core\obj\Debug\net6.0\ref\MyChat_Core.dll
+C:\Users\DELL\Documents\Zalo Received Files\MyChat_API-Khai-s_API (1)\MyChat_API-Khai-s_API\MyChat_API\MyChat_Core\bin\Debug\net6.0\MyChat_Core.deps.json
+C:\Users\DELL\Documents\Zalo Received Files\MyChat_API-Khai-s_API (1)\MyChat_API-Khai-s_API\MyChat_API\MyChat_Core\bin\Debug\net6.0\MyChat_Core.dll
+C:\Users\DELL\Documents\Zalo Received Files\MyChat_API-Khai-s_API (1)\MyChat_API-Khai-s_API\MyChat_API\MyChat_Core\bin\Debug\net6.0\MyChat_Core.pdb
+C:\Users\DELL\Documents\Zalo Received Files\MyChat_API-Khai-s_API (1)\MyChat_API-Khai-s_API\MyChat_API\MyChat_Core\bin\Debug\net6.0\MyChat_Data.dll
+C:\Users\DELL\Documents\Zalo Received Files\MyChat_API-Khai-s_API (1)\MyChat_API-Khai-s_API\MyChat_API\MyChat_Core\bin\Debug\net6.0\MyChat_Data.pdb
+C:\Users\DELL\Documents\Zalo Received Files\MyChat_API-Khai-s_API (1)\MyChat_API-Khai-s_API\MyChat_API\MyChat_Core\obj\Debug\net6.0\MyChat_Core.csproj.AssemblyReference.cache
+C:\Users\DELL\Documents\Zalo Received Files\MyChat_API-Khai-s_API (1)\MyChat_API-Khai-s_API\MyChat_API\MyChat_Core\obj\Debug\net6.0\MyChat_Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Documents\Zalo Received Files\MyChat_API-Khai-s_API (1)\MyChat_API-Khai-s_API\MyChat_API\MyChat_Core\obj\Debug\net6.0\MyChat_Core.AssemblyInfoInputs.cache
+C:\Users\DELL\Documents\Zalo Received Files\MyChat_API-Khai-s_API (1)\MyChat_API-Khai-s_API\MyChat_API\MyChat_Core\obj\Debug\net6.0\MyChat_Core.AssemblyInfo.cs
+C:\Users\DELL\Documents\Zalo Received Files\MyChat_API-Khai-s_API (1)\MyChat_API-Khai-s_API\MyChat_API\MyChat_Core\obj\Debug\net6.0\MyChat_Core.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Documents\Zalo Received Files\MyChat_API-Khai-s_API (1)\MyChat_API-Khai-s_API\MyChat_API\MyChat_Core\obj\Debug\net6.0\MyChat_C.B89725DD.Up2Date
+C:\Users\DELL\Documents\Zalo Received Files\MyChat_API-Khai-s_API (1)\MyChat_API-Khai-s_API\MyChat_API\MyChat_Core\obj\Debug\net6.0\MyChat_Core.dll
+C:\Users\DELL\Documents\Zalo Received Files\MyChat_API-Khai-s_API (1)\MyChat_API-Khai-s_API\MyChat_API\MyChat_Core\obj\Debug\net6.0\refint\MyChat_Core.dll
+C:\Users\DELL\Documents\Zalo Received Files\MyChat_API-Khai-s_API (1)\MyChat_API-Khai-s_API\MyChat_API\MyChat_Core\obj\Debug\net6.0\MyChat_Core.pdb
+C:\Users\DELL\Documents\Zalo Received Files\MyChat_API-Khai-s_API (1)\MyChat_API-Khai-s_API\MyChat_API\MyChat_Core\obj\Debug\net6.0\ref\MyChat_Core.dll

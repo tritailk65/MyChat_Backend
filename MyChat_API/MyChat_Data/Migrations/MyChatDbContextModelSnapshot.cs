@@ -126,6 +126,146 @@ namespace MyChat_Data.Migrations
                     b.ToTable("AppUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("MyChat_Data.Entities.Chat", b =>
+                {
+                    b.Property<int>("Chatid")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Chatid"), 1L, 1);
+
+                    b.Property<string>("Content")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)");
+
+                    b.Property<int>("Participants")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)");
+
+                    b.Property<DateTime>("created_at")
+                        .HasMaxLength(255)
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Chatid");
+
+                    b.ToTable("Chat", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Chatid = 1,
+                            Content = "Xin Chao",
+                            Participants = 5,
+                            Title = "Hackathon",
+                            created_at = new DateTime(2024, 3, 19, 23, 26, 50, 135, DateTimeKind.Local).AddTicks(4561)
+                        },
+                        new
+                        {
+                            Chatid = 2,
+                            Content = "Xin Chao",
+                            Participants = 5,
+                            Title = "Web2",
+                            created_at = new DateTime(2024, 3, 19, 23, 26, 50, 135, DateTimeKind.Local).AddTicks(4589)
+                        },
+                        new
+                        {
+                            Chatid = 3,
+                            Content = "Xin Chao",
+                            Participants = 5,
+                            Title = "Android 2",
+                            created_at = new DateTime(2024, 3, 19, 23, 26, 50, 135, DateTimeKind.Local).AddTicks(4598)
+                        });
+                });
+
+            modelBuilder.Entity("MyChat_Data.Entities.Contact", b =>
+                {
+                    b.Property<int>("contact_id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("contact_id"), 1L, 1);
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("contact_phone")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
+                    b.HasKey("contact_id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Contact", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            contact_id = 1,
+                            UserId = new Guid("69bd714f-9576-45ba-b5b7-f00649be00de"),
+                            contact_phone = "0797169613"
+                        },
+                        new
+                        {
+                            contact_id = 2,
+                            UserId = new Guid("69bd714f-9576-45ba-b5b7-f00649be00de"),
+                            contact_phone = "0765184992"
+                        },
+                        new
+                        {
+                            contact_id = 3,
+                            UserId = new Guid("69bd714f-9576-45ba-b5b7-f00649be00de"),
+                            contact_phone = "0364748018"
+                        });
+                });
+
+            modelBuilder.Entity("MyChat_Data.Entities.Messenger", b =>
+                {
+                    b.Property<int>("MessengerId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("MessengerId"), 1L, 1);
+
+                    b.Property<int>("ChatId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("Constamps")
+                        .HasMaxLength(200)
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Content")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
+                    b.Property<bool>("status")
+                        .HasMaxLength(200)
+                        .HasColumnType("bit");
+
+                    b.HasKey("MessengerId");
+
+                    b.HasIndex("ChatId");
+
+                    b.ToTable("Messenger", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            MessengerId = 1,
+                            ChatId = 1,
+                            Constamps = new DateTime(2002, 1, 24, 0, 2, 0, 0, DateTimeKind.Unspecified),
+                            Content = "Hello",
+                            status = true
+                        });
+                });
+
             modelBuilder.Entity("MyChat_Data.Entities.User", b =>
                 {
                     b.Property<Guid>("Id")
@@ -173,6 +313,7 @@ namespace MyChat_Data.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("PhoneNumber")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("PhoneNumberConfirmed")
@@ -181,11 +322,24 @@ namespace MyChat_Data.Migrations
                     b.Property<string>("SecurityStamp")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<bool>("Status")
+                        .HasMaxLength(255)
+                        .HasColumnType("bit");
+
                     b.Property<bool>("TwoFactorEnabled")
                         .HasColumnType("bit");
 
                     b.Property<string>("UserName")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Username_Display")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)");
+
+                    b.Property<DateTime>("last_seen")
+                        .HasMaxLength(255)
+                        .HasColumnType("datetime2");
 
                     b.HasKey("Id");
 
@@ -197,7 +351,7 @@ namespace MyChat_Data.Migrations
                             Id = new Guid("69bd714f-9576-45ba-b5b7-f00649be00de"),
                             AccessFailedCount = 0,
                             Birthday = new DateTime(2002, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            ConcurrencyStamp = "ce36f6e4-201d-47a0-852c-4c1101c0d073",
+                            ConcurrencyStamp = "5da49a06-b95b-434b-95b5-cf4be545ea57",
                             Email = "admin@gmail.com",
                             EmailConfirmed = true,
                             FirstName = "admin",
@@ -205,11 +359,15 @@ namespace MyChat_Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "admin@gmail.com",
                             NormalizedUserName = "admin",
-                            PasswordHash = "AQAAAAEAACcQAAAAECVEk8bn4W0Go1ojdFmOhAJL7ipgR8WNjoHsT2MtW9ThkuzRCn4CmwQjscq29ug7FA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEMgoyhbeVAS3LJzu9J9CA3OLp2NeBFGYB94IP2cgeFVwlbKQYTGR2PUC8xM01fhSeA==",
+                            PhoneNumber = "0765184992",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
+                            Status = true,
                             TwoFactorEnabled = false,
-                            UserName = "admin"
+                            UserName = "admin",
+                            Username_Display = "admin",
+                            last_seen = new DateTime(2024, 3, 19, 23, 26, 50, 143, DateTimeKind.Local).AddTicks(9119)
                         });
                 });
 
@@ -241,11 +399,43 @@ namespace MyChat_Data.Migrations
                         new
                         {
                             Id = new Guid("8d04dce2-969a-435d-bba4-df3f325983dc"),
-                            ConcurrencyStamp = "3a46ee90-d64d-4669-af27-b5897f4c27f7",
+                            ConcurrencyStamp = "664a2833-78d2-4d13-9330-73580d0e8cfa",
                             Description = "Administrator role",
                             Name = "admin",
                             NormalizedName = "admin"
                         });
+                });
+
+            modelBuilder.Entity("MyChat_Data.Entities.Contact", b =>
+                {
+                    b.HasOne("MyChat_Data.Entities.User", "User")
+                        .WithMany("UserId")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("MyChat_Data.Entities.Messenger", b =>
+                {
+                    b.HasOne("MyChat_Data.Entities.Chat", "Chat")
+                        .WithMany("Messengers")
+                        .HasForeignKey("ChatId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Chat");
+                });
+
+            modelBuilder.Entity("MyChat_Data.Entities.Chat", b =>
+                {
+                    b.Navigation("Messengers");
+                });
+
+            modelBuilder.Entity("MyChat_Data.Entities.User", b =>
+                {
+                    b.Navigation("UserId");
                 });
 #pragma warning restore 612, 618
         }

@@ -1,4 +1,6 @@
-﻿using MyChat_Data.Entities;
+﻿using MyChat_Core.Common;
+using MyChat_Core.ViewModels;
+using MyChat_Data.Entities;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -11,6 +13,7 @@ namespace MyChat_Core.Interfaces
     public interface IUserService
     {
         List<User> GetAllUser();
-
+        Task<ApiResult<string>> Authentication(LoginRequest request);
+        Task<bool> Register(RegisterRequest user);
     }
 }

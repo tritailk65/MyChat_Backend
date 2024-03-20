@@ -9,6 +9,6 @@ namespace MyChat_Data.Entities
 {
     public class UserRole : IdentityRole<Guid>
     {
-        public String Description { get; set; }
+        public string Description { get; set; }
     }
 }
