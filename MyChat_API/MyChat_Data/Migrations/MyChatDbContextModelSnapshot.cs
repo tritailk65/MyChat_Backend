@@ -147,39 +147,18 @@ namespace MyChat_Data.Migrations
                         .HasMaxLength(255)
                         .HasColumnType("nvarchar(255)");
 
+                    b.Property<Guid?>("UserId")
+                        .HasColumnType("uniqueidentifier");
+
                     b.Property<DateTime>("created_at")
                         .HasMaxLength(255)
                         .HasColumnType("datetime2");
 
                     b.HasKey("Chatid");
 
-                    b.ToTable("Chat", (string)null);
+                    b.HasIndex("UserId");
 
-                    b.HasData(
-                        new
-                        {
-                            Chatid = 1,
-                            Content = "Xin Chao",
-                            Participants = 5,
-                            Title = "Hackathon",
-                            created_at = new DateTime(2024, 3, 19, 23, 26, 50, 135, DateTimeKind.Local).AddTicks(4561)
-                        },
-                        new
-                        {
-                            Chatid = 2,
-                            Content = "Xin Chao",
-                            Participants = 5,
-                            Title = "Web2",
-                            created_at = new DateTime(2024, 3, 19, 23, 26, 50, 135, DateTimeKind.Local).AddTicks(4589)
-                        },
-                        new
-                        {
-                            Chatid = 3,
-                            Content = "Xin Chao",
-                            Participants = 5,
-                            Title = "Android 2",
-                            created_at = new DateTime(2024, 3, 19, 23, 26, 50, 135, DateTimeKind.Local).AddTicks(4598)
-                        });
+                    b.ToTable("Chat", (string)null);
                 });
 
             modelBuilder.Entity("MyChat_Data.Entities.Contact", b =>
@@ -210,18 +189,6 @@ namespace MyChat_Data.Migrations
                             contact_id = 1,
                             UserId = new Guid("69bd714f-9576-45ba-b5b7-f00649be00de"),
                             contact_phone = "0797169613"
-                        },
-                        new
-                        {
-                            contact_id = 2,
-                            UserId = new Guid("69bd714f-9576-45ba-b5b7-f00649be00de"),
-                            contact_phone = "0765184992"
-                        },
-                        new
-                        {
-                            contact_id = 3,
-                            UserId = new Guid("69bd714f-9576-45ba-b5b7-f00649be00de"),
-                            contact_phone = "0364748018"
                         });
                 });
 
@@ -254,16 +221,6 @@ namespace MyChat_Data.Migrations
                     b.HasIndex("ChatId");
 
                     b.ToTable("Messenger", (string)null);
-
-                    b.HasData(
-                        new
-                        {
-                            MessengerId = 1,
-                            ChatId = 1,
-                            Constamps = new DateTime(2002, 1, 24, 0, 2, 0, 0, DateTimeKind.Unspecified),
-                            Content = "Hello",
-                            status = true
-                        });
                 });
 
             modelBuilder.Entity("MyChat_Data.Entities.User", b =>
@@ -351,7 +308,7 @@ namespace MyChat_Data.Migrations
                             Id = new Guid("69bd714f-9576-45ba-b5b7-f00649be00de"),
                             AccessFailedCount = 0,
                             Birthday = new DateTime(2002, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            ConcurrencyStamp = "5da49a06-b95b-434b-95b5-cf4be545ea57",
+                            ConcurrencyStamp = "1ad5c300-50a8-4d29-bbcb-29beb844fc16",
                             Email = "admin@gmail.com",
                             EmailConfirmed = true,
                             FirstName = "admin",
@@ -359,7 +316,7 @@ namespace MyChat_Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "admin@gmail.com",
                             NormalizedUserName = "admin",
-                            PasswordHash = "AQAAAAEAACcQAAAAEMgoyhbeVAS3LJzu9J9CA3OLp2NeBFGYB94IP2cgeFVwlbKQYTGR2PUC8xM01fhSeA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEOUoWgIlGn+QulkOOXsafChGE4XU1AZy/U5Ry5M1GYoXFESIXhVynXbV8FvWqXLWGg==",
                             PhoneNumber = "0765184992",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
@@ -367,7 +324,7 @@ namespace MyChat_Data.Migrations
                             TwoFactorEnabled = false,
                             UserName = "admin",
                             Username_Display = "admin",
-                            last_seen = new DateTime(2024, 3, 19, 23, 26, 50, 143, DateTimeKind.Local).AddTicks(9119)
+                            last_seen = new DateTime(2024, 3, 26, 10, 27, 24, 641, DateTimeKind.Local).AddTicks(3373)
                         });
                 });
 
@@ -399,11 +356,18 @@ namespace MyChat_Data.Migrations
                         new
                         {
                             Id = new Guid("8d04dce2-969a-435d-bba4-df3f325983dc"),
-                            ConcurrencyStamp = "664a2833-78d2-4d13-9330-73580d0e8cfa",
+                            ConcurrencyStamp = "cd897052-885a-478a-9725-2f663a972f85",
                             Description = "Administrator role",
                             Name = "admin",
                             NormalizedName = "admin"
                         });
+                });
+
+            modelBuilder.Entity("MyChat_Data.Entities.Chat", b =>
+                {
+                    b.HasOne("MyChat_Data.Entities.User", null)
+                        .WithMany("Participants")
+                        .HasForeignKey("UserId");
                 });
 
             modelBuilder.Entity("MyChat_Data.Entities.Contact", b =>
@@ -435,6 +399,8 @@ namespace MyChat_Data.Migrations
 
             modelBuilder.Entity("MyChat_Data.Entities.User", b =>
                 {
+                    b.Navigation("Participants");
+
                     b.Navigation("UserId");
                 });
 #pragma warning restore 612, 618

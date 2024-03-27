@@ -1,222 +1,230 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\",
+  "WorkspaceRootPath": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5663B056-82AA-4B95-8C11-3217C2927CDB}|MyChat_Data\\MyChat_Data.csproj|c:\\users\\dell\\documents\\zalo received files\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_data\\configurations\\messengerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5663B056-82AA-4B95-8C11-3217C2927CDB}|MyChat_Data\\MyChat_Data.csproj|solutionrelative:mychat_data\\configurations\\messengerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5663B056-82AA-4B95-8C11-3217C2927CDB}|MyChat_Data\\MyChat_Data.csproj|c:\\users\\dell\\documents\\zalo received files\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_data\\extensions\\seedingdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5663B056-82AA-4B95-8C11-3217C2927CDB}|MyChat_Data\\MyChat_Data.csproj|solutionrelative:mychat_data\\extensions\\seedingdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C61B51C-CFE8-43BA-8E89-17056E4CA63B}|MyChat_API\\MyChat_API.csproj|c:\\users\\dell\\documents\\zalo received files\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_api\\controllers\\messengercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C61B51C-CFE8-43BA-8E89-17056E4CA63B}|MyChat_API\\MyChat_API.csproj|solutionrelative:mychat_api\\controllers\\messengercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C61B51C-CFE8-43BA-8E89-17056E4CA63B}|MyChat_API\\MyChat_API.csproj|c:\\users\\dell\\documents\\zalo received files\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_api\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C61B51C-CFE8-43BA-8E89-17056E4CA63B}|MyChat_API\\MyChat_API.csproj|solutionrelative:mychat_api\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|c:\\users\\dell\\documents\\zalo received files\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_core\\services\\messengerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|solutionrelative:mychat_core\\services\\messengerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|c:\\users\\dell\\documents\\zalo received files\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_core\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|solutionrelative:mychat_core\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|c:\\users\\dell\\documents\\zalo received files\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_core\\services\\contactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|solutionrelative:mychat_core\\services\\contactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|c:\\users\\dell\\documents\\zalo received files\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_core\\interfaces\\imessengerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|solutionrelative:mychat_core\\interfaces\\imessengerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C61B51C-CFE8-43BA-8E89-17056E4CA63B}|MyChat_API\\MyChat_API.csproj|c:\\users\\dell\\documents\\zalo received files\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7C61B51C-CFE8-43BA-8E89-17056E4CA63B}|MyChat_API\\MyChat_API.csproj|e:\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7C61B51C-CFE8-43BA-8E89-17056E4CA63B}|MyChat_API\\MyChat_API.csproj|solutionrelative:mychat_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C61B51C-CFE8-43BA-8E89-17056E4CA63B}|MyChat_API\\MyChat_API.csproj|c:\\users\\dell\\documents\\zalo received files\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_api\\controllers\\chatgptcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C61B51C-CFE8-43BA-8E89-17056E4CA63B}|MyChat_API\\MyChat_API.csproj|solutionrelative:mychat_api\\controllers\\chatgptcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|e:\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_core\\services\\messengerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|solutionrelative:mychat_core\\services\\messengerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C61B51C-CFE8-43BA-8E89-17056E4CA63B}|MyChat_API\\MyChat_API.csproj|c:\\users\\dell\\documents\\zalo received files\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_api\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C61B51C-CFE8-43BA-8E89-17056E4CA63B}|MyChat_API\\MyChat_API.csproj|solutionrelative:mychat_api\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|c:\\users\\dell\\documents\\zalo received files\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_core\\services\\chatservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|solutionrelative:mychat_core\\services\\chatservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5663B056-82AA-4B95-8C11-3217C2927CDB}|MyChat_Data\\MyChat_Data.csproj|c:\\users\\dell\\documents\\zalo received files\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_data\\entities\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5663B056-82AA-4B95-8C11-3217C2927CDB}|MyChat_Data\\MyChat_Data.csproj|e:\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_data\\entities\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5663B056-82AA-4B95-8C11-3217C2927CDB}|MyChat_Data\\MyChat_Data.csproj|solutionrelative:mychat_data\\entities\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5663B056-82AA-4B95-8C11-3217C2927CDB}|MyChat_Data\\MyChat_Data.csproj|c:\\users\\dell\\documents\\zalo received files\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_data\\entities\\messenger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5663B056-82AA-4B95-8C11-3217C2927CDB}|MyChat_Data\\MyChat_Data.csproj|solutionrelative:mychat_data\\entities\\messenger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5663B056-82AA-4B95-8C11-3217C2927CDB}|MyChat_Data\\MyChat_Data.csproj|c:\\users\\dell\\documents\\zalo received files\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_data\\entities\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5663B056-82AA-4B95-8C11-3217C2927CDB}|MyChat_Data\\MyChat_Data.csproj|solutionrelative:mychat_data\\entities\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|c:\\users\\dell\\documents\\zalo received files\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_core\\viewmodels\\chatvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|solutionrelative:mychat_core\\viewmodels\\chatvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|c:\\users\\dell\\documents\\zalo received files\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_core\\viewmodels\\contactvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|solutionrelative:mychat_core\\viewmodels\\contactvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|c:\\users\\dell\\documents\\zalo received files\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_core\\viewmodels\\createcontactrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|solutionrelative:mychat_core\\viewmodels\\createcontactrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|c:\\users\\dell\\documents\\zalo received files\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_core\\viewmodels\\loginrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|e:\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_core\\viewmodels\\loginrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|solutionrelative:mychat_core\\viewmodels\\loginrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|c:\\users\\dell\\documents\\zalo received files\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_core\\viewmodels\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|solutionrelative:mychat_core\\viewmodels\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|e:\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_core\\viewmodels\\messengerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|solutionrelative:mychat_core\\viewmodels\\messengerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|c:\\users\\dell\\documents\\zalo received files\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_core\\viewmodels\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|solutionrelative:mychat_core\\viewmodels\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5663B056-82AA-4B95-8C11-3217C2927CDB}|MyChat_Data\\MyChat_Data.csproj|e:\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_data\\entities\\messenger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5663B056-82AA-4B95-8C11-3217C2927CDB}|MyChat_Data\\MyChat_Data.csproj|solutionrelative:mychat_data\\entities\\messenger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|c:\\users\\dell\\documents\\zalo received files\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_core\\viewmodels\\messengervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5663B056-82AA-4B95-8C11-3217C2927CDB}|MyChat_Data\\MyChat_Data.csproj|e:\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_data\\entities\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5663B056-82AA-4B95-8C11-3217C2927CDB}|MyChat_Data\\MyChat_Data.csproj|solutionrelative:mychat_data\\entities\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|e:\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_core\\viewmodels\\messengervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|solutionrelative:mychat_core\\viewmodels\\messengervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C61B51C-CFE8-43BA-8E89-17056E4CA63B}|MyChat_API\\MyChat_API.csproj|c:\\users\\dell\\documents\\zalo received files\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C61B51C-CFE8-43BA-8E89-17056E4CA63B}|MyChat_API\\MyChat_API.csproj|solutionrelative:mychat_api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|e:\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_core\\viewmodels\\chatvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|solutionrelative:mychat_core\\viewmodels\\chatvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|c:\\users\\dell\\documents\\zalo received files\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_core\\interfaces\\ichatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|solutionrelative:mychat_core\\interfaces\\ichatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|e:\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_core\\services\\contactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|solutionrelative:mychat_core\\services\\contactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|c:\\users\\dell\\documents\\zalo received files\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_core\\interfaces\\icontactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|solutionrelative:mychat_core\\interfaces\\icontactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|e:\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_core\\viewmodels\\createmessengerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|solutionrelative:mychat_core\\viewmodels\\createmessengerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5663B056-82AA-4B95-8C11-3217C2927CDB}|MyChat_Data\\MyChat_Data.csproj|c:\\users\\dell\\documents\\zalo received files\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_data\\ef\\mychatdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5663B056-82AA-4B95-8C11-3217C2927CDB}|MyChat_Data\\MyChat_Data.csproj|solutionrelative:mychat_data\\ef\\mychatdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|e:\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_core\\viewmodels\\createcontactrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|solutionrelative:mychat_core\\viewmodels\\createcontactrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5663B056-82AA-4B95-8C11-3217C2927CDB}|MyChat_Data\\MyChat_Data.csproj|c:\\users\\dell\\documents\\zalo received files\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_data\\configurations\\chatconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5663B056-82AA-4B95-8C11-3217C2927CDB}|MyChat_Data\\MyChat_Data.csproj|solutionrelative:mychat_data\\configurations\\chatconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|e:\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_core\\viewmodels\\contactvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|solutionrelative:mychat_core\\viewmodels\\contactvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5663B056-82AA-4B95-8C11-3217C2927CDB}|MyChat_Data\\MyChat_Data.csproj|c:\\users\\dell\\documents\\zalo received files\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_data\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5663B056-82AA-4B95-8C11-3217C2927CDB}|MyChat_Data\\MyChat_Data.csproj|solutionrelative:mychat_data\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|e:\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_core\\viewmodels\\createchatrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|solutionrelative:mychat_core\\viewmodels\\createchatrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5663B056-82AA-4B95-8C11-3217C2927CDB}|MyChat_Data\\MyChat_Data.csproj|c:\\users\\dell\\documents\\zalo received files\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_data\\configurations\\contactconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5663B056-82AA-4B95-8C11-3217C2927CDB}|MyChat_Data\\MyChat_Data.csproj|solutionrelative:mychat_data\\configurations\\contactconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|e:\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_core\\interfaces\\imessengerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|solutionrelative:mychat_core\\interfaces\\imessengerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5663B056-82AA-4B95-8C11-3217C2927CDB}|MyChat_Data\\MyChat_Data.csproj|c:\\users\\dell\\documents\\zalo received files\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_data\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5663B056-82AA-4B95-8C11-3217C2927CDB}|MyChat_Data\\MyChat_Data.csproj|solutionrelative:mychat_data\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7C61B51C-CFE8-43BA-8E89-17056E4CA63B}|MyChat_API\\MyChat_API.csproj|e:\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_api\\controllers\\messengercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C61B51C-CFE8-43BA-8E89-17056E4CA63B}|MyChat_API\\MyChat_API.csproj|solutionrelative:mychat_api\\controllers\\messengercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5663B056-82AA-4B95-8C11-3217C2927CDB}|MyChat_Data\\MyChat_Data.csproj|c:\\users\\dell\\documents\\zalo received files\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_data\\configurations\\userroleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5663B056-82AA-4B95-8C11-3217C2927CDB}|MyChat_Data\\MyChat_Data.csproj|solutionrelative:mychat_data\\configurations\\userroleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7C61B51C-CFE8-43BA-8E89-17056E4CA63B}|MyChat_API\\MyChat_API.csproj|e:\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_api\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C61B51C-CFE8-43BA-8E89-17056E4CA63B}|MyChat_API\\MyChat_API.csproj|solutionrelative:mychat_api\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\Migrations\\20240319160256_AddDataMess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MyChat_Data\\Migrations\\20240319160256_AddDataMess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7C61B51C-CFE8-43BA-8E89-17056E4CA63B}|MyChat_API\\MyChat_API.csproj|e:\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_api\\controllers\\chatgptcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C61B51C-CFE8-43BA-8E89-17056E4CA63B}|MyChat_API\\MyChat_API.csproj|solutionrelative:mychat_api\\controllers\\chatgptcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\Migrations\\20240319154653_UpdateData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MyChat_Data\\Migrations\\20240319154653_UpdateData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7C61B51C-CFE8-43BA-8E89-17056E4CA63B}|MyChat_API\\MyChat_API.csproj|e:\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_api\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C61B51C-CFE8-43BA-8E89-17056E4CA63B}|MyChat_API\\MyChat_API.csproj|solutionrelative:mychat_api\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|c:\\users\\dell\\documents\\zalo received files\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_core\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|solutionrelative:mychat_core\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|c:\\users\\dell\\documents\\zalo received files\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_core\\viewmodels\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|solutionrelative:mychat_core\\viewmodels\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C61B51C-CFE8-43BA-8E89-17056E4CA63B}|MyChat_API\\MyChat_API.csproj|c:\\users\\dell\\documents\\zalo received files\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_api\\mychat_api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{7C61B51C-CFE8-43BA-8E89-17056E4CA63B}|MyChat_API\\MyChat_API.csproj|solutionrelative:mychat_api\\mychat_api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5663B056-82AA-4B95-8C11-3217C2927CDB}|MyChat_Data\\MyChat_Data.csproj|c:\\users\\dell\\documents\\zalo received files\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_data\\mychat_data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{5663B056-82AA-4B95-8C11-3217C2927CDB}|MyChat_Data\\MyChat_Data.csproj|solutionrelative:mychat_data\\mychat_data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5663B056-82AA-4B95-8C11-3217C2927CDB}|MyChat_Data\\MyChat_Data.csproj|c:\\users\\dell\\documents\\zalo received files\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_data\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5663B056-82AA-4B95-8C11-3217C2927CDB}|MyChat_Data\\MyChat_Data.csproj|solutionrelative:mychat_data\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C61B51C-CFE8-43BA-8E89-17056E4CA63B}|MyChat_API\\MyChat_API.csproj|c:\\users\\dell\\documents\\zalo received files\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7C61B51C-CFE8-43BA-8E89-17056E4CA63B}|MyChat_API\\MyChat_API.csproj|solutionrelative:mychat_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C61B51C-CFE8-43BA-8E89-17056E4CA63B}|MyChat_API\\MyChat_API.csproj|c:\\users\\dell\\documents\\zalo received files\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_api\\extensions\\globalerrorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C61B51C-CFE8-43BA-8E89-17056E4CA63B}|MyChat_API\\MyChat_API.csproj|solutionrelative:mychat_api\\extensions\\globalerrorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5663B056-82AA-4B95-8C11-3217C2927CDB}|MyChat_Data\\MyChat_Data.csproj|c:\\users\\dell\\documents\\zalo received files\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_data\\entities\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5663B056-82AA-4B95-8C11-3217C2927CDB}|MyChat_Data\\MyChat_Data.csproj|solutionrelative:mychat_data\\entities\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C61B51C-CFE8-43BA-8E89-17056E4CA63B}|MyChat_API\\MyChat_API.csproj|c:\\users\\dell\\documents\\zalo received files\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7C61B51C-CFE8-43BA-8E89-17056E4CA63B}|MyChat_API\\MyChat_API.csproj|solutionrelative:mychat_api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C61B51C-CFE8-43BA-8E89-17056E4CA63B}|MyChat_API\\MyChat_API.csproj|c:\\users\\dell\\documents\\zalo received files\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_api\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7C61B51C-CFE8-43BA-8E89-17056E4CA63B}|MyChat_API\\MyChat_API.csproj|solutionrelative:mychat_api\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|c:\\users\\dell\\documents\\zalo received files\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_core\\common\\apisuccessresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|solutionrelative:mychat_core\\common\\apisuccessresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|c:\\users\\dell\\documents\\zalo received files\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_core\\common\\apiresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|solutionrelative:mychat_core\\common\\apiresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|c:\\users\\dell\\documents\\zalo received files\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_core\\common\\apierrorresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|solutionrelative:mychat_core\\common\\apierrorresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5663B056-82AA-4B95-8C11-3217C2927CDB}|MyChat_Data\\MyChat_Data.csproj|c:\\users\\dell\\documents\\zalo received files\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_data\\ef\\mychatdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5663B056-82AA-4B95-8C11-3217C2927CDB}|MyChat_Data\\MyChat_Data.csproj|solutionrelative:mychat_data\\ef\\mychatdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C61B51C-CFE8-43BA-8E89-17056E4CA63B}|MyChat_API\\MyChat_API.csproj|c:\\users\\dell\\documents\\zalo received files\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_api\\hubs\\signalrhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7C61B51C-CFE8-43BA-8E89-17056E4CA63B}|MyChat_API\\MyChat_API.csproj|e:\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_api\\hubs\\signalrhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7C61B51C-CFE8-43BA-8E89-17056E4CA63B}|MyChat_API\\MyChat_API.csproj|solutionrelative:mychat_api\\hubs\\signalrhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C61B51C-CFE8-43BA-8E89-17056E4CA63B}|MyChat_API\\MyChat_API.csproj|c:\\users\\dell\\documents\\zalo received files\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_api\\utils\\apiresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C61B51C-CFE8-43BA-8E89-17056E4CA63B}|MyChat_API\\MyChat_API.csproj|solutionrelative:mychat_api\\utils\\apiresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|e:\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_core\\viewmodels\\updatecontactrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|solutionrelative:mychat_core\\viewmodels\\updatecontactrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C61B51C-CFE8-43BA-8E89-17056E4CA63B}|MyChat_API\\MyChat_API.csproj|c:\\users\\dell\\documents\\zalo received files\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7C61B51C-CFE8-43BA-8E89-17056E4CA63B}|MyChat_API\\MyChat_API.csproj|solutionrelative:mychat_api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|e:\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_core\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|solutionrelative:mychat_core\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C61B51C-CFE8-43BA-8E89-17056E4CA63B}|MyChat_API\\MyChat_API.csproj|c:\\users\\dell\\documents\\zalo received files\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_api\\20240118||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{7C61B51C-CFE8-43BA-8E89-17056E4CA63B}|MyChat_API\\MyChat_API.csproj|solutionrelative:mychat_api\\20240118||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|e:\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_core\\viewmodels\\updatechatrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|solutionrelative:mychat_core\\viewmodels\\updatechatrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|c:\\users\\dell\\documents\\zalo received files\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_core\\viewmodels\\registerrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|e:\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_core\\interfaces\\icontactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|solutionrelative:mychat_core\\interfaces\\icontactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|e:\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_core\\services\\chatservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|solutionrelative:mychat_core\\services\\chatservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|e:\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_core\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|solutionrelative:mychat_core\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|e:\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_core\\interfaces\\ichatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|solutionrelative:mychat_core\\interfaces\\ichatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C61B51C-CFE8-43BA-8E89-17056E4CA63B}|MyChat_API\\MyChat_API.csproj|e:\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C61B51C-CFE8-43BA-8E89-17056E4CA63B}|MyChat_API\\MyChat_API.csproj|solutionrelative:mychat_api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5663B056-82AA-4B95-8C11-3217C2927CDB}|MyChat_Data\\MyChat_Data.csproj|e:\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_data\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5663B056-82AA-4B95-8C11-3217C2927CDB}|MyChat_Data\\MyChat_Data.csproj|solutionrelative:mychat_data\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|e:\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_core\\viewmodels\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|solutionrelative:mychat_core\\viewmodels\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|e:\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_core\\viewmodels\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|solutionrelative:mychat_core\\viewmodels\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|e:\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_core\\viewmodels\\registerrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|solutionrelative:mychat_core\\viewmodels\\registerrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|c:\\users\\dell\\documents\\zalo received files\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_core\\mychat_core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|e:\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_core\\viewmodels\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|solutionrelative:mychat_core\\viewmodels\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|e:\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_core\\mychat_core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|solutionrelative:mychat_core\\mychat_core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5663B056-82AA-4B95-8C11-3217C2927CDB}|MyChat_Data\\MyChat_Data.csproj|c:\\users\\dell\\documents\\zalo received files\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_data\\migrations\\20240319162650_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5663B056-82AA-4B95-8C11-3217C2927CDB}|MyChat_Data\\MyChat_Data.csproj|solutionrelative:mychat_data\\migrations\\20240319162650_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5663B056-82AA-4B95-8C11-3217C2927CDB}|MyChat_Data\\MyChat_Data.csproj|e:\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_data\\extensions\\seedingdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5663B056-82AA-4B95-8C11-3217C2927CDB}|MyChat_Data\\MyChat_Data.csproj|solutionrelative:mychat_data\\extensions\\seedingdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5663B056-82AA-4B95-8C11-3217C2927CDB}|MyChat_Data\\MyChat_Data.csproj|e:\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_data\\mychat_data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5663B056-82AA-4B95-8C11-3217C2927CDB}|MyChat_Data\\MyChat_Data.csproj|solutionrelative:mychat_data\\mychat_data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5663B056-82AA-4B95-8C11-3217C2927CDB}|MyChat_Data\\MyChat_Data.csproj|e:\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_data\\configurations\\messengerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5663B056-82AA-4B95-8C11-3217C2927CDB}|MyChat_Data\\MyChat_Data.csproj|solutionrelative:mychat_data\\configurations\\messengerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5663B056-82AA-4B95-8C11-3217C2927CDB}|MyChat_Data\\MyChat_Data.csproj|e:\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_data\\configurations\\contactconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5663B056-82AA-4B95-8C11-3217C2927CDB}|MyChat_Data\\MyChat_Data.csproj|solutionrelative:mychat_data\\configurations\\contactconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5663B056-82AA-4B95-8C11-3217C2927CDB}|MyChat_Data\\MyChat_Data.csproj|e:\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_data\\configurations\\chatconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5663B056-82AA-4B95-8C11-3217C2927CDB}|MyChat_Data\\MyChat_Data.csproj|solutionrelative:mychat_data\\configurations\\chatconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5663B056-82AA-4B95-8C11-3217C2927CDB}|MyChat_Data\\MyChat_Data.csproj|e:\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_data\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5663B056-82AA-4B95-8C11-3217C2927CDB}|MyChat_Data\\MyChat_Data.csproj|solutionrelative:mychat_data\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5663B056-82AA-4B95-8C11-3217C2927CDB}|MyChat_Data\\MyChat_Data.csproj|e:\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_data\\entities\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5663B056-82AA-4B95-8C11-3217C2927CDB}|MyChat_Data\\MyChat_Data.csproj|solutionrelative:mychat_data\\entities\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5663B056-82AA-4B95-8C11-3217C2927CDB}|MyChat_Data\\MyChat_Data.csproj|e:\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_data\\ef\\mychatdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5663B056-82AA-4B95-8C11-3217C2927CDB}|MyChat_Data\\MyChat_Data.csproj|solutionrelative:mychat_data\\ef\\mychatdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5663B056-82AA-4B95-8C11-3217C2927CDB}|MyChat_Data\\MyChat_Data.csproj|e:\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_data\\configurations\\userroleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5663B056-82AA-4B95-8C11-3217C2927CDB}|MyChat_Data\\MyChat_Data.csproj|solutionrelative:mychat_data\\configurations\\userroleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C61B51C-CFE8-43BA-8E89-17056E4CA63B}|MyChat_API\\MyChat_API.csproj|e:\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_api\\extensions\\globalerrorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C61B51C-CFE8-43BA-8E89-17056E4CA63B}|MyChat_API\\MyChat_API.csproj|solutionrelative:mychat_api\\extensions\\globalerrorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C61B51C-CFE8-43BA-8E89-17056E4CA63B}|MyChat_API\\MyChat_API.csproj|e:\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7C61B51C-CFE8-43BA-8E89-17056E4CA63B}|MyChat_API\\MyChat_API.csproj|solutionrelative:mychat_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C61B51C-CFE8-43BA-8E89-17056E4CA63B}|MyChat_API\\MyChat_API.csproj|e:\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7C61B51C-CFE8-43BA-8E89-17056E4CA63B}|MyChat_API\\MyChat_API.csproj|solutionrelative:mychat_api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C61B51C-CFE8-43BA-8E89-17056E4CA63B}|MyChat_API\\MyChat_API.csproj|e:\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_api\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7C61B51C-CFE8-43BA-8E89-17056E4CA63B}|MyChat_API\\MyChat_API.csproj|solutionrelative:mychat_api\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5663B056-82AA-4B95-8C11-3217C2927CDB}|MyChat_Data\\MyChat_Data.csproj|e:\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_data\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5663B056-82AA-4B95-8C11-3217C2927CDB}|MyChat_Data\\MyChat_Data.csproj|solutionrelative:mychat_data\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|e:\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_core\\common\\apisuccessresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|solutionrelative:mychat_core\\common\\apisuccessresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|e:\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_core\\common\\apiresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|solutionrelative:mychat_core\\common\\apiresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|e:\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_core\\common\\apierrorresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D56CF889-79C7-4196-8A8C-6C48BD3E9C74}|MyChat_Core\\MyChat_Core.csproj|solutionrelative:mychat_core\\common\\apierrorresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5663B056-82AA-4B95-8C11-3217C2927CDB}|MyChat_Data\\MyChat_Data.csproj|e:\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_data\\ef\\mychatdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5663B056-82AA-4B95-8C11-3217C2927CDB}|MyChat_Data\\MyChat_Data.csproj|solutionrelative:mychat_data\\ef\\mychatdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C61B51C-CFE8-43BA-8E89-17056E4CA63B}|MyChat_API\\MyChat_API.csproj|e:\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_api\\utils\\apiresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C61B51C-CFE8-43BA-8E89-17056E4CA63B}|MyChat_API\\MyChat_API.csproj|solutionrelative:mychat_api\\utils\\apiresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C61B51C-CFE8-43BA-8E89-17056E4CA63B}|MyChat_API\\MyChat_API.csproj|e:\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7C61B51C-CFE8-43BA-8E89-17056E4CA63B}|MyChat_API\\MyChat_API.csproj|solutionrelative:mychat_api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C61B51C-CFE8-43BA-8E89-17056E4CA63B}|MyChat_API\\MyChat_API.csproj|e:\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_api\\20240118||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{7C61B51C-CFE8-43BA-8E89-17056E4CA63B}|MyChat_API\\MyChat_API.csproj|solutionrelative:mychat_api\\20240118||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5663B056-82AA-4B95-8C11-3217C2927CDB}|MyChat_Data\\MyChat_Data.csproj|e:\\mychat_api-khai-s_api (1)\\mychat_api-khai-s_api\\mychat_api\\mychat_data\\migrations\\20240326032725_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5663B056-82AA-4B95-8C11-3217C2927CDB}|MyChat_Data\\MyChat_Data.csproj|solutionrelative:mychat_data\\migrations\\20240326032725_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -226,428 +234,340 @@
       "DocumentGroups": [
         {
           "DockedWidth": 290,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MessengerController.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_API\\Controllers\\MessengerController.cs",
-              "RelativeDocumentMoniker": "MyChat_API\\Controllers\\MessengerController.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_API\\Controllers\\MessengerController.cs",
-              "RelativeToolTip": "MyChat_API\\Controllers\\MessengerController.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABgAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T06:49:56.791Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MessengerService.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\Services\\MessengerService.cs",
-              "RelativeDocumentMoniker": "MyChat_Core\\Services\\MessengerService.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\Services\\MessengerService.cs",
-              "RelativeToolTip": "MyChat_Core\\Services\\MessengerService.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAAAA4AAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T06:01:14.988Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ChatController.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_API\\Controllers\\ChatController.cs",
-              "RelativeDocumentMoniker": "MyChat_API\\Controllers\\ChatController.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_API\\Controllers\\ChatController.cs",
-              "RelativeToolTip": "MyChat_API\\Controllers\\ChatController.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAABMAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T16:52:38.274Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "SeedingData.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\Extensions\\SeedingData.cs",
-              "RelativeDocumentMoniker": "MyChat_Data\\Extensions\\SeedingData.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\Extensions\\SeedingData.cs",
-              "RelativeToolTip": "MyChat_Data\\Extensions\\SeedingData.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAF4AAABBAAAA",
+              "Title": "MessengerService.cs",
+              "DocumentMoniker": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\Services\\MessengerService.cs",
+              "RelativeDocumentMoniker": "MyChat_Core\\Services\\MessengerService.cs",
+              "ToolTip": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\Services\\MessengerService.cs",
+              "RelativeToolTip": "MyChat_Core\\Services\\MessengerService.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAiwBQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-18T13:50:17.759Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MessengerConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\Configurations\\MessengerConfiguration.cs",
-              "RelativeDocumentMoniker": "MyChat_Data\\Configurations\\MessengerConfiguration.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\Configurations\\MessengerConfiguration.cs",
-              "RelativeToolTip": "MyChat_Data\\Configurations\\MessengerConfiguration.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAIwBUAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T15:19:43.125Z",
+              "WhenOpened": "2024-03-26T08:45:05.04Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "MyChat_Core\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\Services\\UserService.cs",
-              "RelativeToolTip": "MyChat_Core\\Services\\UserService.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAowCQAAAADAAAA",
+              "Title": "Messenger.cs",
+              "DocumentMoniker": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\Entities\\Messenger.cs",
+              "RelativeDocumentMoniker": "MyChat_Data\\Entities\\Messenger.cs",
+              "ToolTip": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\Entities\\Messenger.cs",
+              "RelativeToolTip": "MyChat_Data\\Entities\\Messenger.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-18T13:11:39.197Z"
+              "WhenOpened": "2024-03-18T03:46:27.417Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "ContactService.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\Services\\ContactService.cs",
-              "RelativeDocumentMoniker": "MyChat_Core\\Services\\ContactService.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\Services\\ContactService.cs",
-              "RelativeToolTip": "MyChat_Core\\Services\\ContactService.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAAAC0AAAAeAAAA",
+              "Title": "Contact.cs",
+              "DocumentMoniker": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\Entities\\Contact.cs",
+              "RelativeDocumentMoniker": "MyChat_Data\\Entities\\Contact.cs",
+              "ToolTip": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\Entities\\Contact.cs",
+              "RelativeToolTip": "MyChat_Data\\Entities\\Contact.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T07:18:39.297Z"
+              "WhenOpened": "2024-03-18T03:53:48.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MessengerRequest.cs",
+              "DocumentMoniker": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\ViewModels\\MessengerRequest.cs",
+              "RelativeDocumentMoniker": "MyChat_Core\\ViewModels\\MessengerRequest.cs",
+              "ToolTip": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\ViewModels\\MessengerRequest.cs",
+              "RelativeToolTip": "MyChat_Core\\ViewModels\\MessengerRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T08:47:13.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginRequestValidator.cs",
+              "DocumentMoniker": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\ViewModels\\LoginRequestValidator.cs",
+              "RelativeDocumentMoniker": "MyChat_Core\\ViewModels\\LoginRequestValidator.cs",
+              "ToolTip": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\ViewModels\\LoginRequestValidator.cs",
+              "RelativeToolTip": "MyChat_Core\\ViewModels\\LoginRequestValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-22T07:14:19.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Chat.cs",
+              "DocumentMoniker": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\Entities\\Chat.cs",
+              "RelativeDocumentMoniker": "MyChat_Data\\Entities\\Chat.cs",
+              "ToolTip": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\Entities\\Chat.cs",
+              "RelativeToolTip": "MyChat_Data\\Entities\\Chat.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T03:43:26.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_API\\Program.cs",
+              "RelativeDocumentMoniker": "MyChat_API\\Program.cs",
+              "ToolTip": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_API\\Program.cs",
+              "RelativeToolTip": "MyChat_API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T13:11:39.189Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "IMessengerService.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\Interfaces\\IMessengerService.cs",
-              "RelativeDocumentMoniker": "MyChat_Core\\Interfaces\\IMessengerService.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\Interfaces\\IMessengerService.cs",
-              "RelativeToolTip": "MyChat_Core\\Interfaces\\IMessengerService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAACAAAA",
+              "Title": "MessengerVm.cs",
+              "DocumentMoniker": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\ViewModels\\MessengerVm.cs",
+              "RelativeDocumentMoniker": "MyChat_Core\\ViewModels\\MessengerVm.cs",
+              "ToolTip": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\ViewModels\\MessengerVm.cs",
+              "RelativeToolTip": "MyChat_Core\\ViewModels\\MessengerVm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T16:38:42.652Z"
+              "WhenOpened": "2024-03-26T08:22:01.347Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_API\\Program.cs",
-              "RelativeDocumentMoniker": "MyChat_API\\Program.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_API\\Program.cs",
-              "RelativeToolTip": "MyChat_API\\Program.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAACUAAAA4AAAA",
+              "Title": "ChatVm.cs",
+              "DocumentMoniker": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\ViewModels\\ChatVm.cs",
+              "RelativeDocumentMoniker": "MyChat_Core\\ViewModels\\ChatVm.cs",
+              "ToolTip": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\ViewModels\\ChatVm.cs",
+              "RelativeToolTip": "MyChat_Core\\ViewModels\\ChatVm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-18T13:11:39.189Z"
+              "WhenOpened": "2024-03-26T04:03:27.622Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "ChatGPTController.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_API\\Controllers\\ChatGPTController.cs",
-              "RelativeDocumentMoniker": "MyChat_API\\Controllers\\ChatGPTController.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_API\\Controllers\\ChatGPTController.cs",
-              "RelativeToolTip": "MyChat_API\\Controllers\\ChatGPTController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAACAAAA",
+              "Title": "ContactService.cs",
+              "DocumentMoniker": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\Services\\ContactService.cs",
+              "RelativeDocumentMoniker": "MyChat_Core\\Services\\ContactService.cs",
+              "ToolTip": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\Services\\ContactService.cs",
+              "RelativeToolTip": "MyChat_Core\\Services\\ContactService.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAqwCcAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T12:33:42.479Z"
+              "WhenOpened": "2024-03-18T07:18:39.297Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "ContactController.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_API\\Controllers\\ContactController.cs",
-              "RelativeDocumentMoniker": "MyChat_API\\Controllers\\ContactController.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_API\\Controllers\\ContactController.cs",
-              "RelativeToolTip": "MyChat_API\\Controllers\\ContactController.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB4AAAAkAAAA",
+              "Title": "CreateMessengerRequest.cs",
+              "DocumentMoniker": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\ViewModels\\CreateMessengerRequest.cs",
+              "RelativeDocumentMoniker": "MyChat_Core\\ViewModels\\CreateMessengerRequest.cs",
+              "ToolTip": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\ViewModels\\CreateMessengerRequest.cs",
+              "RelativeToolTip": "MyChat_Core\\ViewModels\\CreateMessengerRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T07:25:36.976Z"
+              "WhenOpened": "2024-03-26T08:22:24.896Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "ChatServices.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\Services\\ChatServices.cs",
-              "RelativeDocumentMoniker": "MyChat_Core\\Services\\ChatServices.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\Services\\ChatServices.cs",
-              "RelativeToolTip": "MyChat_Core\\Services\\ChatServices.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAAAB0AAAAiAAAA",
+              "Title": "CreateContactRequest.cs",
+              "DocumentMoniker": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\ViewModels\\CreateContactRequest.cs",
+              "RelativeDocumentMoniker": "MyChat_Core\\ViewModels\\CreateContactRequest.cs",
+              "ToolTip": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\ViewModels\\CreateContactRequest.cs",
+              "RelativeToolTip": "MyChat_Core\\ViewModels\\CreateContactRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T16:44:50.769Z"
+              "WhenOpened": "2024-03-26T08:08:45.394Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "Chat.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\Entities\\Chat.cs",
-              "RelativeDocumentMoniker": "MyChat_Data\\Entities\\Chat.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\Entities\\Chat.cs",
-              "RelativeToolTip": "MyChat_Data\\Entities\\Chat.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAwAAAArAAAA",
+              "Title": "ContactVm.cs",
+              "DocumentMoniker": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\ViewModels\\ContactVm.cs",
+              "RelativeDocumentMoniker": "MyChat_Core\\ViewModels\\ContactVm.cs",
+              "ToolTip": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\ViewModels\\ContactVm.cs",
+              "RelativeToolTip": "MyChat_Core\\ViewModels\\ContactVm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T03:43:26.753Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Contact.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\Entities\\Contact.cs",
-              "RelativeDocumentMoniker": "MyChat_Data\\Entities\\Contact.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\Entities\\Contact.cs",
-              "RelativeToolTip": "MyChat_Data\\Entities\\Contact.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAuwAwAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T03:53:48.27Z"
+              "WhenOpened": "2024-03-18T07:15:17.051Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "Messenger.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\Entities\\Messenger.cs",
-              "RelativeDocumentMoniker": "MyChat_Data\\Entities\\Messenger.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\Entities\\Messenger.cs",
-              "RelativeToolTip": "MyChat_Data\\Entities\\Messenger.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA4AAAAvAAAA",
+              "Title": "CreateChatRequest.cs",
+              "DocumentMoniker": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\ViewModels\\CreateChatRequest.cs",
+              "RelativeDocumentMoniker": "MyChat_Core\\ViewModels\\CreateChatRequest.cs",
+              "ToolTip": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\ViewModels\\CreateChatRequest.cs",
+              "RelativeToolTip": "MyChat_Core\\ViewModels\\CreateChatRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBEAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T03:46:27.417Z"
+              "WhenOpened": "2024-03-26T04:07:29.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IMessengerService.cs",
+              "DocumentMoniker": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\Interfaces\\IMessengerService.cs",
+              "RelativeDocumentMoniker": "MyChat_Core\\Interfaces\\IMessengerService.cs",
+              "ToolTip": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\Interfaces\\IMessengerService.cs",
+              "RelativeToolTip": "MyChat_Core\\Interfaces\\IMessengerService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T08:20:54.989Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "ChatVm.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\ViewModels\\ChatVm.cs",
-              "RelativeDocumentMoniker": "MyChat_Core\\ViewModels\\ChatVm.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\ViewModels\\ChatVm.cs",
-              "RelativeToolTip": "MyChat_Core\\ViewModels\\ChatVm.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA8AAAAqAAAA",
+              "Title": "MessengerController.cs",
+              "DocumentMoniker": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_API\\Controllers\\MessengerController.cs",
+              "RelativeDocumentMoniker": "MyChat_API\\Controllers\\MessengerController.cs",
+              "ToolTip": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_API\\Controllers\\MessengerController.cs",
+              "RelativeToolTip": "MyChat_API\\Controllers\\MessengerController.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAQwCoAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T16:42:58.852Z"
+              "WhenOpened": "2024-03-26T08:52:45.237Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "ContactVm.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\ViewModels\\ContactVm.cs",
-              "RelativeDocumentMoniker": "MyChat_Core\\ViewModels\\ContactVm.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\ViewModels\\ContactVm.cs",
-              "RelativeToolTip": "MyChat_Core\\ViewModels\\ContactVm.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAArAAAA",
+              "Title": "ChatController.cs",
+              "DocumentMoniker": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_API\\Controllers\\ChatController.cs",
+              "RelativeDocumentMoniker": "MyChat_API\\Controllers\\ChatController.cs",
+              "ToolTip": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_API\\Controllers\\ChatController.cs",
+              "RelativeToolTip": "MyChat_API\\Controllers\\ChatController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T07:15:17.051Z"
+              "WhenOpened": "2024-03-26T08:52:24.062Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "CreateContactRequest.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\ViewModels\\CreateContactRequest.cs",
-              "RelativeDocumentMoniker": "MyChat_Core\\ViewModels\\CreateContactRequest.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\ViewModels\\CreateContactRequest.cs",
-              "RelativeToolTip": "MyChat_Core\\ViewModels\\CreateContactRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAArAAAA",
+              "Title": "ChatGPTController.cs",
+              "DocumentMoniker": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_API\\Controllers\\ChatGPTController.cs",
+              "RelativeDocumentMoniker": "MyChat_API\\Controllers\\ChatGPTController.cs",
+              "ToolTip": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_API\\Controllers\\ChatGPTController.cs",
+              "RelativeToolTip": "MyChat_API\\Controllers\\ChatGPTController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T00:55:17.832Z"
+              "WhenOpened": "2024-03-04T12:33:42.479Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
-              "Title": "LoginRequestValidator.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\ViewModels\\LoginRequestValidator.cs",
-              "RelativeDocumentMoniker": "MyChat_Core\\ViewModels\\LoginRequestValidator.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\ViewModels\\LoginRequestValidator.cs",
-              "RelativeToolTip": "MyChat_Core\\ViewModels\\LoginRequestValidator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAADAAAA",
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_API\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "MyChat_API\\Controllers\\ContactController.cs",
+              "ToolTip": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_API\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "MyChat_API\\Controllers\\ContactController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-22T07:14:19.083Z"
+              "WhenOpened": "2024-03-18T07:25:36.976Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "LoginRequest.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\ViewModels\\LoginRequest.cs",
-              "RelativeDocumentMoniker": "MyChat_Core\\ViewModels\\LoginRequest.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\ViewModels\\LoginRequest.cs",
-              "RelativeToolTip": "MyChat_Core\\ViewModels\\LoginRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAmAAAA",
+              "Title": "SignalRHub.cs",
+              "DocumentMoniker": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_API\\Hubs\\SignalRHub.cs",
+              "RelativeDocumentMoniker": "MyChat_API\\Hubs\\SignalRHub.cs",
+              "ToolTip": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_API\\Hubs\\SignalRHub.cs",
+              "RelativeToolTip": "MyChat_API\\Hubs\\SignalRHub.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-22T07:12:38.911Z"
+              "WhenOpened": "2024-03-04T03:19:34.533Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "RegisterRequest.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\ViewModels\\RegisterRequest.cs",
-              "RelativeDocumentMoniker": "MyChat_Core\\ViewModels\\RegisterRequest.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\ViewModels\\RegisterRequest.cs",
-              "RelativeToolTip": "MyChat_Core\\ViewModels\\RegisterRequest.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAApAAAA",
+              "Title": "UpdateContactRequest.cs",
+              "DocumentMoniker": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\ViewModels\\UpdateContactRequest.cs",
+              "RelativeDocumentMoniker": "MyChat_Core\\ViewModels\\UpdateContactRequest.cs",
+              "ToolTip": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\ViewModels\\UpdateContactRequest.cs",
+              "RelativeToolTip": "MyChat_Core\\ViewModels\\UpdateContactRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-21T09:10:56.387Z"
+              "WhenOpened": "2024-03-27T09:55:16.726Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
-              "Title": "MessengerVm.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\ViewModels\\MessengerVm.cs",
-              "RelativeDocumentMoniker": "MyChat_Core\\ViewModels\\MessengerVm.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\ViewModels\\MessengerVm.cs",
-              "RelativeToolTip": "MyChat_Core\\ViewModels\\MessengerVm.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAAAsAAAAhAAAA",
+              "Title": "UserService.cs",
+              "DocumentMoniker": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "MyChat_Core\\Services\\UserService.cs",
+              "ToolTip": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\Services\\UserService.cs",
+              "RelativeToolTip": "MyChat_Core\\Services\\UserService.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAAwCQAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T16:42:49.994Z"
+              "WhenOpened": "2024-02-18T13:11:39.197Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 22,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_API\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "MyChat_API\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_API\\Controllers\\UserController.cs",
-              "RelativeToolTip": "MyChat_API\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAAACcAAAArAAAA",
+              "Title": "UpdateChatRequest.cs",
+              "DocumentMoniker": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\ViewModels\\UpdateChatRequest.cs",
+              "RelativeDocumentMoniker": "MyChat_Core\\ViewModels\\UpdateChatRequest.cs",
+              "ToolTip": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\ViewModels\\UpdateChatRequest.cs",
+              "RelativeToolTip": "MyChat_Core\\ViewModels\\UpdateChatRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-18T13:11:39.176Z"
+              "WhenOpened": "2024-03-26T08:53:47.549Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 23,
-              "Title": "IChatService.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\Interfaces\\IChatService.cs",
-              "RelativeDocumentMoniker": "MyChat_Core\\Interfaces\\IChatService.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\Interfaces\\IChatService.cs",
-              "RelativeToolTip": "MyChat_Core\\Interfaces\\IChatService.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAQAAAA",
+              "Title": "IContactService.cs",
+              "DocumentMoniker": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\Interfaces\\IContactService.cs",
+              "RelativeDocumentMoniker": "MyChat_Core\\Interfaces\\IContactService.cs",
+              "ToolTip": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\Interfaces\\IContactService.cs",
+              "RelativeToolTip": "MyChat_Core\\Interfaces\\IContactService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T16:41:47.376Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "ChatConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\Configurations\\ChatConfiguration.cs",
-              "RelativeDocumentMoniker": "MyChat_Data\\Configurations\\ChatConfiguration.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\Configurations\\ChatConfiguration.cs",
-              "RelativeToolTip": "MyChat_Data\\Configurations\\ChatConfiguration.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAewBEAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T03:56:25.482Z"
+              "WhenOpened": "2024-03-18T07:12:33.977Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 24,
-              "Title": "IContactService.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\Interfaces\\IContactService.cs",
-              "RelativeDocumentMoniker": "MyChat_Core\\Interfaces\\IContactService.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\Interfaces\\IContactService.cs",
-              "RelativeToolTip": "MyChat_Core\\Interfaces\\IContactService.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAAAAsAAAArAAAA",
+              "Title": "Chatservices.cs",
+              "DocumentMoniker": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\Services\\Chatservices.cs",
+              "RelativeDocumentMoniker": "MyChat_Core\\Services\\Chatservices.cs",
+              "ToolTip": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\Services\\Chatservices.cs",
+              "RelativeToolTip": "MyChat_Core\\Services\\Chatservices.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAqwEIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T07:12:33.977Z"
+              "WhenOpened": "2024-03-26T04:02:03.34Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 25,
-              "Title": "MyChatDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\EF\\MyChatDbContext.cs",
-              "RelativeDocumentMoniker": "MyChat_Data\\EF\\MyChatDbContext.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\EF\\MyChatDbContext.cs",
-              "RelativeToolTip": "MyChat_Data\\EF\\MyChatDbContext.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAEwBkAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-18T13:52:08.412Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "20240319162650_Init.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\Migrations\\20240319162650_Init.cs",
-              "RelativeDocumentMoniker": "MyChat_Data\\Migrations\\20240319162650_Init.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\Migrations\\20240319162650_Init.cs",
-              "RelativeToolTip": "MyChat_Data\\Migrations\\20240319162650_Init.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T16:26:51.127Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "ContactConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\Configurations\\ContactConfiguration.cs",
-              "RelativeDocumentMoniker": "MyChat_Data\\Configurations\\ContactConfiguration.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\Configurations\\ContactConfiguration.cs",
-              "RelativeToolTip": "MyChat_Data\\Configurations\\ContactConfiguration.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAA6wBEAAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T15:52:58.075Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "UserConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\Configurations\\UserConfiguration.cs",
-              "RelativeDocumentMoniker": "MyChat_Data\\Configurations\\UserConfiguration.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\Configurations\\UserConfiguration.cs",
-              "RelativeToolTip": "MyChat_Data\\Configurations\\UserConfiguration.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAAABYAAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-22T06:54:34.119Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "MyChat_Data\\Entities\\User.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\Entities\\User.cs",
-              "RelativeToolTip": "MyChat_Data\\Entities\\User.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAABEAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-18T13:50:23.889Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "UserRoleConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\Configurations\\UserRoleConfiguration.cs",
-              "RelativeDocumentMoniker": "MyChat_Data\\Configurations\\UserRoleConfiguration.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\Configurations\\UserRoleConfiguration.cs",
-              "RelativeToolTip": "MyChat_Data\\Configurations\\UserRoleConfiguration.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAYwBEAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-22T06:54:35.482Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "20240319160256_AddDataMess.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\Migrations\\20240319160256_AddDataMess.cs",
-              "RelativeDocumentMoniker": "MyChat_Data\\Migrations\\20240319160256_AddDataMess.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\Migrations\\20240319160256_AddDataMess.cs",
-              "RelativeToolTip": "MyChat_Data\\Migrations\\20240319160256_AddDataMess.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T16:02:56.776Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "20240319154653_UpdateData.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\Migrations\\20240319154653_UpdateData.cs",
-              "RelativeDocumentMoniker": "MyChat_Data\\Migrations\\20240319154653_UpdateData.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\Migrations\\20240319154653_UpdateData.cs",
-              "RelativeToolTip": "MyChat_Data\\Migrations\\20240319154653_UpdateData.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAAAAoAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T15:46:53.702Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
               "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\Interfaces\\IUserService.cs",
+              "DocumentMoniker": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\Interfaces\\IUserService.cs",
               "RelativeDocumentMoniker": "MyChat_Core\\Interfaces\\IUserService.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\Interfaces\\IUserService.cs",
+              "ToolTip": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\Interfaces\\IUserService.cs",
               "RelativeToolTip": "MyChat_Core\\Interfaces\\IUserService.cs",
               "ViewState": "AQIAAAIAAAAAAAAAAAApwA8AAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -655,11 +575,48 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 26,
+              "Title": "IChatService.cs",
+              "DocumentMoniker": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\Interfaces\\IChatService.cs",
+              "RelativeDocumentMoniker": "MyChat_Core\\Interfaces\\IChatService.cs",
+              "ToolTip": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\Interfaces\\IChatService.cs",
+              "RelativeToolTip": "MyChat_Core\\Interfaces\\IChatService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T08:12:50.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "MyChat_API\\Controllers\\UserController.cs",
+              "ToolTip": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_API\\Controllers\\UserController.cs",
+              "RelativeToolTip": "MyChat_API\\Controllers\\UserController.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAAwCgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T13:11:39.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "RegisterRequest.cs",
+              "DocumentMoniker": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\ViewModels\\RegisterRequest.cs",
+              "RelativeDocumentMoniker": "MyChat_Core\\ViewModels\\RegisterRequest.cs",
+              "ToolTip": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\ViewModels\\RegisterRequest.cs",
+              "RelativeToolTip": "MyChat_Core\\ViewModels\\RegisterRequest.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T09:10:56.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
               "Title": "UserViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\ViewModels\\UserViewModel.cs",
+              "DocumentMoniker": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\ViewModels\\UserViewModel.cs",
               "RelativeDocumentMoniker": "MyChat_Core\\ViewModels\\UserViewModel.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\ViewModels\\UserViewModel.cs",
+              "ToolTip": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\ViewModels\\UserViewModel.cs",
               "RelativeToolTip": "MyChat_Core\\ViewModels\\UserViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -667,47 +624,71 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UserConfiguration.cs",
+              "DocumentMoniker": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\Configurations\\UserConfiguration.cs",
+              "RelativeDocumentMoniker": "MyChat_Data\\Configurations\\UserConfiguration.cs",
+              "ToolTip": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\Configurations\\UserConfiguration.cs",
+              "RelativeToolTip": "MyChat_Data\\Configurations\\UserConfiguration.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAYwBcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-22T06:54:34.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "RegisterRequestValidator.cs",
+              "DocumentMoniker": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\ViewModels\\RegisterRequestValidator.cs",
+              "RelativeDocumentMoniker": "MyChat_Core\\ViewModels\\RegisterRequestValidator.cs",
+              "ToolTip": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\ViewModels\\RegisterRequestValidator.cs",
+              "RelativeToolTip": "MyChat_Core\\ViewModels\\RegisterRequestValidator.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAkwBQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-22T07:22:09.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\ViewModels\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "MyChat_Core\\ViewModels\\LoginRequest.cs",
+              "ToolTip": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\ViewModels\\LoginRequest.cs",
+              "RelativeToolTip": "MyChat_Core\\ViewModels\\LoginRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-22T07:12:38.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "20240326032725_init.cs",
+              "DocumentMoniker": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\Migrations\\20240326032725_init.cs",
+              "RelativeDocumentMoniker": "MyChat_Data\\Migrations\\20240326032725_init.cs",
+              "ToolTip": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\Migrations\\20240326032725_init.cs",
+              "RelativeToolTip": "MyChat_Data\\Migrations\\20240326032725_init.cs",
+              "ViewState": "AQIAAIYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T03:27:25.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "SeedingData.cs",
+              "DocumentMoniker": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\Extensions\\SeedingData.cs",
+              "RelativeDocumentMoniker": "MyChat_Data\\Extensions\\SeedingData.cs",
+              "ToolTip": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\Extensions\\SeedingData.cs",
+              "RelativeToolTip": "MyChat_Data\\Extensions\\SeedingData.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAC8AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T13:50:17.759Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 35,
-              "Title": "MyChat_API.csproj",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_API\\MyChat_API.csproj",
-              "RelativeDocumentMoniker": "MyChat_API\\MyChat_API.csproj",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_API\\MyChat_API.csproj",
-              "RelativeToolTip": "MyChat_API\\MyChat_API.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-18T03:35:29.232Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\appsettings.json",
-              "RelativeDocumentMoniker": "MyChat_Data\\appsettings.json",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\appsettings.json",
-              "RelativeToolTip": "MyChat_Data\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-02-18T13:50:46.437Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_API\\appsettings.json",
-              "RelativeDocumentMoniker": "MyChat_API\\appsettings.json",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_API\\appsettings.json",
-              "RelativeToolTip": "MyChat_API\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-02-18T13:11:39.183Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
               "Title": "MyChat_Data.csproj",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\MyChat_Data.csproj",
+              "DocumentMoniker": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\MyChat_Data.csproj",
               "RelativeDocumentMoniker": "MyChat_Data\\MyChat_Data.csproj",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\MyChat_Data.csproj",
+              "ToolTip": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\MyChat_Data.csproj",
               "RelativeToolTip": "MyChat_Data\\MyChat_Data.csproj",
               "ViewState": "AQIAAAYAAAAAAAAAAAAQwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -715,11 +696,107 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "MessengerConfiguration.cs",
+              "DocumentMoniker": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\Configurations\\MessengerConfiguration.cs",
+              "RelativeDocumentMoniker": "MyChat_Data\\Configurations\\MessengerConfiguration.cs",
+              "ToolTip": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\Configurations\\MessengerConfiguration.cs",
+              "RelativeToolTip": "MyChat_Data\\Configurations\\MessengerConfiguration.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T15:19:43.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ContactConfiguration.cs",
+              "DocumentMoniker": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\Configurations\\ContactConfiguration.cs",
+              "RelativeDocumentMoniker": "MyChat_Data\\Configurations\\ContactConfiguration.cs",
+              "ToolTip": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\Configurations\\ContactConfiguration.cs",
+              "RelativeToolTip": "MyChat_Data\\Configurations\\ContactConfiguration.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAD4vxMAAABdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T15:52:58.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "MyChat_Core.csproj",
+              "DocumentMoniker": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\MyChat_Core.csproj",
+              "RelativeDocumentMoniker": "MyChat_Core\\MyChat_Core.csproj",
+              "ToolTip": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\MyChat_Core.csproj",
+              "RelativeToolTip": "MyChat_Core\\MyChat_Core.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-02-18T14:13:02.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ChatConfiguration.cs",
+              "DocumentMoniker": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\Configurations\\ChatConfiguration.cs",
+              "RelativeDocumentMoniker": "MyChat_Data\\Configurations\\ChatConfiguration.cs",
+              "ToolTip": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\Configurations\\ChatConfiguration.cs",
+              "RelativeToolTip": "MyChat_Data\\Configurations\\ChatConfiguration.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAswBQAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T03:56:25.482Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 39,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "MyChat_Data\\Entities\\User.cs",
+              "ToolTip": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\Entities\\User.cs",
+              "RelativeToolTip": "MyChat_Data\\Entities\\User.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T13:50:23.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\Entities\\UserRole.cs",
+              "RelativeDocumentMoniker": "MyChat_Data\\Entities\\UserRole.cs",
+              "ToolTip": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\Entities\\UserRole.cs",
+              "RelativeToolTip": "MyChat_Data\\Entities\\UserRole.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T13:50:25.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "UserRoleConfiguration.cs",
+              "DocumentMoniker": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\Configurations\\UserRoleConfiguration.cs",
+              "RelativeDocumentMoniker": "MyChat_Data\\Configurations\\UserRoleConfiguration.cs",
+              "ToolTip": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\Configurations\\UserRoleConfiguration.cs",
+              "RelativeToolTip": "MyChat_Data\\Configurations\\UserRoleConfiguration.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAYwBEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-22T06:54:35.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "MyChatDbContext.cs",
+              "DocumentMoniker": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\EF\\MyChatDbContext.cs",
+              "RelativeDocumentMoniker": "MyChat_Data\\EF\\MyChatDbContext.cs",
+              "ToolTip": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\EF\\MyChatDbContext.cs",
+              "RelativeToolTip": "MyChat_Data\\EF\\MyChatDbContext.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAEwBkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T13:52:08.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
               "Title": "GlobalErrorHandlingMiddleware.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_API\\Extensions\\GlobalErrorHandlingMiddleware.cs",
+              "DocumentMoniker": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_API\\Extensions\\GlobalErrorHandlingMiddleware.cs",
               "RelativeDocumentMoniker": "MyChat_API\\Extensions\\GlobalErrorHandlingMiddleware.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_API\\Extensions\\GlobalErrorHandlingMiddleware.cs",
+              "ToolTip": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_API\\Extensions\\GlobalErrorHandlingMiddleware.cs",
               "RelativeToolTip": "MyChat_API\\Extensions\\GlobalErrorHandlingMiddleware.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAIAwwBEAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -727,23 +804,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "UserRole.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\Entities\\UserRole.cs",
-              "RelativeDocumentMoniker": "MyChat_Data\\Entities\\UserRole.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\Entities\\UserRole.cs",
-              "RelativeToolTip": "MyChat_Data\\Entities\\UserRole.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-18T13:50:25.287Z"
+              "DocumentIndex": 44,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_API\\appsettings.json",
+              "RelativeDocumentMoniker": "MyChat_API\\appsettings.json",
+              "ToolTip": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_API\\appsettings.json",
+              "RelativeToolTip": "MyChat_API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-02-18T13:11:39.183Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 45,
               "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_API\\appsettings.Development.json",
+              "DocumentMoniker": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_API\\appsettings.Development.json",
               "RelativeDocumentMoniker": "MyChat_API\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_API\\appsettings.Development.json",
+              "ToolTip": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_API\\appsettings.Development.json",
               "RelativeToolTip": "MyChat_API\\appsettings.Development.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -751,11 +828,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 47,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\appsettings.json",
+              "RelativeDocumentMoniker": "MyChat_Data\\appsettings.json",
+              "ToolTip": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\appsettings.json",
+              "RelativeToolTip": "MyChat_Data\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-02-18T13:50:46.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
               "Title": "libman.json",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_API\\libman.json",
+              "DocumentMoniker": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_API\\libman.json",
               "RelativeDocumentMoniker": "MyChat_API\\libman.json",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_API\\libman.json",
+              "ToolTip": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_API\\libman.json",
               "RelativeToolTip": "MyChat_API\\libman.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -763,11 +852,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 48,
               "Title": "ApiSuccessResult.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\Common\\ApiSuccessResult.cs",
+              "DocumentMoniker": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\Common\\ApiSuccessResult.cs",
               "RelativeDocumentMoniker": "MyChat_Core\\Common\\ApiSuccessResult.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\Common\\ApiSuccessResult.cs",
+              "ToolTip": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\Common\\ApiSuccessResult.cs",
               "RelativeToolTip": "MyChat_Core\\Common\\ApiSuccessResult.cs",
               "ViewState": "AQIAAAIAAAAAAAAAAAAYwAoAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -775,11 +864,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 49,
               "Title": "ApiResult.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\Common\\ApiResult.cs",
+              "DocumentMoniker": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\Common\\ApiResult.cs",
               "RelativeDocumentMoniker": "MyChat_Core\\Common\\ApiResult.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\Common\\ApiResult.cs",
+              "ToolTip": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\Common\\ApiResult.cs",
               "RelativeToolTip": "MyChat_Core\\Common\\ApiResult.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -787,11 +876,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 50,
               "Title": "ApiErrorResult.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\Common\\ApiErrorResult.cs",
+              "DocumentMoniker": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\Common\\ApiErrorResult.cs",
               "RelativeDocumentMoniker": "MyChat_Core\\Common\\ApiErrorResult.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\Common\\ApiErrorResult.cs",
+              "ToolTip": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\Common\\ApiErrorResult.cs",
               "RelativeToolTip": "MyChat_Core\\Common\\ApiErrorResult.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -799,11 +888,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 51,
               "Title": "MyChatDbContextFactory.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\EF\\MyChatDbContextFactory.cs",
+              "DocumentMoniker": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\EF\\MyChatDbContextFactory.cs",
               "RelativeDocumentMoniker": "MyChat_Data\\EF\\MyChatDbContextFactory.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\EF\\MyChatDbContextFactory.cs",
+              "ToolTip": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\EF\\MyChatDbContextFactory.cs",
               "RelativeToolTip": "MyChat_Data\\EF\\MyChatDbContextFactory.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -811,23 +900,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "SignalRHub.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_API\\Hubs\\SignalRHub.cs",
-              "RelativeDocumentMoniker": "MyChat_API\\Hubs\\SignalRHub.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_API\\Hubs\\SignalRHub.cs",
-              "RelativeToolTip": "MyChat_API\\Hubs\\SignalRHub.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T03:19:34.533Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 52,
               "Title": "APIResult.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_API\\Utils\\APIResult.cs",
+              "DocumentMoniker": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_API\\Utils\\APIResult.cs",
               "RelativeDocumentMoniker": "MyChat_API\\Utils\\APIResult.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_API\\Utils\\APIResult.cs",
+              "ToolTip": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_API\\Utils\\APIResult.cs",
               "RelativeToolTip": "MyChat_API\\Utils\\APIResult.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -835,11 +912,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 53,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_API\\Properties\\launchSettings.json",
+              "DocumentMoniker": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_API\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "MyChat_API\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_API\\Properties\\launchSettings.json",
+              "ToolTip": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_API\\Properties\\launchSettings.json",
               "RelativeToolTip": "MyChat_API\\Properties\\launchSettings.json",
               "ViewState": "AQIAAAcAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -847,39 +924,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 54,
               "Title": "20240118",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_API\\20240118",
+              "DocumentMoniker": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_API\\20240118",
               "RelativeDocumentMoniker": "MyChat_API\\20240118",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_API\\20240118",
+              "ToolTip": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_API\\20240118",
               "RelativeToolTip": "MyChat_API\\20240118",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-03-04T04:19:55.307Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "RegisterRequestValidator.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\ViewModels\\RegisterRequestValidator.cs",
-              "RelativeDocumentMoniker": "MyChat_Core\\ViewModels\\RegisterRequestValidator.cs",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\ViewModels\\RegisterRequestValidator.cs",
-              "RelativeToolTip": "MyChat_Core\\ViewModels\\RegisterRequestValidator.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAA7wBQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-22T07:22:09.257Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "MyChat_Core.csproj",
-              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\MyChat_Core.csproj",
-              "RelativeDocumentMoniker": "MyChat_Core\\MyChat_Core.csproj",
-              "ToolTip": "C:\\Users\\DELL\\Documents\\Zalo Received Files\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\MyChat_Core.csproj",
-              "RelativeToolTip": "MyChat_Core\\MyChat_Core.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-02-18T14:13:02.689Z"
             }
           ]
         }
