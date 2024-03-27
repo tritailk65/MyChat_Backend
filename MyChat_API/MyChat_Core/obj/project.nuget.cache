@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Sm2Fo8KzPLQQa6WB3rH7FzOAmyg8tsd4OWP7iIb3a9UgFVQuZNDWNqIk1Xw6cUsQr1YPuDGW1Tljo1AaBMB2Uw==",
+  "dgSpecHash": "katMi9RhU/CXILQLkI5jTjUvGR2Q8s4BOQ/AoPaqgkZ5QYSprKwdwPVp6wPTGP8qCI1I+OedwuqI8kUCMYouqQ==",
   "success": true,
-  "projectFilePath": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\MyChat_Core.csproj",
+  "projectFilePath": "C:\\Users\\Dell\\Documents\\GitHub\\MyChat_API\\MyChat_API\\MyChat_Core\\MyChat_Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dell\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",

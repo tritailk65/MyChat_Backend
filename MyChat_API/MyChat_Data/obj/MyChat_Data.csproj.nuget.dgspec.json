@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\MyChat_Data.csproj": {}
+    "C:\\Users\\Dell\\Documents\\GitHub\\MyChat_API\\MyChat_API\\MyChat_Data\\MyChat_Data.csproj": {}
   },
   "projects": {
-    "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\MyChat_Data.csproj": {
+    "C:\\Users\\Dell\\Documents\\GitHub\\MyChat_API\\MyChat_API\\MyChat_Data\\MyChat_Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\MyChat_Data.csproj",
+        "projectUniqueName": "C:\\Users\\Dell\\Documents\\GitHub\\MyChat_API\\MyChat_API\\MyChat_Data\\MyChat_Data.csproj",
         "projectName": "MyChat_Data",
-        "projectPath": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\MyChat_Data.csproj",
+        "projectPath": "C:\\Users\\Dell\\Documents\\GitHub\\MyChat_API\\MyChat_API\\MyChat_Data\\MyChat_Data.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\obj\\",
+        "outputPath": "C:\\Users\\Dell\\Documents\\GitHub\\MyChat_API\\MyChat_API\\MyChat_Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",

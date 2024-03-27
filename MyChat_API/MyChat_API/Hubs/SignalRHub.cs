@@ -14,5 +14,6 @@ namespace MyChat_API.Hubs
             // Gửi tín hiệu gọi điện tới receiverId
             await Clients.User(receiverId.ToString()).SendAsync("ReceiveCall", callerId);
         }
+
     }
 }

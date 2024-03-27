@@ -159,6 +159,32 @@ namespace MyChat_Data.Migrations
                     b.HasIndex("UserId");
 
                     b.ToTable("Chat", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Chatid = 1,
+                            Content = "Xin Chao",
+                            Participants = 5,
+                            Title = "Hackathon",
+                            created_at = new DateTime(2024, 3, 27, 22, 32, 36, 878, DateTimeKind.Local).AddTicks(303)
+                        },
+                        new
+                        {
+                            Chatid = 2,
+                            Content = "Xin Chao",
+                            Participants = 5,
+                            Title = "Web2",
+                            created_at = new DateTime(2024, 3, 27, 22, 32, 36, 878, DateTimeKind.Local).AddTicks(321)
+                        },
+                        new
+                        {
+                            Chatid = 3,
+                            Content = "Xin Chao",
+                            Participants = 5,
+                            Title = "Android 2",
+                            created_at = new DateTime(2024, 3, 27, 22, 32, 36, 878, DateTimeKind.Local).AddTicks(328)
+                        });
                 });
 
             modelBuilder.Entity("MyChat_Data.Entities.Contact", b =>
@@ -189,6 +215,18 @@ namespace MyChat_Data.Migrations
                             contact_id = 1,
                             UserId = new Guid("69bd714f-9576-45ba-b5b7-f00649be00de"),
                             contact_phone = "0797169613"
+                        },
+                        new
+                        {
+                            contact_id = 2,
+                            UserId = new Guid("69bd714f-9576-45ba-b5b7-f00649be00de"),
+                            contact_phone = "0765184992"
+                        },
+                        new
+                        {
+                            contact_id = 3,
+                            UserId = new Guid("69bd714f-9576-45ba-b5b7-f00649be00de"),
+                            contact_phone = "0364748018"
                         });
                 });
 
@@ -221,6 +259,16 @@ namespace MyChat_Data.Migrations
                     b.HasIndex("ChatId");
 
                     b.ToTable("Messenger", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            MessengerId = 1,
+                            ChatId = 1,
+                            Constamps = new DateTime(2002, 1, 24, 0, 2, 0, 0, DateTimeKind.Unspecified),
+                            Content = "Hello",
+                            status = true
+                        });
                 });
 
             modelBuilder.Entity("MyChat_Data.Entities.User", b =>
@@ -308,7 +356,7 @@ namespace MyChat_Data.Migrations
                             Id = new Guid("69bd714f-9576-45ba-b5b7-f00649be00de"),
                             AccessFailedCount = 0,
                             Birthday = new DateTime(2002, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            ConcurrencyStamp = "1ad5c300-50a8-4d29-bbcb-29beb844fc16",
+                            ConcurrencyStamp = "3b7bde25-7f5a-4d24-a81f-10f30ade7976",
                             Email = "admin@gmail.com",
                             EmailConfirmed = true,
                             FirstName = "admin",
@@ -316,7 +364,7 @@ namespace MyChat_Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "admin@gmail.com",
                             NormalizedUserName = "admin",
-                            PasswordHash = "AQAAAAEAACcQAAAAEOUoWgIlGn+QulkOOXsafChGE4XU1AZy/U5Ry5M1GYoXFESIXhVynXbV8FvWqXLWGg==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEMEx0pfHxvEqebXHI48JbGpKsA4cv8V0bBxM1sgcWdo2tsG2WERUFv/LG1dC8X4xgg==",
                             PhoneNumber = "0765184992",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
@@ -324,7 +372,7 @@ namespace MyChat_Data.Migrations
                             TwoFactorEnabled = false,
                             UserName = "admin",
                             Username_Display = "admin",
-                            last_seen = new DateTime(2024, 3, 26, 10, 27, 24, 641, DateTimeKind.Local).AddTicks(3373)
+                            last_seen = new DateTime(2024, 3, 27, 22, 32, 36, 879, DateTimeKind.Local).AddTicks(2390)
                         });
                 });
 
@@ -356,7 +404,7 @@ namespace MyChat_Data.Migrations
                         new
                         {
                             Id = new Guid("8d04dce2-969a-435d-bba4-df3f325983dc"),
-                            ConcurrencyStamp = "cd897052-885a-478a-9725-2f663a972f85",
+                            ConcurrencyStamp = "b3c52614-cb40-4add-879f-e76f713ea436",
                             Description = "Administrator role",
                             Name = "admin",
                             NormalizedName = "admin"

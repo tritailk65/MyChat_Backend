@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aIXJPqbxn7+wCba02fJFdZldgHtj+rQbQpWJopvLfOFwy7WTNTk0NBOnw4tkHRBFntN20Rjz6ITPlui1yzjGcA==",
+  "dgSpecHash": "U1ejvB0Cl4RgYbXBWYuu5AlMDdvuw2o1c0VamLuR0RBzbywqO5KJyBdc8i4TUEncxicgq7NeJMxZLl1EEEe5BA==",
   "success": true,
-  "projectFilePath": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\MyChat_Data.csproj",
+  "projectFilePath": "C:\\Users\\Dell\\Documents\\GitHub\\MyChat_API\\MyChat_API\\MyChat_Data\\MyChat_Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dell\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.0\\microsoft.aspnetcore.cryptography.internal.6.0.0.nupkg.sha512",

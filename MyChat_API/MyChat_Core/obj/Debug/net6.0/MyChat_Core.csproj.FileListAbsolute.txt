@@ -44,3 +44,19 @@ E:\MyChat_API-Khai-s_API (1)\MyChat_API-Khai-s_API\MyChat_API\MyChat_Core\obj\De
 E:\MyChat_API-Khai-s_API (1)\MyChat_API-Khai-s_API\MyChat_API\MyChat_Core\obj\Debug\net6.0\refint\MyChat_Core.dll
 E:\MyChat_API-Khai-s_API (1)\MyChat_API-Khai-s_API\MyChat_API\MyChat_Core\obj\Debug\net6.0\MyChat_Core.pdb
 E:\MyChat_API-Khai-s_API (1)\MyChat_API-Khai-s_API\MyChat_API\MyChat_Core\obj\Debug\net6.0\ref\MyChat_Core.dll
+C:\Users\Dell\Documents\GitHub\MyChat_API\MyChat_API\MyChat_Core\bin\Debug\net6.0\MyChat_Core.deps.json
+C:\Users\Dell\Documents\GitHub\MyChat_API\MyChat_API\MyChat_Core\bin\Debug\net6.0\MyChat_Core.dll
+C:\Users\Dell\Documents\GitHub\MyChat_API\MyChat_API\MyChat_Core\bin\Debug\net6.0\MyChat_Core.pdb
+C:\Users\Dell\Documents\GitHub\MyChat_API\MyChat_API\MyChat_Core\bin\Debug\net6.0\MyChat_Data.dll
+C:\Users\Dell\Documents\GitHub\MyChat_API\MyChat_API\MyChat_Core\bin\Debug\net6.0\MyChat_Data.pdb
+C:\Users\Dell\Documents\GitHub\MyChat_API\MyChat_API\MyChat_Core\obj\Debug\net6.0\MyChat_Core.csproj.AssemblyReference.cache
+C:\Users\Dell\Documents\GitHub\MyChat_API\MyChat_API\MyChat_Core\obj\Debug\net6.0\MyChat_Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell\Documents\GitHub\MyChat_API\MyChat_API\MyChat_Core\obj\Debug\net6.0\MyChat_Core.AssemblyInfoInputs.cache
+C:\Users\Dell\Documents\GitHub\MyChat_API\MyChat_API\MyChat_Core\obj\Debug\net6.0\MyChat_Core.AssemblyInfo.cs
+C:\Users\Dell\Documents\GitHub\MyChat_API\MyChat_API\MyChat_Core\obj\Debug\net6.0\MyChat_Core.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Documents\GitHub\MyChat_API\MyChat_API\MyChat_Core\obj\Debug\net6.0\MyChat_Core.sourcelink.json
+C:\Users\Dell\Documents\GitHub\MyChat_API\MyChat_API\MyChat_Core\obj\Debug\net6.0\MyChat_C.B89725DD.Up2Date
+C:\Users\Dell\Documents\GitHub\MyChat_API\MyChat_API\MyChat_Core\obj\Debug\net6.0\MyChat_Core.dll
+C:\Users\Dell\Documents\GitHub\MyChat_API\MyChat_API\MyChat_Core\obj\Debug\net6.0\refint\MyChat_Core.dll
+C:\Users\Dell\Documents\GitHub\MyChat_API\MyChat_API\MyChat_Core\obj\Debug\net6.0\MyChat_Core.pdb
+C:\Users\Dell\Documents\GitHub\MyChat_API\MyChat_API\MyChat_Core\obj\Debug\net6.0\ref\MyChat_Core.dll

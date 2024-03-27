@@ -3196,11 +3196,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\MyChat_Core.csproj",
+      "projectUniqueName": "C:\\Users\\Dell\\Documents\\GitHub\\MyChat_API\\MyChat_API\\MyChat_Core\\MyChat_Core.csproj",
       "projectName": "MyChat_Core",
-      "projectPath": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\MyChat_Core.csproj",
+      "projectPath": "C:\\Users\\Dell\\Documents\\GitHub\\MyChat_API\\MyChat_API\\MyChat_Core\\MyChat_Core.csproj",
       "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Core\\obj\\",
+      "outputPath": "C:\\Users\\Dell\\Documents\\GitHub\\MyChat_API\\MyChat_API\\MyChat_Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3218,8 +3218,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\MyChat_Data.csproj": {
-              "projectPath": "E:\\MyChat_API-Khai-s_API (1)\\MyChat_API-Khai-s_API\\MyChat_API\\MyChat_Data\\MyChat_Data.csproj"
+            "C:\\Users\\Dell\\Documents\\GitHub\\MyChat_API\\MyChat_API\\MyChat_Data\\MyChat_Data.csproj": {
+              "projectPath": "C:\\Users\\Dell\\Documents\\GitHub\\MyChat_API\\MyChat_API\\MyChat_Data\\MyChat_Data.csproj"
             }
           }
         }
