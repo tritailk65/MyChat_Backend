@@ -22,60 +22,61 @@ namespace MyChat_Data.Extensions
                 contact_phone = "0797169613",
                 UserId = adminId
             });
-			modelBuilder.Entity<Contact>().HasData(
-			new Contact
-			{
-				contact_id = 2,
-				contact_phone = "0765184992",
-				UserId = adminId
-			});
-			modelBuilder.Entity<Contact>().HasData(
-			new Contact
-			{
-				contact_id = 3,
-				contact_phone = "0364748018",
-				UserId = adminId
-			});
+            modelBuilder.Entity<Contact>().HasData(
+            new Contact
+            {
+                contact_id = 2,
+                contact_phone = "0765184992",
+                UserId = adminId
+            });
+            modelBuilder.Entity<Contact>().HasData(
+            new Contact
+            {
+                contact_id = 3,
+                contact_phone = "0364748018",
+                UserId = adminId
+            });
 
-			modelBuilder.Entity<Chat>().HasData(
-			new Chat
-			{
-				Chatid=1,
-				Content = "Xin Chao",
-				created_at =DateTime.Now,
-                Participants=5,
-               Title="Hackathon",
-			});
-			modelBuilder.Entity<Chat>().HasData(
-			new Chat
-			{
-				Chatid = 2,
-				Content="Xin Chao",
-				created_at = DateTime.Now,
-				Participants=5,
-				Title = "Web2",
-			});
-			modelBuilder.Entity<Chat>().HasData(
-			new Chat
-			{
-				Chatid = 3,
-				Content = "Xin Chao",
-				created_at = DateTime.Now,
-                Participants=5,
-				Title = "Android 2",
-			});
+            modelBuilder.Entity<Chat>().HasData(
+            new Chat
+            {
+                Chatid = 1,
+                Content = "Xin Chao",
+                created_at = DateTime.Now,
+                Participants = 5,
+                Title = "Hackathon",
+            });
+            modelBuilder.Entity<Chat>().HasData(
+            new Chat
+            {
+                Chatid = 2,
+                Content = "Xin Chao",
+                created_at = DateTime.Now,
+                Participants = 5,
+                Title = "Web2",
+            });
+            modelBuilder.Entity<Chat>().HasData(
+            new Chat
+            {
+                Chatid = 3,
+                Content = "Xin Chao",
+                created_at = DateTime.Now,
+                Participants = 5,
+                Title = "Android 2",
+            });
 
             modelBuilder.Entity<Messenger>().HasData(
               new Messenger
               {
-                  MessengerId=1,
-                  ChatId= 1,
-                Constamps=DateTime.ParseExact("24/02/2002","dd/mm/yyyy",null),
-                Content="Hello",
-                status=true
+                  MessengerId = 1,
+                  ChatId = 1,
+                  Constamps = DateTime.ParseExact("24/02/2002", "dd/mm/yyyy", null),
+                  Content = "Hello",
+                  status = true
               });
 
-			modelBuilder.Entity<UserRole>().HasData(new UserRole
+
+            modelBuilder.Entity<UserRole>().HasData(new UserRole
             {
                 Id = roleId,
                 Name = "admin",

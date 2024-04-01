@@ -15,11 +15,10 @@ namespace MyChat_Data.Configurations
         {
             builder.ToTable("Chat");
             builder.HasKey(x => x.Chatid);
-			builder.Property(x => x.Chatid).UseIdentityColumn();
-			builder.Property(x => x.Title).IsRequired().HasMaxLength(255);
+            builder.Property(x => x.Chatid).UseIdentityColumn();
+            builder.Property(x => x.Title).IsRequired().HasMaxLength(255);
             builder.Property(x => x.Content).IsRequired().HasMaxLength(255);
             builder.Property(x => x.created_at).IsRequired().HasMaxLength(255);
-          
         }
     }
 }

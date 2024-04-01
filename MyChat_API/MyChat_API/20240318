@@ -502,4 +502,3 @@ Error Number:53,State:0,Class:20
    at MyChat_API.Extensions.GlobalErrorHandlingMiddleware.Invoke(HttpContext context) in E:\MyChat_API-Khai-s_API (1)\MyChat_API-Khai-s_API\MyChat_API\MyChat_API\Extensions\GlobalErrorHandlingMiddleware.cs:line 21
 ClientConnectionId:00000000-0000-0000-0000-000000000000
 Error Number:53,State:0,Class:20
-[2024-03-18 20:43:53.789] [Information] Login Successful:"admin"

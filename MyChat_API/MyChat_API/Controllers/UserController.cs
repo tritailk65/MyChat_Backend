@@ -37,7 +37,8 @@ namespace MyChat_API.Controllers
             if (!ModelState.IsValid)
 				return BadRequest(ModelState);
 
-			var resultToken = await userService.Authentication(request);
+			
+            var resultToken = await userService.Authentication(request);
    
 			if (string.IsNullOrEmpty(resultToken.ResultObj))
 			{

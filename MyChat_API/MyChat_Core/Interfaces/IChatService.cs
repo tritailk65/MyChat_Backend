@@ -7,8 +7,11 @@ using System.Threading.Tasks;
 
 namespace MyChat_Core.Interfaces
 {
-	public interface IChatService
-	{
-		Task<List<ChatVm>> GetAllList();
-	}
+    public interface IChatService
+    {
+        Task<List<ChatVm>> GetAllList();
+        Task<int> Create(CreateChatRequest request);
+        Task<int> Delete(int chatid);
+        Task<int> Update(UpdateChatRequest request);
+    }
 }

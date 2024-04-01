@@ -16,6 +16,7 @@ namespace MyChat_Data.Entities
         public string Username_Display { get; set; }
         public bool Status { get; set; }
         public DateTime last_seen { get; set; }
+        public List<Chat> Participants{ get; set; }
         public List<Contact> UserId { get; set; }
     }
 }

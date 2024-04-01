@@ -11,5 +11,7 @@ namespace MyChat_Core.Interfaces
     {
         Task<List<ContactVm>> GetAllList();
         Task<int> Create(CreateContactRequest request);
+        Task<int> Delete(int id);
+        Task<int> Update(UpdateContactRequest request);
     }
 }

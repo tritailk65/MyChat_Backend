@@ -34,9 +34,9 @@ builder.Services.AddTransient<UserManager<User>, UserManager<User>>();
 builder.Services.AddTransient<SignInManager<User>, SignInManager<User>>();
 builder.Services.AddTransient<RoleManager<UserRole>, RoleManager<UserRole>>();
 builder.Services.AddScoped<IUserService, UserService>();
-builder.Services.AddScoped<IChatService, ChatServices>();
-builder.Services.AddScoped<IMessengerService, MessengerService>();
 builder.Services.AddScoped<IContactService, ContactService>();
+builder.Services.AddScoped<IMessengerService, MessengerService>();
+builder.Services.AddScoped<IChatService, Chatservices>();
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -114,6 +114,7 @@ app.UseMiddleware(typeof(GlobalErrorHandlingMiddleware));
 
 app.UseHttpsRedirection();
 app.UseAuthentication();
+
 
 app.UseRouting();
 

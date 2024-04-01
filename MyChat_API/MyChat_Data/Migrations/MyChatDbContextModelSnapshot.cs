@@ -147,11 +147,16 @@ namespace MyChat_Data.Migrations
                         .HasMaxLength(255)
                         .HasColumnType("nvarchar(255)");
 
+                    b.Property<Guid?>("UserId")
+                        .HasColumnType("uniqueidentifier");
+
                     b.Property<DateTime>("created_at")
                         .HasMaxLength(255)
                         .HasColumnType("datetime2");
 
                     b.HasKey("Chatid");
+
+                    b.HasIndex("UserId");
 
                     b.ToTable("Chat", (string)null);
 
@@ -162,7 +167,7 @@ namespace MyChat_Data.Migrations
                             Content = "Xin Chao",
                             Participants = 5,
                             Title = "Hackathon",
-                            created_at = new DateTime(2024, 3, 19, 23, 26, 50, 135, DateTimeKind.Local).AddTicks(4561)
+                            created_at = new DateTime(2024, 3, 27, 22, 32, 36, 878, DateTimeKind.Local).AddTicks(303)
                         },
                         new
                         {
@@ -170,7 +175,7 @@ namespace MyChat_Data.Migrations
                             Content = "Xin Chao",
                             Participants = 5,
                             Title = "Web2",
-                            created_at = new DateTime(2024, 3, 19, 23, 26, 50, 135, DateTimeKind.Local).AddTicks(4589)
+                            created_at = new DateTime(2024, 3, 27, 22, 32, 36, 878, DateTimeKind.Local).AddTicks(321)
                         },
                         new
                         {
@@ -178,7 +183,7 @@ namespace MyChat_Data.Migrations
                             Content = "Xin Chao",
                             Participants = 5,
                             Title = "Android 2",
-                            created_at = new DateTime(2024, 3, 19, 23, 26, 50, 135, DateTimeKind.Local).AddTicks(4598)
+                            created_at = new DateTime(2024, 3, 27, 22, 32, 36, 878, DateTimeKind.Local).AddTicks(328)
                         });
                 });
 
@@ -351,7 +356,7 @@ namespace MyChat_Data.Migrations
                             Id = new Guid("69bd714f-9576-45ba-b5b7-f00649be00de"),
                             AccessFailedCount = 0,
                             Birthday = new DateTime(2002, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            ConcurrencyStamp = "5da49a06-b95b-434b-95b5-cf4be545ea57",
+                            ConcurrencyStamp = "3b7bde25-7f5a-4d24-a81f-10f30ade7976",
                             Email = "admin@gmail.com",
                             EmailConfirmed = true,
                             FirstName = "admin",
@@ -359,7 +364,7 @@ namespace MyChat_Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "admin@gmail.com",
                             NormalizedUserName = "admin",
-                            PasswordHash = "AQAAAAEAACcQAAAAEMgoyhbeVAS3LJzu9J9CA3OLp2NeBFGYB94IP2cgeFVwlbKQYTGR2PUC8xM01fhSeA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEMEx0pfHxvEqebXHI48JbGpKsA4cv8V0bBxM1sgcWdo2tsG2WERUFv/LG1dC8X4xgg==",
                             PhoneNumber = "0765184992",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
@@ -367,7 +372,7 @@ namespace MyChat_Data.Migrations
                             TwoFactorEnabled = false,
                             UserName = "admin",
                             Username_Display = "admin",
-                            last_seen = new DateTime(2024, 3, 19, 23, 26, 50, 143, DateTimeKind.Local).AddTicks(9119)
+                            last_seen = new DateTime(2024, 3, 27, 22, 32, 36, 879, DateTimeKind.Local).AddTicks(2390)
                         });
                 });
 
@@ -399,11 +404,18 @@ namespace MyChat_Data.Migrations
                         new
                         {
                             Id = new Guid("8d04dce2-969a-435d-bba4-df3f325983dc"),
-                            ConcurrencyStamp = "664a2833-78d2-4d13-9330-73580d0e8cfa",
+                            ConcurrencyStamp = "b3c52614-cb40-4add-879f-e76f713ea436",
                             Description = "Administrator role",
                             Name = "admin",
                             NormalizedName = "admin"
                         });
+                });
+
+            modelBuilder.Entity("MyChat_Data.Entities.Chat", b =>
+                {
+                    b.HasOne("MyChat_Data.Entities.User", null)
+                        .WithMany("Participants")
+                        .HasForeignKey("UserId");
                 });
 
             modelBuilder.Entity("MyChat_Data.Entities.Contact", b =>
@@ -435,6 +447,8 @@ namespace MyChat_Data.Migrations
 
             modelBuilder.Entity("MyChat_Data.Entities.User", b =>
                 {
+                    b.Navigation("Participants");
+
                     b.Navigation("UserId");
                 });
 #pragma warning restore 612, 618
