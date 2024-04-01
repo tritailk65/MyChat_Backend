@@ -30,6 +30,7 @@ namespace MyChat_API.Controllers
             APIResult rs = new APIResult();
             return rs.Success(dtUsers);
 		}
+
         [HttpPost("authenticate")]
         [AllowAnonymous]
         public async Task<IActionResult> Authenticate([FromBody] LoginRequest request)
@@ -47,6 +48,7 @@ namespace MyChat_API.Controllers
             logger.LogInformation("Login Successful:{username}",request.Name);
 			return Ok(resultToken);
 		}
+
         [HttpPost]
         [AllowAnonymous]
         public async Task<IActionResult> Register([FromBody] RegisterRequest request )
