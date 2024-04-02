@@ -67,5 +67,24 @@ namespace MyChat_API.Controllers
             _chatHubContext.Clients.All.SendAsync("SendMessage", senderId, receiverId, message);
             return Ok();
         }
+        [HttpPost("Private")]
+        public  async Task<IActionResult> SendPrivate(string sender, string recipient, string message)
+        {
+           await _chatHubContext.Clients.User(recipient).SendAsync("ReceiveMessage", sender, message);
+            return Ok();
+
+        }
+        [HttpPost("Broadcast")]
+        public async Task<IActionResult> BroadcastMess(string sender, string message)
+        {
+            await _chatHubContext.Clients.All.SendAsync("ReceiveMessage", sender, message);
+            return Ok();
+        }
+        [HttpPost("Group")]
+        public async Task <IActionResult> GroupMessage(string sender, string groupName, string message)
+        {
+            await _chatHubContext. Clients.Group(groupName).SendAsync("ReceiveMessage", sender, message);
+            return Ok();
+        }
     }
 }

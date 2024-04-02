@@ -12,8 +12,8 @@ using MyChat_Data.EF;
 namespace MyChat_Data.Migrations
 {
     [DbContext(typeof(MyChatDbContext))]
-    [Migration("20240401005701_tai-init")]
-    partial class taiinit
+    [Migration("20240401024439_init")]
+    partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -169,7 +169,7 @@ namespace MyChat_Data.Migrations
                             Content = "Xin Chao",
                             Participants = 5,
                             Title = "Hackathon",
-                            created_at = new DateTime(2024, 4, 1, 7, 57, 0, 701, DateTimeKind.Local).AddTicks(9066)
+                            created_at = new DateTime(2024, 4, 1, 9, 44, 39, 112, DateTimeKind.Local).AddTicks(3054)
                         },
                         new
                         {
@@ -177,7 +177,7 @@ namespace MyChat_Data.Migrations
                             Content = "Xin Chao",
                             Participants = 5,
                             Title = "Web2",
-                            created_at = new DateTime(2024, 4, 1, 7, 57, 0, 701, DateTimeKind.Local).AddTicks(9088)
+                            created_at = new DateTime(2024, 4, 1, 9, 44, 39, 112, DateTimeKind.Local).AddTicks(3084)
                         },
                         new
                         {
@@ -185,7 +185,7 @@ namespace MyChat_Data.Migrations
                             Content = "Xin Chao",
                             Participants = 5,
                             Title = "Android 2",
-                            created_at = new DateTime(2024, 4, 1, 7, 57, 0, 701, DateTimeKind.Local).AddTicks(9096)
+                            created_at = new DateTime(2024, 4, 1, 9, 44, 39, 112, DateTimeKind.Local).AddTicks(3097)
                         });
                 });
 
@@ -358,7 +358,7 @@ namespace MyChat_Data.Migrations
                             Id = new Guid("69bd714f-9576-45ba-b5b7-f00649be00de"),
                             AccessFailedCount = 0,
                             Birthday = new DateTime(2002, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            ConcurrencyStamp = "923f6c42-ec67-4dd0-8583-64f14f53fbd0",
+                            ConcurrencyStamp = "aa827cf5-3c02-4bba-89e7-eb9129c6c69c",
                             Email = "admin@gmail.com",
                             EmailConfirmed = true,
                             FirstName = "admin",
@@ -366,7 +366,7 @@ namespace MyChat_Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "admin@gmail.com",
                             NormalizedUserName = "admin",
-                            PasswordHash = "AQAAAAEAACcQAAAAELUHgysTrO2H2vGMdfnvtYfmbzBDvJbGlAW5ZcqzrRu2VHtxG63bzFMkOvUd1niT1w==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEMN6HEsnuFM+FW6uSqdJwOILALv6CeIEkQxfcs0PVnHHpNE3DC5+w+FMnyWWBbVq3g==",
                             PhoneNumber = "0765184992",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
@@ -374,7 +374,7 @@ namespace MyChat_Data.Migrations
                             TwoFactorEnabled = false,
                             UserName = "admin",
                             Username_Display = "admin",
-                            last_seen = new DateTime(2024, 4, 1, 7, 57, 0, 703, DateTimeKind.Local).AddTicks(6452)
+                            last_seen = new DateTime(2024, 4, 1, 9, 44, 39, 114, DateTimeKind.Local).AddTicks(1087)
                         });
                 });
 
@@ -406,7 +406,7 @@ namespace MyChat_Data.Migrations
                         new
                         {
                             Id = new Guid("8d04dce2-969a-435d-bba4-df3f325983dc"),
-                            ConcurrencyStamp = "90e9c98f-1906-4ce9-9504-c1e0913b3a1b",
+                            ConcurrencyStamp = "15c5f239-3763-4fde-977d-dd9ec35dd58e",
                             Description = "Administrator role",
                             Name = "admin",
                             NormalizedName = "admin"
