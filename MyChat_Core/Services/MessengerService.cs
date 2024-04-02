@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace MyChat_Core.Services
 {
-    public class MessengerService:IMessengerService
+    public class MessengerService : IMessengerService
     {
         private readonly MyChatDbContext _myChatDbContext;
         public MessengerService(MyChatDbContext myChatDbContext)
@@ -30,10 +30,10 @@ namespace MyChat_Core.Services
                         select new { c, ct };
             return await query.Select(x => new MessengerVm()
             {
-               Content=x.c.Content,
-               Constamps=x.c.Constamps,
-               status=x.c.status,
-               ChatId=x.ct.Chatid
+                Content = x.c.Content,
+                Constamps = x.c.Constamps,
+                status = x.c.status,
+                ChatId = x.ct.Chatid
             }).ToListAsync();
         }
 
@@ -41,21 +41,46 @@ namespace MyChat_Core.Services
         {
             var mess = new Messenger()
             {
-               Content=request.Content,
-               Constamps=request.Constamps,
-               status=request.status,
-               Chat=new Chat()
-               {
-                   Title=request.Title,
-                   Participants=request.Participants,
-                   
-               }
+                Content = request.Content,
+                Constamps = request.Constamps,
+                status = request.status,
+                Chat = new Chat()
+                {
+                    Title = request.Title,
+                    Participants = request.Participants,
+
+                }
             };
             _myChatDbContext.Messengers.Add(mess);
             await _myChatDbContext.SaveChangesAsync();
             return mess.ChatId;
         }
 
-       
+        public async Task<int> Delete(int id)
+        {
+            var mess = await _myChatDbContext.Messengers.FindAsync(id);
+            if (mess == null)
+                return 0;
+            _myChatDbContext.Remove(mess);
+            return await _myChatDbContext.SaveChangesAsync();
+        }
+
+        public async Task<int> Update(UpdateMessengerRequest request)
+        {
+            var message = await _myChatDbContext.Messengers.FindAsync(request.Id);
+
+            if (message == null)
+                throw new Exception($"Can't find Contacts with id:{request.Id}");
+            message.Content = request.Content;
+            message.Constamps = request.Constamps;
+            message.status = request.status;
+            message.Chat = new Chat()
+            {
+                Participants = request.Participants,
+                Title = request.Title
+            };
+
+            return await _myChatDbContext.SaveChangesAsync();
+        }
     }
 }
