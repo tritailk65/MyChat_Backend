@@ -1,11 +1,13 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
+using MimeKit;
 using MyChat_Core.Common;
 using MyChat_Core.Interfaces;
 using MyChat_Core.ViewModels;
 using MyChat_Data.EF;
 using MyChat_Data.Entities;
+using System.Net.Mail;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -14,6 +16,9 @@ using System.Linq;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
+using MailKit.Security;
+using MailKit.Net.Smtp;
+using Microsoft.Extensions.Options;
 
 namespace MyChat_Core.Services
 {
@@ -23,13 +28,15 @@ namespace MyChat_Core.Services
         private readonly UserManager<User> _userManager;
         private readonly SignInManager<User> _signInManager;
         private readonly IConfiguration _config;
+        private readonly EmailSettings emailSettings;
         public UserService(MyChatDbContext db, UserManager<User> userManager, SignInManager<User> signInManager, 
-            IConfiguration config)
+            IConfiguration config, IOptions<EmailSettings> options)
         {
             _db = db;
             _userManager = userManager;
             _signInManager = signInManager;
             _config = config;
+            this.emailSettings = options.Value;
         }
 
 		public async Task<ApiResult<string>> Authentication(LoginRequest request)
@@ -76,11 +83,27 @@ namespace MyChat_Core.Services
                 Birthday=request.Birthday,
                 FirstName=request.FirstName,
                 LastName=request.LastName,
-                UserName=request.UserName,
+                UserName=request.Username,
+                Status=request.Status,
                 Email=request.Email,
                 PhoneNumber=request.PhoneNumber
             };
-			var result = await _userManager.CreateAsync(user, request.Password);
+            request.Title = "MyChatApp";
+            request.Body = "Hello";
+            var result = await _userManager.CreateAsync(user, request.Password);
+            var email = new MimeMessage();
+            email.Sender = MailboxAddress.Parse(emailSettings.Email);
+            email.To.Add(MailboxAddress.Parse(request.Email));
+            email.Subject = request.Title;
+            var builder = new BodyBuilder();
+            builder.HtmlBody = request.Body;
+            email.Body = builder.ToMessageBody();
+            using var smtp = new MailKit.Net.Smtp.SmtpClient();
+            smtp.Connect(emailSettings.Host, emailSettings.Port, SecureSocketOptions.StartTls);
+            smtp.Authenticate(emailSettings.Email, emailSettings.Password);
+            await smtp.SendAsync(email);
+            smtp.Disconnect(true);
+
             if (result.Succeeded)
             {
                 return true;

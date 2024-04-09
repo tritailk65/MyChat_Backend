@@ -25,7 +25,7 @@ namespace MyChat_Core.ViewModels
 
 			RuleFor(x => x.PhoneNumber).NotEmpty().WithMessage("Phone number is required");
 
-			RuleFor(x => x.UserName).NotEmpty().WithMessage("User name is required");
+			RuleFor(x => x.Username).NotEmpty().WithMessage("User name is required");
 
 			RuleFor(x => x.Password).NotEmpty().WithMessage("Password is required")
 				.MinimumLength(6).WithMessage("Password is at least 6 characters");
