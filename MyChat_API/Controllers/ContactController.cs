@@ -46,6 +46,18 @@ namespace MyChat_API.Controllers
                 return BadRequest();
             return Ok();
         }
+        [HttpPut]
+        public async Task<IActionResult> Update([FromForm] UpdateContactRequest request)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+            var affectedReSult = await _contactService.Update(request);
+            if (affectedReSult == 0)
+                return BadRequest();
+            return Ok();
+        }
         
     }
 }

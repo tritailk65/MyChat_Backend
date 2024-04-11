@@ -17,7 +17,7 @@ var builder = WebApplication.CreateBuilder(args);
 ConfigurationManager configuration = builder.Configuration;
 
 //SignalR for auto send data to client
-builder.Services.AddSignalR();
+
 
 //Serilog with log rest API
 var logger = new LoggerConfiguration()
@@ -37,6 +37,18 @@ builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IContactService, ContactService>();
 builder.Services.AddScoped<IMessengerService, MessengerService>();
 builder.Services.AddScoped<IChatService, Chatservices>();
+builder.Services.AddSignalR();
+builder.Services.Configure<EmailSettings>(builder.Configuration.GetSection("EmailSettings"));
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAllOrigins",
+        builder =>
+        {
+            builder.AllowAnyOrigin()
+                   .AllowAnyMethod()
+                   .AllowAnyHeader();
+        });
+});
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -79,6 +91,7 @@ builder.Services.AddAuthentication(opt =>
 {
 	opt.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
 	opt.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+
 })
 .AddJwtBearer(options =>
 {
@@ -126,7 +139,7 @@ app.UseEndpoints(endpoints =>
         name: "default",
         pattern: "{controller=Home}/{action=Value}/{id?}");
 
-    endpoints.MapHub<SignalRHub>("/signalrHub");
+    endpoints.MapHub<SignalRHub>("/SignalRHub");
 
 });
 

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.SignalR;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.SignalR;
 
 namespace MyChat_API.Hubs
 {
@@ -14,6 +15,6 @@ namespace MyChat_API.Hubs
             // Gửi tín hiệu gọi điện tới receiverId
             await Clients.User(receiverId.ToString()).SendAsync("ReceiveCall", callerId);
         }
-
+       
     }
 }

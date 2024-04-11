@@ -12,8 +12,8 @@ using MyChat_Data.EF;
 namespace MyChat_Data.Migrations
 {
     [DbContext(typeof(MyChatDbContext))]
-    [Migration("20240401005701_tai-init")]
-    partial class taiinit
+    [Migration("20240409074721_init")]
+    partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -169,7 +169,7 @@ namespace MyChat_Data.Migrations
                             Content = "Xin Chao",
                             Participants = 5,
                             Title = "Hackathon",
-                            created_at = new DateTime(2024, 4, 1, 7, 57, 0, 701, DateTimeKind.Local).AddTicks(9066)
+                            created_at = new DateTime(2024, 4, 9, 14, 47, 21, 349, DateTimeKind.Local).AddTicks(1635)
                         },
                         new
                         {
@@ -177,7 +177,7 @@ namespace MyChat_Data.Migrations
                             Content = "Xin Chao",
                             Participants = 5,
                             Title = "Web2",
-                            created_at = new DateTime(2024, 4, 1, 7, 57, 0, 701, DateTimeKind.Local).AddTicks(9088)
+                            created_at = new DateTime(2024, 4, 9, 14, 47, 21, 349, DateTimeKind.Local).AddTicks(1654)
                         },
                         new
                         {
@@ -185,7 +185,7 @@ namespace MyChat_Data.Migrations
                             Content = "Xin Chao",
                             Participants = 5,
                             Title = "Android 2",
-                            created_at = new DateTime(2024, 4, 1, 7, 57, 0, 701, DateTimeKind.Local).AddTicks(9096)
+                            created_at = new DateTime(2024, 4, 9, 14, 47, 21, 349, DateTimeKind.Local).AddTicks(1660)
                         });
                 });
 
@@ -339,11 +339,6 @@ namespace MyChat_Data.Migrations
                     b.Property<string>("UserName")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Username_Display")
-                        .IsRequired()
-                        .HasMaxLength(255)
-                        .HasColumnType("nvarchar(255)");
-
                     b.Property<DateTime>("last_seen")
                         .HasMaxLength(255)
                         .HasColumnType("datetime2");
@@ -358,7 +353,7 @@ namespace MyChat_Data.Migrations
                             Id = new Guid("69bd714f-9576-45ba-b5b7-f00649be00de"),
                             AccessFailedCount = 0,
                             Birthday = new DateTime(2002, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            ConcurrencyStamp = "923f6c42-ec67-4dd0-8583-64f14f53fbd0",
+                            ConcurrencyStamp = "00f6af2d-6f11-4f2a-a959-fe0d981cae67",
                             Email = "admin@gmail.com",
                             EmailConfirmed = true,
                             FirstName = "admin",
@@ -366,15 +361,14 @@ namespace MyChat_Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "admin@gmail.com",
                             NormalizedUserName = "admin",
-                            PasswordHash = "AQAAAAEAACcQAAAAELUHgysTrO2H2vGMdfnvtYfmbzBDvJbGlAW5ZcqzrRu2VHtxG63bzFMkOvUd1niT1w==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEAIiLPfiAnQVb+erkUSA61xa9phJpTRq6Rxy+3Av+ZTGBPTI9QO5ljJ5FGPBhOQXyA==",
                             PhoneNumber = "0765184992",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             Status = true,
                             TwoFactorEnabled = false,
                             UserName = "admin",
-                            Username_Display = "admin",
-                            last_seen = new DateTime(2024, 4, 1, 7, 57, 0, 703, DateTimeKind.Local).AddTicks(6452)
+                            last_seen = new DateTime(2024, 4, 9, 14, 47, 21, 350, DateTimeKind.Local).AddTicks(2364)
                         });
                 });
 
@@ -406,7 +400,7 @@ namespace MyChat_Data.Migrations
                         new
                         {
                             Id = new Guid("8d04dce2-969a-435d-bba4-df3f325983dc"),
-                            ConcurrencyStamp = "90e9c98f-1906-4ce9-9504-c1e0913b3a1b",
+                            ConcurrencyStamp = "627339fc-dade-4ee4-a7e9-3e8826051591",
                             Description = "Administrator role",
                             Name = "admin",
                             NormalizedName = "admin"

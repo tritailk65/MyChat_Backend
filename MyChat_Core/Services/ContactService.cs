@@ -30,7 +30,7 @@ namespace MyChat_Core.Services
                     LastName = request.LastName,
                     PhoneNumber = request.PhoneNumber,
                     Birthday = request.Birthday,
-                    Username_Display = request.Username_Display,
+                    UserName = request.Username_Display,
                     last_seen = request.last_seen,
                     Status = request.Status
                 }

@@ -12,6 +12,8 @@ namespace MyChat_Core.Interfaces
     {
         Task<List<MessengerVm>> GetAllList();
         Task<int> Create(MessengerRequest request);
+        Task<int> Delete(int id);
+        Task<int> Update(UpdateMessengerRequest request);
 
     }
 }

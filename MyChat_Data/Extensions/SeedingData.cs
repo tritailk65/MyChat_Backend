@@ -101,7 +101,7 @@ namespace MyChat_Data.Extensions
                 PhoneNumber="0765184992",
                 last_seen=DateTime.Now,
                 Status=true,
-                Username_Display="admin"
+                
             });
 
             modelBuilder.Entity<IdentityUserRole<Guid>>().HasData(new IdentityUserRole<Guid>

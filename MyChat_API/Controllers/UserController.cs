@@ -11,6 +11,7 @@ namespace MyChat_API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    
     public class UserController : ControllerBase
     {
         private readonly IUserService userService;
@@ -23,6 +24,7 @@ namespace MyChat_API.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         public APIResult GetAllUser()
         {
 			logger.LogInformation(Request.Method + " " + Request.Scheme + "://" + Request.Host + Request.Path);
