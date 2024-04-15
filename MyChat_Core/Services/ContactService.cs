@@ -61,6 +61,22 @@ namespace MyChat_Core.Services
                 UserId=x.ct.Id
             }).ToListAsync();
         }
+
+        public async Task<ContactVm> GetbyId(Guid id)
+        {
+            var query = from c in _myChatDbContext.Contacts
+                        join ct in _myChatDbContext.Users on c.UserId equals ct.Id
+                        where c.UserId == id
+                        select new { c, ct };
+            return await query.Select(x => new ContactVm()
+            {
+               contact_id=x.c.contact_id,
+               contact_phone=x.c.contact_phone,
+               UserId=x.ct.Id
+
+            }).FirstOrDefaultAsync();
+        }
+
         public async Task<int> Update(UpdateContactRequest request)
         {
             var contact = await _myChatDbContext.Contacts.FindAsync(request.Id);

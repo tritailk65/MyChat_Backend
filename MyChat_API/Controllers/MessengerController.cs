@@ -60,5 +60,15 @@ namespace MyChat_API.Controllers
                 return BadRequest();
             return Ok();
         }
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetbyId(int id)
+        {
+            var mess = await _messengerService.GetById(id);
+            if (mess == null)
+            {
+                return NotFound(); // Trả về mã lỗi 404 nếu không tìm thấy user
+            }
+            return Ok(mess);
+        }
     }
 }

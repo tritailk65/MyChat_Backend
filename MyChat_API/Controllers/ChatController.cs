@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SignalR;
 using MyChat_API.Hubs;
 using MyChat_Core.Interfaces;
+using MyChat_Core.Services;
 using MyChat_Core.ViewModels;
 using MyChat_Data.EF;
 
@@ -85,6 +86,16 @@ namespace MyChat_API.Controllers
         {
             await _chatHubContext. Clients.Group(groupName).SendAsync("ReceiveMessage", sender, message);
             return Ok();
+        }
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetbyId(int id)
+        {
+            var chat = await _chatService.GetById(id);
+            if (chat == null)
+            {
+                return NotFound(); // Trả về mã lỗi 404 nếu không tìm thấy user
+            }
+            return Ok(chat);
         }
     }
 }
