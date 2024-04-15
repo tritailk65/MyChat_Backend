@@ -91,7 +91,8 @@ namespace MyChat_Core.Services
             request.Title = "MyChatApp";
             request.Body = "Hello";
             var result = await _userManager.CreateAsync(user, request.Password);
-            var email = new MimeMessage();
+
+/*            var email = new MimeMessage();
             email.Sender = MailboxAddress.Parse(emailSettings.Email);
             email.To.Add(MailboxAddress.Parse(request.Email));
             email.Subject = request.Title;
@@ -102,7 +103,7 @@ namespace MyChat_Core.Services
             smtp.Connect(emailSettings.Host, emailSettings.Port, SecureSocketOptions.StartTls);
             smtp.Authenticate(emailSettings.Email, emailSettings.Password);
             await smtp.SendAsync(email);
-            smtp.Disconnect(true);
+            smtp.Disconnect(true);*/
 
             if (result.Succeeded)
             {

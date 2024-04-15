@@ -37,6 +37,7 @@ namespace MyChat_API.Controllers
         [AllowAnonymous]
         public async Task<IActionResult> Authenticate([FromBody] LoginRequest request)
         {
+            logger.LogInformation(Request.Method + " " + Request.Scheme + "://" + Request.Host + Request.Path+ Request.Query);
             if (!ModelState.IsValid)
 				return BadRequest(ModelState);
 
@@ -55,6 +56,7 @@ namespace MyChat_API.Controllers
         [AllowAnonymous]
         public async Task<IActionResult> Register([FromBody] RegisterRequest request )
         {
+            logger.LogInformation(Request.Method + " " + Request.Scheme + "://" + Request.Host + Request.Path + Request.Query);
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
