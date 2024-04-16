@@ -32,6 +32,16 @@ namespace MyChat_API.Controllers
             APIResult rs = new APIResult();
             return rs.Success(dtUsers);
 		}
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetbyId(Guid id)
+        {
+            var user = await userService.GetbyId(id);
+            if (user == null)
+            {
+                return NotFound(); // Trả về mã lỗi 404 nếu không tìm thấy user
+            }
+            return Ok(user);
+        }
 
         [HttpPost("authenticate")]
         [AllowAnonymous]

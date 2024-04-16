@@ -36,7 +36,7 @@ namespace MyChat_Core.Services
                 ChatId = x.ct.Chatid
             }).ToListAsync();
         }
-
+       
         public async Task<int> Create(MessengerRequest request)
         {
             var mess = new Messenger()
@@ -81,6 +81,26 @@ namespace MyChat_Core.Services
             };
 
             return await _myChatDbContext.SaveChangesAsync();
+        }
+
+        public async Task<MessengerVm> GetById(int id)
+        {
+
+            var query = from c in _myChatDbContext.Messengers
+                        join ct in _myChatDbContext.Chats on c.ChatId equals ct.Chatid
+                        where c.ChatId == id
+                        select new { c, ct };
+            return await query.Select(x => new MessengerVm()
+            {
+                ChatId=x.c.ChatId,
+                Content=x.c.Content,
+                Constamps=x.c.Constamps,
+                Title=x.ct.Title,
+                Participants=x.ct.Participants,
+                status=x.c.status
+
+
+            }).FirstOrDefaultAsync();
         }
     }
 }

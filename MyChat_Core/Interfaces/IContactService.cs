@@ -13,5 +13,6 @@ namespace MyChat_Core.Interfaces
         Task<int> Create(CreateContactRequest request);
         Task<int> Delete(int id);
         Task<int> Update(UpdateContactRequest request);
+        Task<ContactVm> GetbyId(int id);
     }
 }
