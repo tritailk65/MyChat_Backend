@@ -14,13 +14,15 @@ namespace MyChat_API.Controllers
     
     public class UserController : ControllerBase
     {
+        public static IWebHostEnvironment _webHostEnvironment;
         private readonly IUserService userService;
         private readonly ILogger<UserController> logger;
 
-        public UserController(IUserService userService, ILogger<UserController> logger)
+        public UserController(IUserService userService, ILogger<UserController> logger, IWebHostEnvironment webHostEnvironment)
         {
             this.userService = userService;
             this.logger = logger;
+            _webHostEnvironment = webHostEnvironment;
         }
 
         [HttpGet]
@@ -77,5 +79,6 @@ namespace MyChat_API.Controllers
 			logger.LogInformation("Register Successful:{username}", request.Email);
 			return Ok(result);
         }
+      
     }
 }
