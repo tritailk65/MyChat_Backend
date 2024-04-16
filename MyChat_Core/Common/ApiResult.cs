@@ -10,6 +10,7 @@ namespace MyChat_Core.Common
 	{
 		public bool IsSuccessed { get; set; }
 		public string Message { get; set; }
-		public T ResultObj { get; set; }
+		public string Exception { get; set; }	
+		public T Data { get; set; }
 	}
 }
