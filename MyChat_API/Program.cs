@@ -126,8 +126,8 @@ else
 app.UseMiddleware(typeof(GlobalErrorHandlingMiddleware));
 
 app.UseHttpsRedirection();
-app.UseAuthentication();
 
+app.UseAuthentication();
 
 app.UseRouting();
 

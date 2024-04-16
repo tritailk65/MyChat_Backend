@@ -11,7 +11,7 @@ namespace MyChat_Core.ViewModels
 	{
 		public LoginRequestValidator()
 		{
-			RuleFor(x => x.Name).NotEmpty().WithMessage("UserName is Required");
+			RuleFor(x => x.Email).NotEmpty().WithMessage("Email is Required");
 			RuleFor(x => x.Password).NotEmpty().WithMessage("Password is Required")
 				.MinimumLength(6).WithMessage("Password is at least 6 character");
 		}

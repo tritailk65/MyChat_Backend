@@ -19,6 +19,7 @@ using System.Threading.Tasks;
 using MailKit.Security;
 using MailKit.Net.Smtp;
 using Microsoft.Extensions.Options;
+using Microsoft.EntityFrameworkCore;
 
 namespace MyChat_Core.Services
 {
@@ -41,7 +42,7 @@ namespace MyChat_Core.Services
 
 		public async Task<ApiResult<string>> Authentication(LoginRequest request)
 		{
-			var user = await _userManager.FindByNameAsync(request.Name);
+			var user = await _userManager.FindByEmailAsync(request.Email);
 			if (user == null)
 				return new ApiErrorResult<string>("Khong tim thay ");
 			var result = await _signInManager.
@@ -57,7 +58,7 @@ namespace MyChat_Core.Services
 				 new Claim(ClaimTypes.Email,user.Email),
 				 new Claim(ClaimTypes.GivenName,user.FirstName),
 				 new Claim(ClaimTypes.Role,string.Join(";",roles)),
-				 new Claim(ClaimTypes.Name,request.Name)
+				 new Claim(ClaimTypes.Name,user.UserName)
 			 };
 			//Ma Hoa Bang Thu Vien SymmerTric
 			var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Tokens:Key"]));
@@ -70,13 +71,27 @@ namespace MyChat_Core.Services
 				);
 			return new ApiSuccessResult<string>(new JwtSecurityTokenHandler().WriteToken(token));
 		}
+        public async Task<UserViewModel>GetbyId(Guid id)
+        {
+            var query = from c in _db.Users
+                        where c.Id==id
+                        select new { c};
+            return await query.Select(x => new UserViewModel()
+            {
+               Id=x.c.Id,
+               Email=x.c.Email,
+               FirstName=x.c.FirstName,
+               LastName=x.c.LastName,
+               UserName=x.c.UserName
 
+            }).FirstOrDefaultAsync();
+        }
 		public List<User> GetAllUser()
         {
             return _db.Users.ToList();
         }
 
-		public async Task<bool> Register(RegisterRequest request)
+		public async Task<string> Register(RegisterRequest request)
 		{
             var user = new User()
             {
@@ -91,7 +106,8 @@ namespace MyChat_Core.Services
             request.Title = "MyChatApp";
             request.Body = "Hello";
             var result = await _userManager.CreateAsync(user, request.Password);
-            var email = new MimeMessage();
+
+/*            var email = new MimeMessage();
             email.Sender = MailboxAddress.Parse(emailSettings.Email);
             email.To.Add(MailboxAddress.Parse(request.Email));
             email.Subject = request.Title;
@@ -102,13 +118,13 @@ namespace MyChat_Core.Services
             smtp.Connect(emailSettings.Host, emailSettings.Port, SecureSocketOptions.StartTls);
             smtp.Authenticate(emailSettings.Email, emailSettings.Password);
             await smtp.SendAsync(email);
-            smtp.Disconnect(true);
+            smtp.Disconnect(true);*/
 
             if (result.Succeeded)
             {
-                return true;
+                return "Chào mừng"+" "+request.FirstName+" "+request.LastName+" Đến với MyChat";
             }
-            return false;
+            return null;
 		}
 	}
 }

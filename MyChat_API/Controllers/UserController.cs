@@ -17,6 +17,7 @@ namespace MyChat_API.Controllers
         private readonly IUserService userService;
         private readonly ILogger<UserController> logger;
 
+
         public UserController(IUserService userService, ILogger<UserController> logger)
         {
             this.userService = userService;
@@ -32,11 +33,22 @@ namespace MyChat_API.Controllers
             APIResult rs = new APIResult();
             return rs.Success(dtUsers);
 		}
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetbyId(Guid id)
+        {
+            var user = await userService.GetbyId(id);
+            if (user == null)
+            {
+                return NotFound(); // Trả về mã lỗi 404 nếu không tìm thấy user
+            }
+            return Ok(user);
+        }
 
         [HttpPost("authenticate")]
         [AllowAnonymous]
         public async Task<IActionResult> Authenticate([FromBody] LoginRequest request)
         {
+            logger.LogInformation(Request.Method + " " + Request.Scheme + "://" + Request.Host + Request.Path+ Request.Query);
             if (!ModelState.IsValid)
 				return BadRequest(ModelState);
 
@@ -47,7 +59,7 @@ namespace MyChat_API.Controllers
 			{
                 return BadRequest();
 			}
-            logger.LogInformation("Login Successful:{username}",request.Name);
+            logger.LogInformation("Login Successful:{username}",request.Email);
 			return Ok(resultToken);
 		}
 
@@ -55,12 +67,13 @@ namespace MyChat_API.Controllers
         [AllowAnonymous]
         public async Task<IActionResult> Register([FromBody] RegisterRequest request )
         {
+            logger.LogInformation(Request.Method + " " + Request.Scheme + "://" + Request.Host + Request.Path + Request.Query);
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
             var result = await userService.Register(request);
-            if(!result)
+            if(result==null)
             {
                 return BadRequest("Register is not successfull");
             }

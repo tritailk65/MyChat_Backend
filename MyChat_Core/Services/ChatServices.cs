@@ -65,5 +65,21 @@ namespace MyChat_Core.Services
             chat.created_at = request.created_at;
             return await _context.SaveChangesAsync();
         }
+
+        public async Task<ChatVm> GetById(int chatId)
+        {
+            var query = from c in _context.Chats
+                        where c.Chatid == chatId
+                        select new { c };
+            return await query.Select(x => new ChatVm()
+            {
+                Title=x.c.Title,
+                Content=x.c.Content,
+                Participants=x.c.Participants,
+                created_at=x.c.created_at,
+                Messengers=x.c.Messengers
+
+            }).FirstOrDefaultAsync();
+        }
     }
 }

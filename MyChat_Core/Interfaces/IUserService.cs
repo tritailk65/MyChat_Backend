@@ -14,6 +14,7 @@ namespace MyChat_Core.Interfaces
     {
         List<User> GetAllUser();
         Task<ApiResult<string>> Authentication(LoginRequest request);
-        Task<bool> Register(RegisterRequest user);
+        Task<string> Register(RegisterRequest user);
+        Task<UserViewModel> GetbyId(Guid id);
     }
 }
