@@ -18,6 +18,7 @@ namespace MyChat_API.Controllers
         private readonly IUserService userService;
         private readonly ILogger<UserController> logger;
 
+
         public UserController(IUserService userService, ILogger<UserController> logger)
         {
             this.userService = userService;
@@ -33,6 +34,16 @@ namespace MyChat_API.Controllers
             APIResult rs = new APIResult();
             return rs.Success(dtUsers);
 		}
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetbyId(Guid id)
+        {
+            var user = await userService.GetbyId(id);
+            if (user == null)
+            {
+                return NotFound(); // Trả về mã lỗi 404 nếu không tìm thấy user
+            }
+            return Ok(user);
+        }
 
         [HttpPost("Authenticate")]
         [AllowAnonymous]
@@ -63,7 +74,7 @@ namespace MyChat_API.Controllers
                 return BadRequest(ModelState);
             }
             var result = await userService.Register(request);
-            if(!result)
+            if(result==null)
             {
                 return BadRequest("Register is not successfull");
             }

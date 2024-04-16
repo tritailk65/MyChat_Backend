@@ -12,7 +12,7 @@ using MyChat_Data.EF;
 namespace MyChat_Data.Migrations
 {
     [DbContext(typeof(MyChatDbContext))]
-    [Migration("20240411043221_init")]
+    [Migration("20240416112228_init")]
     partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -169,7 +169,7 @@ namespace MyChat_Data.Migrations
                             Content = "Xin Chao",
                             Participants = 5,
                             Title = "Hackathon",
-                            created_at = new DateTime(2024, 4, 11, 11, 32, 21, 689, DateTimeKind.Local).AddTicks(7310)
+                            created_at = new DateTime(2024, 4, 16, 18, 22, 28, 219, DateTimeKind.Local).AddTicks(6443)
                         },
                         new
                         {
@@ -177,7 +177,7 @@ namespace MyChat_Data.Migrations
                             Content = "Xin Chao",
                             Participants = 5,
                             Title = "Web2",
-                            created_at = new DateTime(2024, 4, 11, 11, 32, 21, 689, DateTimeKind.Local).AddTicks(7329)
+                            created_at = new DateTime(2024, 4, 16, 18, 22, 28, 219, DateTimeKind.Local).AddTicks(6472)
                         },
                         new
                         {
@@ -185,7 +185,7 @@ namespace MyChat_Data.Migrations
                             Content = "Xin Chao",
                             Participants = 5,
                             Title = "Android 2",
-                            created_at = new DateTime(2024, 4, 11, 11, 32, 21, 689, DateTimeKind.Local).AddTicks(7334)
+                            created_at = new DateTime(2024, 4, 16, 18, 22, 28, 219, DateTimeKind.Local).AddTicks(6484)
                         });
                 });
 
@@ -353,7 +353,7 @@ namespace MyChat_Data.Migrations
                             Id = new Guid("69bd714f-9576-45ba-b5b7-f00649be00de"),
                             AccessFailedCount = 0,
                             Birthday = new DateTime(2002, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            ConcurrencyStamp = "ecd24ad3-3c78-4b0a-8149-817fa6bfa9c4",
+                            ConcurrencyStamp = "6f1f1052-ed44-4d79-80d3-045cabc0bfc8",
                             Email = "admin@gmail.com",
                             EmailConfirmed = true,
                             FirstName = "admin",
@@ -361,14 +361,14 @@ namespace MyChat_Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "admin@gmail.com",
                             NormalizedUserName = "admin",
-                            PasswordHash = "AQAAAAEAACcQAAAAEHQE0ldw/3L45/A9Jjb60gTkgGenjbwXwY3iJT7w5OuWkB8apOjwWUqFvFOlUMHW5Q==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEC6IrCYO4iTqZBk7kRdMkZl1TRGrTJj91PmCGG8ZfFdt2AuOJUNfyOhGtU3ftw0i7g==",
                             PhoneNumber = "0765184992",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             Status = true,
                             TwoFactorEnabled = false,
                             UserName = "admin",
-                            last_seen = new DateTime(2024, 4, 11, 11, 32, 21, 691, DateTimeKind.Local).AddTicks(1584)
+                            last_seen = new DateTime(2024, 4, 16, 18, 22, 28, 221, DateTimeKind.Local).AddTicks(4311)
                         });
                 });
 
@@ -400,7 +400,7 @@ namespace MyChat_Data.Migrations
                         new
                         {
                             Id = new Guid("8d04dce2-969a-435d-bba4-df3f325983dc"),
-                            ConcurrencyStamp = "02847c24-e423-4cc8-9914-5332498b93bb",
+                            ConcurrencyStamp = "ee9e840a-16d7-4dc0-9ba3-1617bbcb983f",
                             Description = "Administrator role",
                             Name = "admin",
                             NormalizedName = "admin"

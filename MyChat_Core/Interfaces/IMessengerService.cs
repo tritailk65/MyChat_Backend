@@ -14,6 +14,7 @@ namespace MyChat_Core.Interfaces
         Task<int> Create(MessengerRequest request);
         Task<int> Delete(int id);
         Task<int> Update(UpdateMessengerRequest request);
+        Task<MessengerVm> GetById(int id);
 
     }
 }

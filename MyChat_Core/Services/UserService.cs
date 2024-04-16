@@ -19,6 +19,7 @@ using System.Threading.Tasks;
 using MailKit.Security;
 using MailKit.Net.Smtp;
 using Microsoft.Extensions.Options;
+using Microsoft.EntityFrameworkCore;
 
 namespace MyChat_Core.Services
 {
@@ -81,7 +82,21 @@ namespace MyChat_Core.Services
 
 			return rs;
 		}
+        public async Task<UserViewModel>GetbyId(Guid id)
+        {
+            var query = from c in _db.Users
+                        where c.Id==id
+                        select new { c};
+            return await query.Select(x => new UserViewModel()
+            {
+               Id=x.c.Id,
+               Email=x.c.Email,
+               FirstName=x.c.FirstName,
+               LastName=x.c.LastName,
+               UserName=x.c.UserName
 
+            }).FirstOrDefaultAsync();
+        }
 		public List<User> GetAllUser()
         {
             return _db.Users.ToList();
@@ -124,9 +139,9 @@ namespace MyChat_Core.Services
 
             if (result.Succeeded)
             {
-                return true;
+                return "Chào mừng"+" "+request.FirstName+" "+request.LastName+" Đến với MyChat";
             }
-            return false;
+            return null;
 		}
 	}
 }
