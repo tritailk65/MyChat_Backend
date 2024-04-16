@@ -41,7 +41,7 @@ namespace MyChat_Core.Services
 
 		public async Task<ApiResult<string>> Authentication(LoginRequest request)
 		{
-			var user = await _userManager.FindByNameAsync(request.Name);
+			var user = await _userManager.FindByEmailAsync(request.Email);
 			if (user == null)
 				return new ApiErrorResult<string>("Khong tim thay ");
 			var result = await _signInManager.
@@ -57,7 +57,7 @@ namespace MyChat_Core.Services
 				 new Claim(ClaimTypes.Email,user.Email),
 				 new Claim(ClaimTypes.GivenName,user.FirstName),
 				 new Claim(ClaimTypes.Role,string.Join(";",roles)),
-				 new Claim(ClaimTypes.Name,request.Name)
+				 new Claim(ClaimTypes.Name,user.UserName)
 			 };
 			//Ma Hoa Bang Thu Vien SymmerTric
 			var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Tokens:Key"]));

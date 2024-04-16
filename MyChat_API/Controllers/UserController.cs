@@ -48,7 +48,7 @@ namespace MyChat_API.Controllers
 			{
                 return BadRequest();
 			}
-            logger.LogInformation("Login Successful:{username}",request.Name);
+            logger.LogInformation("Login Successful:{username}",request.Email);
 			return Ok(resultToken);
 		}
 
