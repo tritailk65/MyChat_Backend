@@ -46,6 +46,7 @@ namespace MyChat_Data.Extensions
                 Participants = 5,
                 Title = "Hackathon",
             });
+
             modelBuilder.Entity<Chat>().HasData(
             new Chat
             {
@@ -55,6 +56,7 @@ namespace MyChat_Data.Extensions
                 Participants = 5,
                 Title = "Web2",
             });
+
             modelBuilder.Entity<Chat>().HasData(
             new Chat
             {
@@ -74,7 +76,6 @@ namespace MyChat_Data.Extensions
                   Content = "Hello",
                   status = true
               });
-
 
             modelBuilder.Entity<UserRole>().HasData(new UserRole
             {

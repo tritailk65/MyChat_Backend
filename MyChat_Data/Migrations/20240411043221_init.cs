@@ -198,20 +198,20 @@ namespace MyChat_Data.Migrations
                 columns: new[] { "Chatid", "Content", "Participants", "Title", "UserId", "created_at" },
                 values: new object[,]
                 {
-                    { 1, "Xin Chao", 5, "Hackathon", null, new DateTime(2024, 4, 9, 14, 47, 21, 349, DateTimeKind.Local).AddTicks(1635) },
-                    { 2, "Xin Chao", 5, "Web2", null, new DateTime(2024, 4, 9, 14, 47, 21, 349, DateTimeKind.Local).AddTicks(1654) },
-                    { 3, "Xin Chao", 5, "Android 2", null, new DateTime(2024, 4, 9, 14, 47, 21, 349, DateTimeKind.Local).AddTicks(1660) }
+                    { 1, "Xin Chao", 5, "Hackathon", null, new DateTime(2024, 4, 11, 11, 32, 21, 689, DateTimeKind.Local).AddTicks(7310) },
+                    { 2, "Xin Chao", 5, "Web2", null, new DateTime(2024, 4, 11, 11, 32, 21, 689, DateTimeKind.Local).AddTicks(7329) },
+                    { 3, "Xin Chao", 5, "Android 2", null, new DateTime(2024, 4, 11, 11, 32, 21, 689, DateTimeKind.Local).AddTicks(7334) }
                 });
 
             migrationBuilder.InsertData(
                 table: "UserRole",
                 columns: new[] { "Id", "ConcurrencyStamp", "Description", "Name", "NormalizedName" },
-                values: new object[] { new Guid("8d04dce2-969a-435d-bba4-df3f325983dc"), "627339fc-dade-4ee4-a7e9-3e8826051591", "Administrator role", "admin", "admin" });
+                values: new object[] { new Guid("8d04dce2-969a-435d-bba4-df3f325983dc"), "02847c24-e423-4cc8-9914-5332498b93bb", "Administrator role", "admin", "admin" });
 
             migrationBuilder.InsertData(
                 table: "Users",
                 columns: new[] { "Id", "AccessFailedCount", "Birthday", "ConcurrencyStamp", "Email", "EmailConfirmed", "FirstName", "LastName", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "Status", "TwoFactorEnabled", "UserName", "last_seen" },
-                values: new object[] { new Guid("69bd714f-9576-45ba-b5b7-f00649be00de"), 0, new DateTime(2002, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "00f6af2d-6f11-4f2a-a959-fe0d981cae67", "admin@gmail.com", true, "admin", "admin", false, null, "admin@gmail.com", "admin", "AQAAAAEAACcQAAAAEAIiLPfiAnQVb+erkUSA61xa9phJpTRq6Rxy+3Av+ZTGBPTI9QO5ljJ5FGPBhOQXyA==", "0765184992", false, "", true, false, "admin", new DateTime(2024, 4, 9, 14, 47, 21, 350, DateTimeKind.Local).AddTicks(2364) });
+                values: new object[] { new Guid("69bd714f-9576-45ba-b5b7-f00649be00de"), 0, new DateTime(2002, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "ecd24ad3-3c78-4b0a-8149-817fa6bfa9c4", "admin@gmail.com", true, "admin", "admin", false, null, "admin@gmail.com", "admin", "AQAAAAEAACcQAAAAEHQE0ldw/3L45/A9Jjb60gTkgGenjbwXwY3iJT7w5OuWkB8apOjwWUqFvFOlUMHW5Q==", "0765184992", false, "", true, false, "admin", new DateTime(2024, 4, 11, 11, 32, 21, 691, DateTimeKind.Local).AddTicks(1584) });
 
             migrationBuilder.InsertData(
                 table: "Contact",
