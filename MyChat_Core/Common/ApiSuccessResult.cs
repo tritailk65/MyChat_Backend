@@ -11,14 +11,14 @@ namespace MyChat_Core.Common
 		public ApiSuccessResult(T resultObj)
 		{
 			IsSuccessed = true;
-			Message = "Thành công";
+			Message = "Đăng Nhập Thành công";
 			ResultObj = resultObj;
 		}
 
 		public ApiSuccessResult()
 		{
 			IsSuccessed = true;
-			Message = "Thành công";
+			Message = "Đăng Nhập Thành công";
 
 		}
 	}
