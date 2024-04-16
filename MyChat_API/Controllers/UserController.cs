@@ -17,6 +17,7 @@ namespace MyChat_API.Controllers
         private readonly IUserService userService;
         private readonly ILogger<UserController> logger;
 
+
         public UserController(IUserService userService, ILogger<UserController> logger)
         {
             this.userService = userService;
@@ -72,7 +73,7 @@ namespace MyChat_API.Controllers
                 return BadRequest(ModelState);
             }
             var result = await userService.Register(request);
-            if(!result)
+            if(result==null)
             {
                 return BadRequest("Register is not successfull");
             }

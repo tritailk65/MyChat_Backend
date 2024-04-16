@@ -91,7 +91,7 @@ namespace MyChat_Core.Services
             return _db.Users.ToList();
         }
 
-		public async Task<bool> Register(RegisterRequest request)
+		public async Task<string> Register(RegisterRequest request)
 		{
             var user = new User()
             {
@@ -122,9 +122,9 @@ namespace MyChat_Core.Services
 
             if (result.Succeeded)
             {
-                return true;
+                return "Chào mừng"+" "+request.FirstName+" "+request.LastName+" Đến với MyChat";
             }
-            return false;
+            return null;
 		}
 	}
 }
