@@ -30,6 +30,7 @@ namespace MyChat_Core.Services
         private readonly SignInManager<User> _signInManager;
         private readonly IConfiguration _config;
         private readonly EmailSettings emailSettings;
+     
         public UserService(MyChatDbContext db, UserManager<User> userManager, SignInManager<User> signInManager, 
             IConfiguration config, IOptions<EmailSettings> options)
         {
