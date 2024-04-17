@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using MyChat_Data.EF;
 
@@ -11,9 +12,10 @@ using MyChat_Data.EF;
 namespace MyChat_Data.Migrations
 {
     [DbContext(typeof(MyChatDbContext))]
-    partial class MyChatDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240417031153_UpdateModel")]
+    partial class UpdateModel
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -167,12 +169,8 @@ namespace MyChat_Data.Migrations
                             Content = "Xin Chao",
                             Participants = 5,
                             Title = "Hackathon",
-<<<<<<< Updated upstream
-                            created_at = new DateTime(2024, 4, 16, 18, 22, 28, 219, DateTimeKind.Local).AddTicks(6443)
-=======
                             UserId = new Guid("00000000-0000-0000-0000-000000000000"),
                             created_at = new DateTime(2024, 4, 17, 10, 11, 53, 127, DateTimeKind.Local).AddTicks(1914)
->>>>>>> Stashed changes
                         },
                         new
                         {
@@ -180,12 +178,8 @@ namespace MyChat_Data.Migrations
                             Content = "Xin Chao",
                             Participants = 5,
                             Title = "Web2",
-<<<<<<< Updated upstream
-                            created_at = new DateTime(2024, 4, 16, 18, 22, 28, 219, DateTimeKind.Local).AddTicks(6472)
-=======
                             UserId = new Guid("00000000-0000-0000-0000-000000000000"),
                             created_at = new DateTime(2024, 4, 17, 10, 11, 53, 127, DateTimeKind.Local).AddTicks(1943)
->>>>>>> Stashed changes
                         },
                         new
                         {
@@ -193,12 +187,8 @@ namespace MyChat_Data.Migrations
                             Content = "Xin Chao",
                             Participants = 5,
                             Title = "Android 2",
-<<<<<<< Updated upstream
-                            created_at = new DateTime(2024, 4, 16, 18, 22, 28, 219, DateTimeKind.Local).AddTicks(6484)
-=======
                             UserId = new Guid("00000000-0000-0000-0000-000000000000"),
                             created_at = new DateTime(2024, 4, 17, 10, 11, 53, 127, DateTimeKind.Local).AddTicks(1954)
->>>>>>> Stashed changes
                         });
                 });
 
@@ -366,11 +356,7 @@ namespace MyChat_Data.Migrations
                             Id = new Guid("69bd714f-9576-45ba-b5b7-f00649be00de"),
                             AccessFailedCount = 0,
                             Birthday = new DateTime(2002, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-<<<<<<< Updated upstream
-                            ConcurrencyStamp = "6f1f1052-ed44-4d79-80d3-045cabc0bfc8",
-=======
                             ConcurrencyStamp = "c08f229c-4c6b-4d6d-b2db-276317ea8e47",
->>>>>>> Stashed changes
                             Email = "admin@gmail.com",
                             EmailConfirmed = true,
                             FirstName = "admin",
@@ -378,22 +364,14 @@ namespace MyChat_Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "admin@gmail.com",
                             NormalizedUserName = "admin",
-<<<<<<< Updated upstream
-                            PasswordHash = "AQAAAAEAACcQAAAAEC6IrCYO4iTqZBk7kRdMkZl1TRGrTJj91PmCGG8ZfFdt2AuOJUNfyOhGtU3ftw0i7g==",
-=======
                             PasswordHash = "AQAAAAEAACcQAAAAEF939V5qTgijnxYm0CXG9h/ePXVKA2dCYFStBSA/oiifGR7zIJS3+ovRd1MV0A46Dg==",
->>>>>>> Stashed changes
                             PhoneNumber = "0765184992",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             Status = true,
                             TwoFactorEnabled = false,
                             UserName = "admin",
-<<<<<<< Updated upstream
-                            last_seen = new DateTime(2024, 4, 16, 18, 22, 28, 221, DateTimeKind.Local).AddTicks(4311)
-=======
                             last_seen = new DateTime(2024, 4, 17, 10, 11, 53, 129, DateTimeKind.Local).AddTicks(17)
->>>>>>> Stashed changes
                         });
                 });
 
@@ -425,11 +403,7 @@ namespace MyChat_Data.Migrations
                         new
                         {
                             Id = new Guid("8d04dce2-969a-435d-bba4-df3f325983dc"),
-<<<<<<< Updated upstream
-                            ConcurrencyStamp = "ee9e840a-16d7-4dc0-9ba3-1617bbcb983f",
-=======
                             ConcurrencyStamp = "7803526e-59bb-4935-9daf-594acb48e7ef",
->>>>>>> Stashed changes
                             Description = "Administrator role",
                             Name = "admin",
                             NormalizedName = "admin"

@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿//using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using System;
 using System.Collections.Generic;
@@ -12,7 +12,7 @@ namespace MyChat_Data.Entities
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public IFormFile UpImage { get; set; }
+        //public IFormFile UpImage { get; set; }
         public DateTime Birthday { get; set; }
         public string PhoneNumber { get; set; }
         public bool Status { get; set; }

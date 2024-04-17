@@ -81,5 +81,24 @@ namespace MyChat_Core.Services
 
             }).FirstOrDefaultAsync();
         }
+
+        public async Task<ChatVm> GetUserId(Guid userchatId)
+        {
+            var query = from c in _context.Chats
+                        join ct in _context.Users on c.UserId equals ct.Id
+                        where c.UserId == userchatId
+                        select new { c, ct };
+            return await query.Select(x => new ChatVm()
+            {
+                Title = x.c.Title,
+                Content = x.c.Content,
+                Participants = x.c.Participants,
+                created_at = x.c.created_at,
+                Messengers = x.c.Messengers,
+                UserId=x.ct.Id
+
+            }).FirstOrDefaultAsync();
+
+        }
     }
 }

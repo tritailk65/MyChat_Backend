@@ -14,5 +14,6 @@ namespace MyChat_Core.Interfaces
         Task<int> Delete(int chatid);
         Task<int> Update(UpdateChatRequest request);
         Task<ChatVm> GetById(int chatId);
+        Task<ChatVm> GetUserId(Guid userchatId);
     }
 }

@@ -106,5 +106,15 @@ namespace MyChat_API.Controllers
             }
             return Ok(chat);
         }
+        [HttpGet("{userchatId}")]
+        public async Task<IActionResult>GetbyId(Guid userchatId)
+        {
+            var chat2 = await _chatService.GetUserId(userchatId);
+            if(chat2==null)
+            {
+                return BadRequest();
+            }
+            return Ok(chat2);
+        }
     }
 }

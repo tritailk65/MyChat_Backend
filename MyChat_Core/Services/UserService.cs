@@ -107,6 +107,7 @@ namespace MyChat_Core.Services
             request.Title = "MyChatApp";
             request.Body = "Hello";
             var result = await _userManager.CreateAsync(user, request.Password);
+<<<<<<< Updated upstream
 
 /*            var email = new MimeMessage();
             email.Sender = MailboxAddress.Parse(emailSettings.Email);
@@ -124,6 +125,24 @@ namespace MyChat_Core.Services
             if (result.Succeeded)
             {
                 return "Chào mừng"+" "+request.FirstName+" "+request.LastName+" Đến với MyChat";
+=======
+            //var email = new MimeMessage();
+            //email.Sender = MailboxAddress.Parse(emailSettings.Email);
+            //email.To.Add(MailboxAddress.Parse(request.Email));
+            //email.Subject = request.Title;
+            //var builder = new BodyBuilder();
+            //builder.HtmlBody = request.Body;
+            //email.Body = builder.ToMessageBody();
+            //using var smtp = new MailKit.Net.Smtp.SmtpClient();
+            //smtp.Connect(emailSettings.Host, emailSettings.Port, SecureSocketOptions.StartTls);
+            //smtp.Authenticate(emailSettings.Email, emailSettings.Password);
+            //await smtp.SendAsync(email);
+            //smtp.Disconnect(true);
+
+            if (result.Succeeded)
+            {
+                return "Chào Mừng"+""+request.FirstName+""+request.LastName+"Đến với MyChat";
+>>>>>>> Stashed changes
             }
             return null;
 		}
