@@ -16,5 +16,10 @@ namespace MyChat_API.Hubs
             await Clients.User(receiverId.ToString()).SendAsync("ReceiveCall", callerId);
         }
        
+        public async Task JoinRoom(string roomId, int userId)
+        {
+            await Groups.AddToGroupAsync(Context.ConnectionId, roomId);
+            await Clients.Group(roomId).SendAsync("user-connected", userId);
+        }
     }
 }

@@ -167,7 +167,7 @@ namespace MyChat_Data.Migrations
                             Content = "Xin Chao",
                             Participants = 5,
                             Title = "Hackathon",
-                            created_at = new DateTime(2024, 4, 16, 18, 22, 28, 219, DateTimeKind.Local).AddTicks(6443)
+                            created_at = new DateTime(2024, 4, 17, 14, 58, 43, 209, DateTimeKind.Local).AddTicks(5547)
                         },
                         new
                         {
@@ -175,7 +175,7 @@ namespace MyChat_Data.Migrations
                             Content = "Xin Chao",
                             Participants = 5,
                             Title = "Web2",
-                            created_at = new DateTime(2024, 4, 16, 18, 22, 28, 219, DateTimeKind.Local).AddTicks(6472)
+                            created_at = new DateTime(2024, 4, 17, 14, 58, 43, 209, DateTimeKind.Local).AddTicks(5567)
                         },
                         new
                         {
@@ -183,7 +183,7 @@ namespace MyChat_Data.Migrations
                             Content = "Xin Chao",
                             Participants = 5,
                             Title = "Android 2",
-                            created_at = new DateTime(2024, 4, 16, 18, 22, 28, 219, DateTimeKind.Local).AddTicks(6484)
+                            created_at = new DateTime(2024, 4, 17, 14, 58, 43, 209, DateTimeKind.Local).AddTicks(5574)
                         });
                 });
 
@@ -351,7 +351,7 @@ namespace MyChat_Data.Migrations
                             Id = new Guid("69bd714f-9576-45ba-b5b7-f00649be00de"),
                             AccessFailedCount = 0,
                             Birthday = new DateTime(2002, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            ConcurrencyStamp = "6f1f1052-ed44-4d79-80d3-045cabc0bfc8",
+                            ConcurrencyStamp = "07628cfc-a247-4bc5-9cd7-8346d6b4f46b",
                             Email = "admin@gmail.com",
                             EmailConfirmed = true,
                             FirstName = "admin",
@@ -359,14 +359,14 @@ namespace MyChat_Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "admin@gmail.com",
                             NormalizedUserName = "admin",
-                            PasswordHash = "AQAAAAEAACcQAAAAEC6IrCYO4iTqZBk7kRdMkZl1TRGrTJj91PmCGG8ZfFdt2AuOJUNfyOhGtU3ftw0i7g==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEKnOfoWCZFh60rN17ZZSYx4Ax1k+pMds6hIWqCvj/XZJTd1mfBENkew+pOSakaIrfA==",
                             PhoneNumber = "0765184992",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             Status = true,
                             TwoFactorEnabled = false,
                             UserName = "admin",
-                            last_seen = new DateTime(2024, 4, 16, 18, 22, 28, 221, DateTimeKind.Local).AddTicks(4311)
+                            last_seen = new DateTime(2024, 4, 17, 14, 58, 43, 215, DateTimeKind.Local).AddTicks(7399)
                         });
                 });
 
@@ -398,7 +398,7 @@ namespace MyChat_Data.Migrations
                         new
                         {
                             Id = new Guid("8d04dce2-969a-435d-bba4-df3f325983dc"),
-                            ConcurrencyStamp = "ee9e840a-16d7-4dc0-9ba3-1617bbcb983f",
+                            ConcurrencyStamp = "7a52a988-ae53-4715-8512-a61ada8c604a",
                             Description = "Administrator role",
                             Name = "admin",
                             NormalizedName = "admin"
