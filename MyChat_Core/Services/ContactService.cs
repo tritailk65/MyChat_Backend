@@ -24,16 +24,7 @@ namespace MyChat_Core.Services
            var contact = new Contact()
             {
                 contact_phone = request.contact_phone,
-                User = new User()
-                {
-                    FirstName = request.FirstName,
-                    LastName = request.LastName,
-                    PhoneNumber = request.PhoneNumber,
-                    Birthday = request.Birthday,
-                    UserName = request.Username_Display,
-                    last_seen = request.last_seen,
-                    Status = request.Status
-                }
+                
             };
             _myChatDbContext.Contacts.Add(contact);
             await _myChatDbContext.SaveChangesAsync();
@@ -52,27 +43,27 @@ namespace MyChat_Core.Services
         public async Task<List<ContactVm>> GetAllList()
         {
             var query = from c in _myChatDbContext.Contacts
-                        join ct in _myChatDbContext.Users on c.UserId equals ct.Id
+                        join ct in _myChatDbContext.Messengers on c.MessengerId equals ct.MessengerId
                         select new { c, ct };
             return await query.Select(x => new ContactVm()
             {
                 contact_id=x.c.contact_id,
                 contact_phone=x.c.contact_phone,
-                UserId=x.ct.Id
+                MessengerId=x.ct.MessengerId
             }).ToListAsync();
         }
 
-        public async Task<ContactVm> GetbyId(Guid id)
+        public async Task<ContactVm> GetbyId(int id)
         {
             var query = from c in _myChatDbContext.Contacts
-                        join ct in _myChatDbContext.Users on c.UserId equals ct.Id
-                        where c.UserId == id
+                        join ct in _myChatDbContext.Messengers on c.MessengerId equals ct.MessengerId
+                        where c.MessengerId == id
                         select new { c, ct };
             return await query.Select(x => new ContactVm()
             {
                contact_id=x.c.contact_id,
                contact_phone=x.c.contact_phone,
-               UserId=x.ct.Id
+               MessengerId=x.ct.MessengerId
 
             }).FirstOrDefaultAsync();
         }

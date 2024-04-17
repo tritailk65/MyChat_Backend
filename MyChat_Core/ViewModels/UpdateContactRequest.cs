@@ -10,12 +10,6 @@ namespace MyChat_Core.ViewModels
     {
         public int Id { get; set; }
         public string contact_phone { get; set; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public DateTime Birthday { get; set; }
-        public string PhoneNumber { get; set; }
-        public string Username_Display { get; set; }
-        public bool Status { get; set; }
-        public DateTime last_seen { get; set; }
+       
     }
 }

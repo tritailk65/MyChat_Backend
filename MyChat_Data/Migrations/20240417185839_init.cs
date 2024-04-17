@@ -132,34 +132,14 @@ namespace MyChat_Data.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Title = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
                     Content = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
-                    Participants = table.Column<int>(type: "int", nullable: false),
-                    created_at = table.Column<DateTime>(type: "datetime2", maxLength: 255, nullable: false),
-                    UserId = table.Column<Guid>(type: "uniqueidentifier", nullable: true)
+                    UserId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    created_at = table.Column<DateTime>(type: "datetime2", maxLength: 255, nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Chat", x => x.Chatid);
                     table.ForeignKey(
                         name: "FK_Chat_Users_UserId",
-                        column: x => x.UserId,
-                        principalTable: "Users",
-                        principalColumn: "Id");
-                });
-
-            migrationBuilder.CreateTable(
-                name: "Contact",
-                columns: table => new
-                {
-                    contact_id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    UserId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    contact_phone = table.Column<string>(type: "nvarchar(200)", maxLength: 200, nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Contact", x => x.contact_id);
-                    table.ForeignKey(
-                        name: "FK_Contact_Users_UserId",
                         column: x => x.UserId,
                         principalTable: "Users",
                         principalColumn: "Id",
@@ -188,45 +168,65 @@ namespace MyChat_Data.Migrations
                         onDelete: ReferentialAction.Cascade);
                 });
 
+            migrationBuilder.CreateTable(
+                name: "Contact",
+                columns: table => new
+                {
+                    contact_id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    MessengerId = table.Column<int>(type: "int", nullable: false),
+                    contact_phone = table.Column<string>(type: "nvarchar(200)", maxLength: 200, nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Contact", x => x.contact_id);
+                    table.ForeignKey(
+                        name: "FK_Contact_Messenger_MessengerId",
+                        column: x => x.MessengerId,
+                        principalTable: "Messenger",
+                        principalColumn: "MessengerId",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
             migrationBuilder.InsertData(
                 table: "AppUserRoles",
                 columns: new[] { "RoleId", "UserId" },
                 values: new object[] { new Guid("8d04dce2-969a-435d-bba4-df3f325983dc"), new Guid("69bd714f-9576-45ba-b5b7-f00649be00de") });
 
             migrationBuilder.InsertData(
-                table: "Chat",
-                columns: new[] { "Chatid", "Content", "Participants", "Title", "UserId", "created_at" },
-                values: new object[,]
-                {
-                    { 1, "Xin Chao", 5, "Hackathon", null, new DateTime(2024, 4, 9, 14, 47, 21, 349, DateTimeKind.Local).AddTicks(1635) },
-                    { 2, "Xin Chao", 5, "Web2", null, new DateTime(2024, 4, 9, 14, 47, 21, 349, DateTimeKind.Local).AddTicks(1654) },
-                    { 3, "Xin Chao", 5, "Android 2", null, new DateTime(2024, 4, 9, 14, 47, 21, 349, DateTimeKind.Local).AddTicks(1660) }
-                });
-
-            migrationBuilder.InsertData(
                 table: "UserRole",
                 columns: new[] { "Id", "ConcurrencyStamp", "Description", "Name", "NormalizedName" },
-                values: new object[] { new Guid("8d04dce2-969a-435d-bba4-df3f325983dc"), "627339fc-dade-4ee4-a7e9-3e8826051591", "Administrator role", "admin", "admin" });
+                values: new object[] { new Guid("8d04dce2-969a-435d-bba4-df3f325983dc"), "739cf944-9322-4d9c-aec4-9f45b5ab6182", "Administrator role", "admin", "admin" });
 
             migrationBuilder.InsertData(
                 table: "Users",
                 columns: new[] { "Id", "AccessFailedCount", "Birthday", "ConcurrencyStamp", "Email", "EmailConfirmed", "FirstName", "LastName", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "Status", "TwoFactorEnabled", "UserName", "last_seen" },
-                values: new object[] { new Guid("69bd714f-9576-45ba-b5b7-f00649be00de"), 0, new DateTime(2002, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "00f6af2d-6f11-4f2a-a959-fe0d981cae67", "admin@gmail.com", true, "admin", "admin", false, null, "admin@gmail.com", "admin", "AQAAAAEAACcQAAAAEAIiLPfiAnQVb+erkUSA61xa9phJpTRq6Rxy+3Av+ZTGBPTI9QO5ljJ5FGPBhOQXyA==", "0765184992", false, "", true, false, "admin", new DateTime(2024, 4, 9, 14, 47, 21, 350, DateTimeKind.Local).AddTicks(2364) });
+                values: new object[] { new Guid("69bd714f-9576-45ba-b5b7-f00649be00de"), 0, new DateTime(2002, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "82dfe41e-b667-4cc3-a77d-550e92cc0c05", "admin@gmail.com", true, "admin", "admin", false, null, "admin@gmail.com", "admin", "AQAAAAEAACcQAAAAEIfRp7oGSrjxthzX59goZBmM8Q1JasSynNOGUXsluUE+p+9qeRDKp5KBnd2LX7FiOA==", "0765184992", false, "", true, false, "admin", new DateTime(2024, 4, 18, 1, 58, 39, 733, DateTimeKind.Local).AddTicks(4203) });
 
             migrationBuilder.InsertData(
-                table: "Contact",
-                columns: new[] { "contact_id", "UserId", "contact_phone" },
-                values: new object[,]
-                {
-                    { 1, new Guid("69bd714f-9576-45ba-b5b7-f00649be00de"), "0797169613" },
-                    { 2, new Guid("69bd714f-9576-45ba-b5b7-f00649be00de"), "0765184992" },
-                    { 3, new Guid("69bd714f-9576-45ba-b5b7-f00649be00de"), "0364748018" }
-                });
+                table: "Chat",
+                columns: new[] { "Chatid", "Content", "Title", "UserId", "created_at" },
+                values: new object[] { 1, "Xin Chao", "Hackathon", new Guid("69bd714f-9576-45ba-b5b7-f00649be00de"), new DateTime(2024, 4, 18, 1, 58, 39, 732, DateTimeKind.Local).AddTicks(3488) });
+
+            migrationBuilder.InsertData(
+                table: "Chat",
+                columns: new[] { "Chatid", "Content", "Title", "UserId", "created_at" },
+                values: new object[] { 2, "Xin Chao", "Web2", new Guid("69bd714f-9576-45ba-b5b7-f00649be00de"), new DateTime(2024, 4, 18, 1, 58, 39, 732, DateTimeKind.Local).AddTicks(3508) });
+
+            migrationBuilder.InsertData(
+                table: "Chat",
+                columns: new[] { "Chatid", "Content", "Title", "UserId", "created_at" },
+                values: new object[] { 3, "Xin Chao", "Android 2", new Guid("69bd714f-9576-45ba-b5b7-f00649be00de"), new DateTime(2024, 4, 18, 1, 58, 39, 732, DateTimeKind.Local).AddTicks(3514) });
 
             migrationBuilder.InsertData(
                 table: "Messenger",
                 columns: new[] { "MessengerId", "ChatId", "Constamps", "Content", "status" },
                 values: new object[] { 1, 1, new DateTime(2002, 1, 24, 0, 2, 0, 0, DateTimeKind.Unspecified), "Hello", true });
+
+            migrationBuilder.InsertData(
+                table: "Contact",
+                columns: new[] { "contact_id", "MessengerId", "contact_phone" },
+                values: new object[] { 1, 1, "0797169613" });
 
             migrationBuilder.CreateIndex(
                 name: "IX_Chat_UserId",
@@ -234,9 +234,9 @@ namespace MyChat_Data.Migrations
                 column: "UserId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Contact_UserId",
+                name: "IX_Contact_MessengerId",
                 table: "Contact",
-                column: "UserId");
+                column: "MessengerId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Messenger_ChatId",
@@ -265,10 +265,10 @@ namespace MyChat_Data.Migrations
                 name: "Contact");
 
             migrationBuilder.DropTable(
-                name: "Messenger");
+                name: "UserRole");
 
             migrationBuilder.DropTable(
-                name: "UserRole");
+                name: "Messenger");
 
             migrationBuilder.DropTable(
                 name: "Chat");

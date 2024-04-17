@@ -59,7 +59,7 @@ namespace MyChat_API.Controllers
             return Ok();
         }
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetbyId(Guid id)
+        public async Task<IActionResult> GetbyId(int id)
         {
             var mess = await _contactService.GetbyId(id);
             if (mess == null)

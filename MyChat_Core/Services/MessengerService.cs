@@ -47,7 +47,7 @@ namespace MyChat_Core.Services
                 Chat = new Chat()
                 {
                     Title = request.Title,
-                    Participants = request.Participants,
+                    
 
                 }
             };
@@ -76,7 +76,7 @@ namespace MyChat_Core.Services
             message.status = request.status;
             message.Chat = new Chat()
             {
-                Participants = request.Participants,
+                
                 Title = request.Title
             };
 
@@ -96,7 +96,7 @@ namespace MyChat_Core.Services
                 Content=x.c.Content,
                 Constamps=x.c.Constamps,
                 Title=x.ct.Title,
-                Participants=x.ct.Participants,
+ 
                 status=x.c.status
 
 

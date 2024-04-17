@@ -72,7 +72,7 @@ namespace MyChat_API.Controllers
                 return BadRequest(ModelState);
             }
             var result = await userService.Register(request);
-            if(!result)
+            if(result==null)
             {
                 return BadRequest("Register is not successfull");
             }

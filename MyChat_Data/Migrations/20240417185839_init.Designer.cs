@@ -12,7 +12,7 @@ using MyChat_Data.EF;
 namespace MyChat_Data.Migrations
 {
     [DbContext(typeof(MyChatDbContext))]
-    [Migration("20240409074721_init")]
+    [Migration("20240417185839_init")]
     partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -141,15 +141,12 @@ namespace MyChat_Data.Migrations
                         .HasMaxLength(255)
                         .HasColumnType("nvarchar(255)");
 
-                    b.Property<int>("Participants")
-                        .HasColumnType("int");
-
                     b.Property<string>("Title")
                         .IsRequired()
                         .HasMaxLength(255)
                         .HasColumnType("nvarchar(255)");
 
-                    b.Property<Guid?>("UserId")
+                    b.Property<Guid>("UserId")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<DateTime>("created_at")
@@ -167,25 +164,25 @@ namespace MyChat_Data.Migrations
                         {
                             Chatid = 1,
                             Content = "Xin Chao",
-                            Participants = 5,
                             Title = "Hackathon",
-                            created_at = new DateTime(2024, 4, 9, 14, 47, 21, 349, DateTimeKind.Local).AddTicks(1635)
+                            UserId = new Guid("69bd714f-9576-45ba-b5b7-f00649be00de"),
+                            created_at = new DateTime(2024, 4, 18, 1, 58, 39, 732, DateTimeKind.Local).AddTicks(3488)
                         },
                         new
                         {
                             Chatid = 2,
                             Content = "Xin Chao",
-                            Participants = 5,
                             Title = "Web2",
-                            created_at = new DateTime(2024, 4, 9, 14, 47, 21, 349, DateTimeKind.Local).AddTicks(1654)
+                            UserId = new Guid("69bd714f-9576-45ba-b5b7-f00649be00de"),
+                            created_at = new DateTime(2024, 4, 18, 1, 58, 39, 732, DateTimeKind.Local).AddTicks(3508)
                         },
                         new
                         {
                             Chatid = 3,
                             Content = "Xin Chao",
-                            Participants = 5,
                             Title = "Android 2",
-                            created_at = new DateTime(2024, 4, 9, 14, 47, 21, 349, DateTimeKind.Local).AddTicks(1660)
+                            UserId = new Guid("69bd714f-9576-45ba-b5b7-f00649be00de"),
+                            created_at = new DateTime(2024, 4, 18, 1, 58, 39, 732, DateTimeKind.Local).AddTicks(3514)
                         });
                 });
 
@@ -197,8 +194,8 @@ namespace MyChat_Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("contact_id"), 1L, 1);
 
-                    b.Property<Guid>("UserId")
-                        .HasColumnType("uniqueidentifier");
+                    b.Property<int>("MessengerId")
+                        .HasColumnType("int");
 
                     b.Property<string>("contact_phone")
                         .IsRequired()
@@ -207,7 +204,7 @@ namespace MyChat_Data.Migrations
 
                     b.HasKey("contact_id");
 
-                    b.HasIndex("UserId");
+                    b.HasIndex("MessengerId");
 
                     b.ToTable("Contact", (string)null);
 
@@ -215,20 +212,8 @@ namespace MyChat_Data.Migrations
                         new
                         {
                             contact_id = 1,
-                            UserId = new Guid("69bd714f-9576-45ba-b5b7-f00649be00de"),
+                            MessengerId = 1,
                             contact_phone = "0797169613"
-                        },
-                        new
-                        {
-                            contact_id = 2,
-                            UserId = new Guid("69bd714f-9576-45ba-b5b7-f00649be00de"),
-                            contact_phone = "0765184992"
-                        },
-                        new
-                        {
-                            contact_id = 3,
-                            UserId = new Guid("69bd714f-9576-45ba-b5b7-f00649be00de"),
-                            contact_phone = "0364748018"
                         });
                 });
 
@@ -353,7 +338,7 @@ namespace MyChat_Data.Migrations
                             Id = new Guid("69bd714f-9576-45ba-b5b7-f00649be00de"),
                             AccessFailedCount = 0,
                             Birthday = new DateTime(2002, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            ConcurrencyStamp = "00f6af2d-6f11-4f2a-a959-fe0d981cae67",
+                            ConcurrencyStamp = "82dfe41e-b667-4cc3-a77d-550e92cc0c05",
                             Email = "admin@gmail.com",
                             EmailConfirmed = true,
                             FirstName = "admin",
@@ -361,14 +346,14 @@ namespace MyChat_Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "admin@gmail.com",
                             NormalizedUserName = "admin",
-                            PasswordHash = "AQAAAAEAACcQAAAAEAIiLPfiAnQVb+erkUSA61xa9phJpTRq6Rxy+3Av+ZTGBPTI9QO5ljJ5FGPBhOQXyA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEIfRp7oGSrjxthzX59goZBmM8Q1JasSynNOGUXsluUE+p+9qeRDKp5KBnd2LX7FiOA==",
                             PhoneNumber = "0765184992",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             Status = true,
                             TwoFactorEnabled = false,
                             UserName = "admin",
-                            last_seen = new DateTime(2024, 4, 9, 14, 47, 21, 350, DateTimeKind.Local).AddTicks(2364)
+                            last_seen = new DateTime(2024, 4, 18, 1, 58, 39, 733, DateTimeKind.Local).AddTicks(4203)
                         });
                 });
 
@@ -400,7 +385,7 @@ namespace MyChat_Data.Migrations
                         new
                         {
                             Id = new Guid("8d04dce2-969a-435d-bba4-df3f325983dc"),
-                            ConcurrencyStamp = "627339fc-dade-4ee4-a7e9-3e8826051591",
+                            ConcurrencyStamp = "739cf944-9322-4d9c-aec4-9f45b5ab6182",
                             Description = "Administrator role",
                             Name = "admin",
                             NormalizedName = "admin"
@@ -409,20 +394,24 @@ namespace MyChat_Data.Migrations
 
             modelBuilder.Entity("MyChat_Data.Entities.Chat", b =>
                 {
-                    b.HasOne("MyChat_Data.Entities.User", null)
-                        .WithMany("Participants")
-                        .HasForeignKey("UserId");
-                });
-
-            modelBuilder.Entity("MyChat_Data.Entities.Contact", b =>
-                {
                     b.HasOne("MyChat_Data.Entities.User", "User")
-                        .WithMany("UserId")
+                        .WithMany("Chats")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("User");
+                });
+
+            modelBuilder.Entity("MyChat_Data.Entities.Contact", b =>
+                {
+                    b.HasOne("MyChat_Data.Entities.Messenger", "Messenger")
+                        .WithMany("Contacts")
+                        .HasForeignKey("MessengerId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Messenger");
                 });
 
             modelBuilder.Entity("MyChat_Data.Entities.Messenger", b =>
@@ -441,11 +430,14 @@ namespace MyChat_Data.Migrations
                     b.Navigation("Messengers");
                 });
 
+            modelBuilder.Entity("MyChat_Data.Entities.Messenger", b =>
+                {
+                    b.Navigation("Contacts");
+                });
+
             modelBuilder.Entity("MyChat_Data.Entities.User", b =>
                 {
-                    b.Navigation("Participants");
-
-                    b.Navigation("UserId");
+                    b.Navigation("Chats");
                 });
 #pragma warning restore 612, 618
         }

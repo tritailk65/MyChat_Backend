@@ -7,6 +7,7 @@ using MyChat_Core.Interfaces;
 using MyChat_Core.Services;
 using MyChat_Core.ViewModels;
 using MyChat_Data.EF;
+using MyChat_Data.Entities;
 
 namespace MyChat_API.Controllers
 {
@@ -88,7 +89,7 @@ namespace MyChat_API.Controllers
             return Ok();
         }
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetbyId(int id)
+        public async Task<IActionResult> GetbyId(Guid id)
         {
             var chat = await _chatService.GetById(id);
             if (chat == null)
@@ -97,5 +98,6 @@ namespace MyChat_API.Controllers
             }
             return Ok(chat);
         }
+       
     }
 }

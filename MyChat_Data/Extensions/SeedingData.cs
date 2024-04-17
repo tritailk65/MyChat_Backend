@@ -20,22 +20,12 @@ namespace MyChat_Data.Extensions
             {
                 contact_id = 1,
                 contact_phone = "0797169613",
-                UserId = adminId
+                MessengerId=1
+                
+               
             });
-            modelBuilder.Entity<Contact>().HasData(
-            new Contact
-            {
-                contact_id = 2,
-                contact_phone = "0765184992",
-                UserId = adminId
-            });
-            modelBuilder.Entity<Contact>().HasData(
-            new Contact
-            {
-                contact_id = 3,
-                contact_phone = "0364748018",
-                UserId = adminId
-            });
+          
+            
 
             modelBuilder.Entity<Chat>().HasData(
             new Chat
@@ -43,7 +33,7 @@ namespace MyChat_Data.Extensions
                 Chatid = 1,
                 Content = "Xin Chao",
                 created_at = DateTime.Now,
-                Participants = 5,
+                UserId=adminId,
                 Title = "Hackathon",
             });
             modelBuilder.Entity<Chat>().HasData(
@@ -52,7 +42,7 @@ namespace MyChat_Data.Extensions
                 Chatid = 2,
                 Content = "Xin Chao",
                 created_at = DateTime.Now,
-                Participants = 5,
+                UserId = adminId,
                 Title = "Web2",
             });
             modelBuilder.Entity<Chat>().HasData(
@@ -61,7 +51,7 @@ namespace MyChat_Data.Extensions
                 Chatid = 3,
                 Content = "Xin Chao",
                 created_at = DateTime.Now,
-                Participants = 5,
+                UserId = adminId,
                 Title = "Android 2",
             });
 

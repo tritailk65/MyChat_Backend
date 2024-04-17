@@ -9,8 +9,8 @@ namespace MyChat_Data.Entities
     public class Contact
     {
         public int contact_id { get; set; }
-        public User User { get; set; }
-        public Guid UserId { get; set; }
+        public Messenger Messenger { get; set; }
+        public int MessengerId { get; set; }
         public string contact_phone { get; set; }
     }
 }

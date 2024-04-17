@@ -17,7 +17,7 @@ namespace MyChat_Data.Configurations
 			builder.HasKey(x => x.contact_id);
 			builder.Property(x => x.contact_id).UseIdentityColumn();
             builder.Property(x => x.contact_phone).HasMaxLength(200).IsRequired();
-            builder.HasOne(x => x.User).WithMany(x => x.UserId).HasForeignKey(x => x.UserId);
+            builder.HasOne(x => x.Messenger).WithMany(x => x.Contacts).HasForeignKey(x => x.MessengerId);
         }
 	}
 }

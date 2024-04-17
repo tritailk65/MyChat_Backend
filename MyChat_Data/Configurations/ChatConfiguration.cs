@@ -19,6 +19,7 @@ namespace MyChat_Data.Configurations
             builder.Property(x => x.Title).IsRequired().HasMaxLength(255);
             builder.Property(x => x.Content).IsRequired().HasMaxLength(255);
             builder.Property(x => x.created_at).IsRequired().HasMaxLength(255);
+            builder.HasOne(x => x.User).WithMany(x => x.Chats).HasForeignKey(x => x.UserId);
         }
     }
 }

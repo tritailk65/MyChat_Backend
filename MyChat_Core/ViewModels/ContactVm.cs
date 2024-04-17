@@ -10,7 +10,7 @@ namespace MyChat_Core.ViewModels
     public class ContactVm
     {
         public int contact_id { get; set; }
-        public Guid UserId { get; set; }
+        public int MessengerId { get; set; }
         public string contact_phone { get; set; }
     }
 }

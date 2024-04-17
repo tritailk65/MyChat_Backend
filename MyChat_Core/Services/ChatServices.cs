@@ -29,7 +29,7 @@ namespace MyChat_Core.Services
                 Title = x.c.Title,
                 Content = x.c.Content,
                 created_at = DateTime.Now,
-                Participants = x.c.Participants,
+                UserId=x.c.UserId
             }).ToListAsync();
         }
         public async Task<int> Create(CreateChatRequest request)
@@ -38,7 +38,16 @@ namespace MyChat_Core.Services
             {
                 Content = request.Content,
                 Title = request.Title,
-                Participants = request.Participants,
+                User = new User()
+                {
+                    FirstName = request.FirstName,
+                    LastName = request.LastName,
+                    PhoneNumber = request.PhoneNumber,
+                    Birthday = request.Birthday,
+                    UserName = request.Username_Display,
+                    last_seen = request.last_seen,
+                    Status = request.Status
+                },
                 created_at = request.created_at
             };
             _context.Chats.Add(chatdata);
@@ -61,25 +70,28 @@ namespace MyChat_Core.Services
                 throw new Exception($"Can't find Chat with id:{request.Id}");
             chat.Content = request.Content;
             chat.Title = request.Title;
-            chat.Participants = request.Participants;
+            chat.User.UserName = request.Username_Display;
             chat.created_at = request.created_at;
             return await _context.SaveChangesAsync();
         }
 
-        public async Task<ChatVm> GetById(int chatId)
+        public async Task<ChatVm> GetById(Guid id)
         {
             var query = from c in _context.Chats
-                        where c.Chatid == chatId
+
+                        where c.UserId== id
                         select new { c };
             return await query.Select(x => new ChatVm()
             {
                 Title=x.c.Title,
                 Content=x.c.Content,
-                Participants=x.c.Participants,
+                UserId =x.c.UserId,
                 created_at=x.c.created_at,
                 Messengers=x.c.Messengers
 
             }).FirstOrDefaultAsync();
         }
+
+        
     }
 }

@@ -13,6 +13,7 @@ namespace MyChat_Core.Interfaces
         Task<int> Create(CreateChatRequest request);
         Task<int> Delete(int chatid);
         Task<int> Update(UpdateChatRequest request);
-        Task<ChatVm> GetById(int chatId);
+        Task<ChatVm> GetById(Guid id);
+       
     }
 }

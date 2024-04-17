@@ -13,6 +13,6 @@ namespace MyChat_Core.ViewModels
         public DateTime Constamps { get; set; }
         public bool status { get; set; }
         public string Title { get; set; }
-        public int Participants { get; set; }
+        public int MessengerId { get; set; }
     }
 }

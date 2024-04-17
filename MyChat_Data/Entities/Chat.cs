@@ -11,7 +11,8 @@ namespace MyChat_Data.Entities
         public int Chatid { get; set; }
         public string Title { get; set; }
         public string Content { get; set; }
-        public int Participants { get; set; }
+        public Guid UserId { get; set; }
+        public User User { get; set; }
         public List<Messenger> Messengers { get; set; }
         public DateTime created_at { get; set; }
     }
