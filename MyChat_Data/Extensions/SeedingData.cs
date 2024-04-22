@@ -86,6 +86,7 @@ namespace MyChat_Data.Extensions
                 PasswordHash = hasher.HashPassword(null, "Abc123@"),
                 SecurityStamp = string.Empty,
                 FirstName = "admin",
+                UpImage="Image/avatar.jpg",
                 LastName = "admin",
                 Birthday = new DateTime(2002, 01, 01),
                 PhoneNumber="0765184992",

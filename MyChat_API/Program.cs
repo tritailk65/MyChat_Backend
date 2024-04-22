@@ -38,7 +38,7 @@ builder.Services.AddScoped<IContactService, ContactService>();
 builder.Services.AddScoped<IMessengerService, MessengerService>();
 builder.Services.AddScoped<IChatService, Chatservices>();
 builder.Services.AddSignalR();
-builder.Services.Configure<EmailSettings>(builder.Configuration.GetSection("EmailSettings"));
+//builder.Services.Configure<EmailSettings>(builder.Configuration.GetSection("EmailSettings"));
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAllOrigins",

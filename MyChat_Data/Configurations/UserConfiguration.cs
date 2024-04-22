@@ -19,6 +19,7 @@ namespace MyChat_Data.Configurations
             builder.Property(x => x.last_seen).IsRequired().HasMaxLength(255);
             builder.Property(x => x.PhoneNumber).IsRequired();
             builder.Property(x => x.Status).IsRequired().HasMaxLength(255);
+            builder.Property(x => x.UpImage).IsRequired();
             builder.Property(x => x.Birthday).IsRequired();
         }
     }

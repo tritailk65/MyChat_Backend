@@ -59,7 +59,7 @@ namespace MyChat_Core.Services
 				 new Claim(ClaimTypes.Email,user.Email),
 				 new Claim(ClaimTypes.GivenName,user.FirstName),
 				 new Claim(ClaimTypes.Role,string.Join(";",roles)),
-				 new Claim(ClaimTypes.Name,request.Name)
+				
 			 };
 			//Ma Hoa Bang Thu Vien SymmerTric
 			var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Tokens:Key"]));
@@ -106,41 +106,22 @@ namespace MyChat_Core.Services
             };
             request.Title = "MyChatApp";
             request.Body = "Hello";
+            if (request.ProfileImage != null)
+            {
+                var fileName = Guid.NewGuid().ToString() + Path.GetExtension(request.ProfileImage.FileName);
+                var filePath = Path.Combine("C:\\Users\\Dell\\Documents\\GitHub\\MyChat_Backend\\MyChat_Data\\Image", fileName); // Thay đổi "Uploads" thành đường dẫn thư mục lưu trữ của bạn
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await request.ProfileImage.CopyToAsync(stream);
+                }
+                user.UpImage = filePath;
+            }
             var result = await _userManager.CreateAsync(user, request.Password);
-
-            var email = new MimeMessage();
-            email.Sender = MailboxAddress.Parse(emailSettings.Email);
-            email.To.Add(MailboxAddress.Parse(request.Email));
-            email.Subject = request.Title;
-            var builder = new BodyBuilder();
-            builder.HtmlBody = request.Body;
-            email.Body = builder.ToMessageBody();
-            using var smtp = new MailKit.Net.Smtp.SmtpClient();
-            smtp.Connect(emailSettings.Host, emailSettings.Port, SecureSocketOptions.StartTls);
-            smtp.Authenticate(emailSettings.Email, emailSettings.Password);
-            await smtp.SendAsync(email);
-            smtp.Disconnect(true);
 
             if (result.Succeeded)
             {
                 return "Chào mừng" + " " + request.FirstName + " " + request.LastName + " Đến với MyChat";
             }
-         
-
-
-            /*            var email = new MimeMessage();
-                        email.Sender = MailboxAddress.Parse(emailSettings.Email);
-                        email.To.Add(MailboxAddress.Parse(request.Email));
-                        email.Subject = request.Title;
-                        var builder = new BodyBuilder();
-                        builder.HtmlBody = request.Body;
-                        email.Body = builder.ToMessageBody();
-                        using var smtp = new MailKit.Net.Smtp.SmtpClient();
-                        smtp.Connect(emailSettings.Host, emailSettings.Port, SecureSocketOptions.StartTls);
-                        smtp.Authenticate(emailSettings.Email, emailSettings.Password);
-                        await smtp.SendAsync(email);
-                        smtp.Disconnect(true);*/
-
             
 
             //var email = new MimeMessage();

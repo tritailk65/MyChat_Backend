@@ -59,13 +59,14 @@ namespace MyChat_API.Controllers
 			{
                 return BadRequest();
 			}
-            logger.LogInformation("Login Successful:{username}",request.Name);
+            logger.LogInformation("Login Successful:{Email}",request.Email);
 			return Ok(resultToken);
 		}
+        
 
         [HttpPost]
         [AllowAnonymous]
-        public async Task<IActionResult> Register([FromBody] RegisterRequest request )
+        public async Task<IActionResult> Register([FromForm] RegisterRequest request )
         {
             if (!ModelState.IsValid)
             {
