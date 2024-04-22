@@ -82,21 +82,7 @@ namespace MyChat_Core.Services
 
 			return rs;
 		}
-        public async Task<UserViewModel>GetbyId(Guid id)
-        {
-            var query = from c in _db.Users
-                        where c.Id==id
-                        select new { c};
-            return await query.Select(x => new UserViewModel()
-            {
-               Id=x.c.Id,
-               Email=x.c.Email,
-               FirstName=x.c.FirstName,
-               LastName=x.c.LastName,
-               UserName=x.c.UserName
 
-            }).FirstOrDefaultAsync();
-        }
 		public List<User> GetAllUser()
         {
             return _db.Users.ToList();
@@ -108,7 +94,7 @@ namespace MyChat_Core.Services
             return data;
         }
 
-        public async Task<bool> Register(RegisterRequest request)
+        public async Task<string> Register(RegisterRequest request)
 		{
             var user = new User()
             {
