@@ -40,11 +40,11 @@ namespace MyChat_Core.Services
             this.emailSettings = options.Value;
         }
 
-		public async Task<ApiResult<string>> Authentication(LoginRequest request)
+		public async Task<ApiResult<UserViewModel>> Authentication(LoginRequest request)
 		{
 			var user = await _userManager.FindByEmailAsync(request.Email);
 			if (user == null)
-				return new ApiErrorResult<string>("Khong tim thay ");
+				return new ApiErrorResult<UserViewModel>("Khong tim thay User");
 			var result = await _signInManager.
 			PasswordSignInAsync(user, request.Password, request.RememberMe, true);
 			if (!result.Succeeded)
@@ -69,29 +69,32 @@ namespace MyChat_Core.Services
 				expires: DateTime.Now.AddHours(7),
 				signingCredentials: creds
 				);
-			return new ApiSuccessResult<string>(new JwtSecurityTokenHandler().WriteToken(token));
-		}
-        public async Task<UserViewModel>GetbyId(Guid id)
-        {
-            var query = from c in _db.Users
-                        where c.Id==id
-                        select new { c};
-            return await query.Select(x => new UserViewModel()
+            UserViewModel userViewModel = new UserViewModel
             {
-               Id=x.c.Id,
-               Email=x.c.Email,
-               FirstName=x.c.FirstName,
-               LastName=x.c.LastName,
-               UserName=x.c.UserName
+                Id = user.Id,
+                UserName = user.UserName,
+                Email = user.Email,
+                FirstName = user.FirstName,
+                LastName = user.LastName,
+                Token = new JwtSecurityTokenHandler().WriteToken(token)             
+            };
+            var rs = new ApiSuccessResult<UserViewModel>(userViewModel);
 
-            }).FirstOrDefaultAsync();
-        }
+			return rs;
+		}
+
 		public List<User> GetAllUser()
         {
             return _db.Users.ToList();
         }
 
-		public async Task<string> Register(RegisterRequest request)
+        public async Task<User> GetUserByID(Guid id)
+        {
+            var data  =  await _db.Users.FindAsync(id);
+            return data;
+        }
+
+        public async Task<string> Register(RegisterRequest request)
 		{
             var user = new User()
             {

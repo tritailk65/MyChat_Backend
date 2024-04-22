@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
 using MyChat_API.Utils;
 using MyChat_Core.Interfaces;
 using MyChat_Core.Services;
@@ -33,18 +34,8 @@ namespace MyChat_API.Controllers
             APIResult rs = new APIResult();
             return rs.Success(dtUsers);
 		}
-        [HttpGet("{id}")]
-        public async Task<IActionResult> GetbyId(Guid id)
-        {
-            var user = await userService.GetbyId(id);
-            if (user == null)
-            {
-                return NotFound(); // Trả về mã lỗi 404 nếu không tìm thấy user
-            }
-            return Ok(user);
-        }
 
-        [HttpPost("authenticate")]
+        [HttpPost("Authenticate")]
         [AllowAnonymous]
         public async Task<IActionResult> Authenticate([FromBody] LoginRequest request)
         {
@@ -55,11 +46,11 @@ namespace MyChat_API.Controllers
 			
             var resultToken = await userService.Authentication(request);
    
-			if (string.IsNullOrEmpty(resultToken.ResultObj))
+			if (resultToken.Data == null)
 			{
                 return BadRequest();
 			}
-            logger.LogInformation("Login Successful:{username}",request.Email);
+
 			return Ok(resultToken);
 		}
 
@@ -79,6 +70,28 @@ namespace MyChat_API.Controllers
             }
 			logger.LogInformation("Register Successful:{username}", request.Email);
 			return Ok(result);
+        }
+
+        [HttpGet("[action]")]
+        [Authorize]
+        public async Task<IActionResult> GetByID([BindRequired] Guid id)
+        {
+            logger.LogInformation(Request.Method + " " + Request.Scheme + "://" + Request.Host + Request.Path + Request.Query);
+            var result = await userService.GetUserByID(id);
+            if (result == null)
+            {
+                return BadRequest("User not found!");
+            }
+            UserViewModel rs = new UserViewModel
+            {
+                Id = result.Id,
+                UserName = result.UserName,
+                Email = result.Email,
+                FirstName = result.FirstName,
+                LastName = result.LastName,
+            };
+         
+            return Ok(rs);
         }
     }
 }

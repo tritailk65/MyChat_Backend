@@ -12,14 +12,14 @@ namespace MyChat_Core.Common
 		{
 			IsSuccessed = true;
 			Message = "Thành công";
-			ResultObj = resultObj;
+			Exception = "";
+			Data = resultObj;
 		}
 
 		public ApiSuccessResult()
 		{
 			IsSuccessed = true;
 			Message = "Thành công";
-
 		}
 	}
 }
