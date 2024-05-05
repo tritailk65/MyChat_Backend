@@ -20,6 +20,7 @@ using MailKit.Security;
 using MailKit.Net.Smtp;
 using Microsoft.Extensions.Options;
 using Microsoft.EntityFrameworkCore;
+using MyChat_API.Exceptions;
 
 namespace MyChat_Core.Services
 {
@@ -94,40 +95,43 @@ namespace MyChat_Core.Services
             return data;
         }
 
-        public async Task<string> Register(RegisterRequest request)
+        public async Task Register(RegisterRequest request)
 		{
-            var user = new User()
+            try
             {
-                Birthday=request.Birthday,
-                FirstName=request.FirstName,
-                LastName=request.LastName,
-                UserName=request.Username,
-                Status=request.Status,
-                Email=request.Email,
-                PhoneNumber=request.PhoneNumber
-            };
-            request.Title = "MyChatApp";
-            request.Body = "Hello";
-            var result = await _userManager.CreateAsync(user, request.Password);
+                var user = new User()
+                {
+                    FirstName=request.FirstName,
+                    LastName=request.LastName,
+                    Email=request.Email,
+                    UserName = request.Username
+                };
 
-/*            var email = new MimeMessage();
-            email.Sender = MailboxAddress.Parse(emailSettings.Email);
-            email.To.Add(MailboxAddress.Parse(request.Email));
-            email.Subject = request.Title;
-            var builder = new BodyBuilder();
-            builder.HtmlBody = request.Body;
-            email.Body = builder.ToMessageBody();
-            using var smtp = new MailKit.Net.Smtp.SmtpClient();
-            smtp.Connect(emailSettings.Host, emailSettings.Port, SecureSocketOptions.StartTls);
-            smtp.Authenticate(emailSettings.Email, emailSettings.Password);
-            await smtp.SendAsync(email);
-            smtp.Disconnect(true);*/
+                var result = await _userManager.CreateAsync(user, request.Password);
 
-            if (result.Succeeded)
+
+    /*            var email = new MimeMessage();
+                email.Sender = MailboxAddress.Parse(emailSettings.Email);
+                email.To.Add(MailboxAddress.Parse(request.Email));
+                email.Subject = request.Title;
+                var builder = new BodyBuilder();
+                builder.HtmlBody = request.Body;
+                email.Body = builder.ToMessageBody();
+                using var smtp = new MailKit.Net.Smtp.SmtpClient();
+                smtp.Connect(emailSettings.Host, emailSettings.Port, SecureSocketOptions.StartTls);
+                smtp.Authenticate(emailSettings.Email, emailSettings.Password);
+                await smtp.SendAsync(email);
+                smtp.Disconnect(true);*/
+
+                if (!result.Succeeded) { 
+   
+                    throw new BadRequestException(result.ToString(), 400, 400);
+                }
+            } catch (Exception ex)
             {
-                return "Chào mừng"+" "+request.FirstName+" "+request.LastName+" Đến với MyChat";
+                throw new BadRequestException(ex.ToString(),400,400);
             }
-            return null;
+
 		}
 	}
 }

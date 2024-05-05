@@ -16,10 +16,8 @@ namespace MyChat_Data.Configurations
             builder.ToTable("Users");
             builder.Property(x => x.FirstName).IsRequired().HasMaxLength(255);
             builder.Property(x => x.LastName).IsRequired().HasMaxLength(255);
-            builder.Property(x => x.last_seen).IsRequired().HasMaxLength(255);
-            builder.Property(x => x.PhoneNumber).IsRequired();
-            builder.Property(x => x.Status).IsRequired().HasMaxLength(255);
-            builder.Property(x => x.Birthday).IsRequired();
+            builder.Property(x => x.last_seen).HasMaxLength(255);
+            builder.Property(x => x.Status).HasMaxLength(255);
         }
     }
 }

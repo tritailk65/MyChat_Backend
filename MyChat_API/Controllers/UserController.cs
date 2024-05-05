@@ -56,20 +56,13 @@ namespace MyChat_API.Controllers
 
         [HttpPost]
         [AllowAnonymous]
-        public async Task<IActionResult> Register([FromBody] RegisterRequest request )
+        public async Task<APIResult> Register([FromBody] RegisterRequest request )
         {
             logger.LogInformation(Request.Method + " " + Request.Scheme + "://" + Request.Host + Request.Path + Request.Query);
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-            var result = await userService.Register(request);
-            if(result==null)
-            {
-                return BadRequest("Register is not successfull");
-            }
-			logger.LogInformation("Register Successful:{username}", request.Email);
-			return Ok(result);
+             await userService.Register(request);
+            logger.LogInformation("Register Successful:{username}", request.Email);
+            APIResult rs = new APIResult();
+            return rs.MessageSuccess("Đăng ký thành công !");
         }
 
         [HttpGet("[action]")]

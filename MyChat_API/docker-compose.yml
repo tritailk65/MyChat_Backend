@@ -1,15 +1,11 @@
-﻿version: "3.9"  # optional since v1.27.0
+﻿version: "3.2"
 services:
-  web_api:
-    image: mychatapi
-    container_name: my_chatapi_test
+
+  sql-server-db:
+    container_name: sql-server-db
+    image: microsoft/mssql-server-linux:2017-latest
     ports:
-      - "8001:80"
-  sql:
-    image: "mcr.microsoft.com/mssql/server"
-    container_name: mcr.microsoft.com/mssql/server:2022-preview-ubuntu-22.04
-    ports: # not actually needed, because the two services are on the same network
-      - "1433:1433" 
+      - "1433:1433"
     environment:
-      - ACCEPT_EULA=y
-      - SA_PASSWORD=A&VeryComplex123Password
+      SA_PASSWORD: "123"
+      ACCEPT_EULA: "Y"

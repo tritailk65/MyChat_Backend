@@ -12,7 +12,7 @@ namespace MyChat_Data.Entities
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public DateTime Birthday { get; set; }
-        public string PhoneNumber { get; set; }
+        public string? PhoneNumber { get; set; }
         public bool Status { get; set; }
         public DateTime last_seen { get; set; }
         public List<Chat> Participants{ get; set; }

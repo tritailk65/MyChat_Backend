@@ -12,8 +12,8 @@ using MyChat_Data.EF;
 namespace MyChat_Data.Migrations
 {
     [DbContext(typeof(MyChatDbContext))]
-    [Migration("20240416112228_init")]
-    partial class init
+    [Migration("20240503081241_update_user")]
+    partial class update_user
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -169,7 +169,7 @@ namespace MyChat_Data.Migrations
                             Content = "Xin Chao",
                             Participants = 5,
                             Title = "Hackathon",
-                            created_at = new DateTime(2024, 4, 16, 18, 22, 28, 219, DateTimeKind.Local).AddTicks(6443)
+                            created_at = new DateTime(2024, 5, 3, 15, 12, 40, 744, DateTimeKind.Local).AddTicks(3717)
                         },
                         new
                         {
@@ -177,7 +177,7 @@ namespace MyChat_Data.Migrations
                             Content = "Xin Chao",
                             Participants = 5,
                             Title = "Web2",
-                            created_at = new DateTime(2024, 4, 16, 18, 22, 28, 219, DateTimeKind.Local).AddTicks(6472)
+                            created_at = new DateTime(2024, 5, 3, 15, 12, 40, 744, DateTimeKind.Local).AddTicks(3736)
                         },
                         new
                         {
@@ -185,7 +185,7 @@ namespace MyChat_Data.Migrations
                             Content = "Xin Chao",
                             Participants = 5,
                             Title = "Android 2",
-                            created_at = new DateTime(2024, 4, 16, 18, 22, 28, 219, DateTimeKind.Local).AddTicks(6484)
+                            created_at = new DateTime(2024, 5, 3, 15, 12, 40, 744, DateTimeKind.Local).AddTicks(3741)
                         });
                 });
 
@@ -320,7 +320,6 @@ namespace MyChat_Data.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("PhoneNumber")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("PhoneNumberConfirmed")
@@ -353,7 +352,7 @@ namespace MyChat_Data.Migrations
                             Id = new Guid("69bd714f-9576-45ba-b5b7-f00649be00de"),
                             AccessFailedCount = 0,
                             Birthday = new DateTime(2002, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            ConcurrencyStamp = "6f1f1052-ed44-4d79-80d3-045cabc0bfc8",
+                            ConcurrencyStamp = "a2c016cf-f40c-45a7-9e85-4a29ab693155",
                             Email = "admin@gmail.com",
                             EmailConfirmed = true,
                             FirstName = "admin",
@@ -361,14 +360,14 @@ namespace MyChat_Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "admin@gmail.com",
                             NormalizedUserName = "admin",
-                            PasswordHash = "AQAAAAEAACcQAAAAEC6IrCYO4iTqZBk7kRdMkZl1TRGrTJj91PmCGG8ZfFdt2AuOJUNfyOhGtU3ftw0i7g==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEFD7olzOJGnMZ121CvtRPTNg+Fp5Bvr9lFkRa3OWvasRgweprgsDbLiZBASsBNLmqA==",
                             PhoneNumber = "0765184992",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             Status = true,
                             TwoFactorEnabled = false,
                             UserName = "admin",
-                            last_seen = new DateTime(2024, 4, 16, 18, 22, 28, 221, DateTimeKind.Local).AddTicks(4311)
+                            last_seen = new DateTime(2024, 5, 3, 15, 12, 40, 745, DateTimeKind.Local).AddTicks(6657)
                         });
                 });
 
@@ -400,7 +399,7 @@ namespace MyChat_Data.Migrations
                         new
                         {
                             Id = new Guid("8d04dce2-969a-435d-bba4-df3f325983dc"),
-                            ConcurrencyStamp = "ee9e840a-16d7-4dc0-9ba3-1617bbcb983f",
+                            ConcurrencyStamp = "5f2e16a8-a26a-4259-ba49-4789b6f3decd",
                             Description = "Administrator role",
                             Name = "admin",
                             NormalizedName = "admin"

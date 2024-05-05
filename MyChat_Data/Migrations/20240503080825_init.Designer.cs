@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using MyChat_Data.EF;
 
@@ -11,9 +12,10 @@ using MyChat_Data.EF;
 namespace MyChat_Data.Migrations
 {
     [DbContext(typeof(MyChatDbContext))]
-    partial class MyChatDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240503080825_init")]
+    partial class init
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -167,7 +169,7 @@ namespace MyChat_Data.Migrations
                             Content = "Xin Chao",
                             Participants = 5,
                             Title = "Hackathon",
-                            created_at = new DateTime(2024, 5, 3, 15, 12, 40, 744, DateTimeKind.Local).AddTicks(3717)
+                            created_at = new DateTime(2024, 5, 3, 15, 8, 25, 514, DateTimeKind.Local).AddTicks(5283)
                         },
                         new
                         {
@@ -175,7 +177,7 @@ namespace MyChat_Data.Migrations
                             Content = "Xin Chao",
                             Participants = 5,
                             Title = "Web2",
-                            created_at = new DateTime(2024, 5, 3, 15, 12, 40, 744, DateTimeKind.Local).AddTicks(3736)
+                            created_at = new DateTime(2024, 5, 3, 15, 8, 25, 514, DateTimeKind.Local).AddTicks(5299)
                         },
                         new
                         {
@@ -183,7 +185,7 @@ namespace MyChat_Data.Migrations
                             Content = "Xin Chao",
                             Participants = 5,
                             Title = "Android 2",
-                            created_at = new DateTime(2024, 5, 3, 15, 12, 40, 744, DateTimeKind.Local).AddTicks(3741)
+                            created_at = new DateTime(2024, 5, 3, 15, 8, 25, 514, DateTimeKind.Local).AddTicks(5305)
                         });
                 });
 
@@ -318,6 +320,7 @@ namespace MyChat_Data.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("PhoneNumber")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("PhoneNumberConfirmed")
@@ -350,7 +353,7 @@ namespace MyChat_Data.Migrations
                             Id = new Guid("69bd714f-9576-45ba-b5b7-f00649be00de"),
                             AccessFailedCount = 0,
                             Birthday = new DateTime(2002, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            ConcurrencyStamp = "a2c016cf-f40c-45a7-9e85-4a29ab693155",
+                            ConcurrencyStamp = "65b697d6-3a69-41f9-8a73-44e333d7d495",
                             Email = "admin@gmail.com",
                             EmailConfirmed = true,
                             FirstName = "admin",
@@ -358,14 +361,14 @@ namespace MyChat_Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "admin@gmail.com",
                             NormalizedUserName = "admin",
-                            PasswordHash = "AQAAAAEAACcQAAAAEFD7olzOJGnMZ121CvtRPTNg+Fp5Bvr9lFkRa3OWvasRgweprgsDbLiZBASsBNLmqA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEIGBZBmNlLqQP20DdsUDD2dfHhJGFSj6hXdOrxjjhzxTnJoRNja2NHnWCLywaS+TNw==",
                             PhoneNumber = "0765184992",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             Status = true,
                             TwoFactorEnabled = false,
                             UserName = "admin",
-                            last_seen = new DateTime(2024, 5, 3, 15, 12, 40, 745, DateTimeKind.Local).AddTicks(6657)
+                            last_seen = new DateTime(2024, 5, 3, 15, 8, 25, 515, DateTimeKind.Local).AddTicks(8250)
                         });
                 });
 
@@ -397,7 +400,7 @@ namespace MyChat_Data.Migrations
                         new
                         {
                             Id = new Guid("8d04dce2-969a-435d-bba4-df3f325983dc"),
-                            ConcurrencyStamp = "5f2e16a8-a26a-4259-ba49-4789b6f3decd",
+                            ConcurrencyStamp = "8ded65cd-123e-4c00-af02-1fafb99f13a2",
                             Description = "Administrator role",
                             Name = "admin",
                             NormalizedName = "admin"
