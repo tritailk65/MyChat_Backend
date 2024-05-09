@@ -13,7 +13,7 @@ namespace MyChat_Core.Interfaces
     public interface IUserService
     {
         List<User> GetAllUser();
-        Task<ApiResult<UserViewModel>> Authentication(LoginRequest request);
+        Task<UserViewModel> Authentication(LoginRequest request);
         Task Register(RegisterRequest user);
         Task<User> GetUserByID(Guid id);
     }

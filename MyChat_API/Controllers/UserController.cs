@@ -7,6 +7,7 @@ using MyChat_Core.Services;
 using MyChat_Core.ViewModels;
 using MyChat_Data.Entities;
 using System.Data;
+using System.Diagnostics;
 
 namespace MyChat_API.Controllers
 {
@@ -37,21 +38,14 @@ namespace MyChat_API.Controllers
 
         [HttpPost("Authenticate")]
         [AllowAnonymous]
-        public async Task<IActionResult> Authenticate([FromBody] LoginRequest request)
+        public async Task<APIResult> Authenticate([FromBody] LoginRequest request)
         {
             logger.LogInformation(Request.Method + " " + Request.Scheme + "://" + Request.Host + Request.Path+ Request.Query);
-            if (!ModelState.IsValid)
-				return BadRequest(ModelState);
-
 			
             var resultToken = await userService.Authentication(request);
-   
-			if (resultToken.Data == null)
-			{
-                return BadRequest();
-			}
+            APIResult rs = new();
 
-			return Ok(resultToken);
+			return rs.Success(resultToken);
 		}
 
         [HttpPost]
