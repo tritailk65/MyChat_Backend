@@ -43,35 +43,44 @@ namespace MyChat_Core.Services
 
 		public async Task<ApiResult<string>> Authentication(LoginRequest request)
 		{
-			var user = await _userManager.FindByEmailAsync(request.Email);
-			if (user == null)
-				return new ApiErrorResult<string>("Khong tim thay ");
-			var result = await _signInManager.
-			PasswordSignInAsync(user, request.Password, request.RememberMe, true);
-			if (!result.Succeeded)
-			{
-				return null;
-			}
-			var roles = await _userManager.GetRolesAsync(user);
-			//Luu Token Can Thiet
-			var claims = new[]
-			{
-				 new Claim(ClaimTypes.Email,user.Email),
-				 new Claim(ClaimTypes.GivenName,user.FirstName),
-				 new Claim(ClaimTypes.Role,string.Join(";",roles)),
-				
-			 };
-			//Ma Hoa Bang Thu Vien SymmerTric
-			var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Tokens:Key"]));
-			var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
-			var token = new JwtSecurityToken(_config["Tokens:Issuer"],
-				_config["Tokens:Issuer"],
-				claims,
-				expires: DateTime.Now.AddHours(7),
-				signingCredentials: creds
-				);
-			return new ApiSuccessResult<string>(new JwtSecurityTokenHandler().WriteToken(token));
-		}
+            try
+            {
+                var user = await _userManager.FindByEmailAsync(request.Email);
+                if (user == null)
+                    return new ApiErrorResult<string>("Không tìm thấy người dùng.");
+
+                var result = await _signInManager.PasswordSignInAsync(user, request.Password, request.RememberMe, true);
+                if (!result.Succeeded)
+                {
+                    return null;
+                }
+                var roles = await _userManager.GetRolesAsync(user);
+
+                var claims = new[]
+                {
+                     new Claim(ClaimTypes.Email,user.Email),
+                     new Claim(ClaimTypes.GivenName,user.FirstName),
+                     new Claim(ClaimTypes.Role,string.Join(";",roles)),
+                };
+
+                var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Tokens:Key"]));
+                var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+                var token = new JwtSecurityToken(_config["Tokens:Issuer"],
+                    _config["Tokens:Issuer"],
+                    claims,
+                    expires: DateTime.Now.AddHours(7),
+                    signingCredentials: creds
+                    );
+                return new ApiSuccessResult<string>(new JwtSecurityTokenHandler().WriteToken(token));
+            }
+            catch (Exception ex)
+            {
+                // Log exception
+                // Handle exception or rethrow if needed
+                
+                throw;
+            }
+        }
         public async Task<UserViewModel>GetbyId(Guid id)
         {
             var query = from c in _db.Users
